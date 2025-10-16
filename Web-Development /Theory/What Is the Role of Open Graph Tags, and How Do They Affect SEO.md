@@ -60,9 +60,3 @@ The fourth important OG property would be the `url`. Here is an example of sett
 There are many more OG properties that you can set, like `description`, `audio`, `video` and `locale`. However, the open graph `url`, `image`, `type`, and `title` are the most important ones to include.
 
 So how do these open graph properties affect Search Engine Optimization? When your content is shared on social media, well-crafted OG properties can enhance the appearance for your content in users' feeds. This can lead to higher click-through rates which could signal to search engines that your content is relevant and engaging.
-
----
-
-## 🔗 Related
-
-[[What Is the Role of the Meta Description, and How Does It Affect SEO]] 

@@ -65,4 +65,4 @@ So how do these open graph properties affect Search Engine Optimization? When yo
 
 ## 🔗 Related
 
-[[What Is the Role of the Meta Description, and How Does It Affect SEO]]
+[[What Is the Role of the Meta Description, and How Does It Affect SEO]] 

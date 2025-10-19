@@ -9,18 +9,24 @@ The conceptual path is: `Problems -> Mission -> (Narratives) -> Goals -> Challen
 
 ## HISTORY
 
-- [A brief, bulleted list of key life events or background information that provides context.]
-- [Example: Grew up in city/state.]
-- [Example: Graduated from University with a degree in X.]
+- Birth date 06/01/1994 
+- Born at Chicago/ Illinois
+- Raised in different areas from Los Angeles to Fresno to Buford Georgia. 
+- Living currently in Los Angeles
+- Married with one kid 
+- Bachelors in E-Sports Management, Production & Performance from Harrisburg University of Science & Technology
+- Pursing a AAS in AI Engineering at Maestro AI University
+- Pursing Masters in Entertainment Business at Full-Sail University 
 
 ## PROBLEMS
 
-- P1: [Describe a significant problem you are motivated to solve, either for yourself or for others.]
-- P2: [Describe another problem.]
+- P1: A problem I would like to solve is the lack of jobs for people after getting their Bachelors Degree. 
+- P2: The lack of free higher education and healthcare for American citizens, but the rest of the world has it.
 
 ## MISSION
 
-- M1: [State your primary mission or purpose that addresses the problems you've listed.]
+- M1: To solve free higher education, I want to make enough money to create a University similar to Tom Holland where he and other sponsors will be covering the cost. 
+- M2: For free healthcare I would like to have better laws in place that change the healthcare system in America. Although capitalism is the heart of America there should be ways to make lives easier for fellow Americans.
 
 ## NARRATIVES
 

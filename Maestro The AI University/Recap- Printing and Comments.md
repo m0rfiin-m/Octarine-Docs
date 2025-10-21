@@ -1,23 +1,36 @@
+Python Recao Day 1
 
-```python
-# demo: commas vs plus
-# Output Results in (#)
 print("red", "blue")  
-#red blue
+
+# red blue
+
 print("A")
-# A 
+
+# A
+
 print("B")
+
 # B
+
 print("2+3=", 2+3)
-#2+3= 5
-#TODO: say hello 
+
+# 2+3= 5
+
+# TODO: say hello
+
 print("hi", "Marco")
-# hi Marco 
-print("=" *8) 
+
+# hi Marco
+
+print("=" *8)
+
 # ========
-name= "Marco"
-print("Hello, {name}!")
-# Hello, {name}!
+
+name= "Marco" print("Hello, {name}!")
+
+# Hello, {name}
+
 print(f"Hello, {name}!")
-# Hello, Marco!
-```
+
+# Hello, Marco
+

@@ -1,3 +1,4 @@
+
 # When Solving Expressions Rules
 
 Multiplication * and Division / are handled before Addition + and Subtraction - in Python.
@@ -9,7 +10,7 @@ When you have operators at the same priority—like + and - together—the
 calculation goes left to right. But * and / will always win over + and -.
 
 How you can control the order using parentheses Example: total = (price + tax) *
-qty If instead you write total = price + tax* qty, you get a different total.
+qty If instead you write total = price + tax* qty, you get a different total. 
 
 Example: price = 3, tax = 2, qty = 4
 print((3 + 2) *4) = 20
@@ -27,5 +28,5 @@ not will result in error.
 
 So with strings:
 
-+ joins strings
-+ repeats strings, but only with integers
+- joins strings
+- repeats strings, but only with integers

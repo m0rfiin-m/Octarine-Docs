@@ -15,3 +15,16 @@ for item in items:
 <class 'float'>
 <class 'str'>
 ```
+
+```python
+total_cost = 20
+print(total_cost)
+#20 
+
+total_cost = 54
+print(total_cost)
+#50
+
+print("Marco's \"python\"")
+#Marco's "python"
+```

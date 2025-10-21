@@ -27,4 +27,9 @@ print(total_cost)
 
 print("Marco's \"python\"")
 #Marco's "python"
+
+print(f"Hello,{name}!")
+# Hello,Marco!
+print(f"Hello, {name}!")
+# Hello, Marco!
 ```

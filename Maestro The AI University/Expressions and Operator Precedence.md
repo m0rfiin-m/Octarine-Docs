@@ -1,6 +1,6 @@
-# When Solving Expressions Rules Multiplication * and Division / are handled
+# When Solving Expressions Rules
 
-before Addition + and Subtraction - in Python.
+Multiplication * and Division / are handled before Addition + and Subtraction - in Python.
 
 Example: print(7 + 6 * 3) would give 25 because Multiplication is handled first
 then Addition.
@@ -11,8 +11,10 @@ calculation goes left to right. But * and / will always win over + and -.
 How you can control the order using parentheses Example: total = (price + tax) *
 qty If instead you write total = price + tax* qty, you get a different total.
 
-Example: price = 3, tax = 2, qty = 4 print((3 + 2) *4) = 20 print(3 + 2* 4) =
-11
+Example: price = 3, tax = 2, qty = 4
+print((3 + 2) *4) = 20
+
+print(3 + 2* 4) = 11
 
 Example: print("ha" * 2 + "!") = haha! print("ha" + 2) Error: Traceback (most
 recent call last): TypeError: can only concatenate str (not "int") to str

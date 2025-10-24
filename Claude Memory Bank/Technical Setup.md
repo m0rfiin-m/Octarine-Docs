@@ -419,3 +419,136 @@ Root/
 ---
 
 **Back to:** [[Index]]
+
+
+## macOS Development Environment
+
+### Matte Black Theme Setup
+
+**Last Updated:** October 22, 2025
+
+**Theme Source:**  
+[Omarchy Matte Black Theme](https://github.com/basecamp/omarchy/tree/master/themes/matte-black)
+
+---
+
+### Current Stack
+
+**Terminal & Shell:**
+- **Terminal Emulator:** WezTerm (switched from Ghostty)
+- **Shell Prompt:** Starship (with Matte Black theming)
+- **Terminal Multiplexer:** Tmux (configured but not essential)
+
+**Editor:**
+- **Editor:** Neovim with LazyVim distribution
+- **Colorscheme:** Custom Matte Black theme
+
+---
+
+### Matte Black Color Palette
+
+**Official Omarchy Colors:**
+```
+Background: #1a1a1a (dark matte black)
+Foreground: #e0e0e0 (light gray text)
+Accent: #ff6b35 (orange/amber)
+Secondary: Various shades of gray
+```
+
+**Implementation:**
+- Consistent theme across all tools
+- Orange accents for highlights and active elements
+- Dark backgrounds for reduced eye strain
+- Cohesive visual experience across terminal, editor, and system
+
+---
+
+### Tool Configuration Files
+
+**Neovim/LazyVim:**
+- Location: `~/.config/nvim/`
+- Custom colorscheme: `matte-black.lua`
+- Dashboard: Custom ASCII art (Pacman with ghost)
+- Status line: Integrated Matte Black colors
+
+**Starship:**
+- Configuration: `~/.config/starship.toml`
+- Themed with Matte Black palette
+- Custom prompt format matching Omarchy aesthetic
+
+**Tmux:**
+- Configuration: `~/.tmux.conf`
+- Prefix: `Control+a` (attempted, not essential)
+- Theme: Matte Black status bar
+- Note: WezTerm native panes preferred over tmux
+
+**WezTerm:**
+- Configuration: `~/.wezterm.lua` (if configured)
+- Native split panes and tabs
+- Matte Black theming applied
+- Replaced Ghostty as primary terminal
+
+---
+
+### Setup Timeline
+
+**October 22, 2025:**
+- Initial request for Matte Black theme across development environment
+- Configured LazyVim, Ghostty, Tmux, Starship
+- Researched Omarchy theme specifications
+
+**Key Decisions:**
+- WezTerm chosen over Ghostty for better compatibility
+- Tmux configured but not required (WezTerm has native features)
+- Custom Neovim colorscheme created from Omarchy palette
+- Starship themed to match overall aesthetic
+
+[Configuration Conversation](https://claude.ai/chat/79cecbd8-34d1-468b-86ae-0989dd97ede5)
+
+---
+
+### Development Workflow
+
+**Current Setup:**
+✅ WezTerm - Modern terminal installed and configured  
+✅ Neovim/LazyVim - Custom Matte Black colorscheme  
+✅ Starship - Themed prompt matching Matte Black  
+✅ Consistent visual experience across all tools
+
+**Optional Enhancements:**
+- Further WezTerm theming to match Matte Black exactly
+- Additional LazyVim plugins with theme support
+- System-wide dark mode optimization
+- Menu bar and dock theming (if desired)
+
+---
+
+### Troubleshooting
+
+**Common Issues:**
+
+**Terminal Not Applying Theme:**
+1. Check config file exists in correct location
+2. Verify syntax (especially in TOML/Lua files)
+3. Restart terminal application
+4. Source config manually if needed
+
+**Neovim Colors Not Loading:**
+1. Verify colorscheme file in correct directory
+2. Check for syntax errors in Lua config
+3. Run `:colorscheme matte-black` in Neovim
+4. Restart Neovim
+
+**Tmux Keybindings Not Working:**
+1. Verify tmux is actually running (`echo $TMUX`)
+2. Source config: `tmux source-file ~/.tmux.conf`
+3. Test with default prefix (`Control+b`) first
+4. Consider using WezTerm native features instead
+
+---
+
+### Related Files
+
+- [[LazyVim Customization]] - Dashboard and UI customization
+- [[System Maintenance]] - macOS troubleshooting and fixes
+

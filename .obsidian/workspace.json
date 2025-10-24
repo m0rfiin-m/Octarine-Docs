@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Claude Memory Bank/Index.md",
+                "file": "Claude Memory Bank/Technical Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Technical Setup"
             }
           }
         ]
@@ -179,9 +179,11 @@
   },
   "active": "5680b144d94928bf",
   "lastOpenFiles": [
+    "Claude Memory Bank/LazyVim Customization.md",
+    "Claude Memory Bank/Index.md",
+    "Claude Memory Bank/System Maintenance.md",
     "Claude Memory Bank/Email Writing Style.md",
     "Claude Memory Bank/Email Protocols.md",
-    "Claude Memory Bank/Index.md",
     "Claude Memory Bank/Cover Letters.md",
     "Claude Memory Bank/Technical Setup.md",
     "Career/Marco Morfin Resume .md",
@@ -222,8 +224,6 @@
     "lazyvim.github.io-main/docs/extras/util/gh.md",
     "lazyvim.github.io-main/docs/extras/util/dot.md",
     "lazyvim.github.io-main/docs/extras/util/chezmoi.md",
-    "lazyvim.github.io-main/docs/extras/ui/treesitter-context.md",
-    "lazyvim.github.io-main/docs/extras/ui/smear-cursor.md",
-    "lazyvim.github.io-main/docs/extras/ui/mini-starter.md"
+    "lazyvim.github.io-main/docs/extras/ui/treesitter-context.md"
   ]
 }

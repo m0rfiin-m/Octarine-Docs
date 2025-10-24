@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Claude Memory Bank.md",
+                "file": "Career/Marco Morfin Resume .md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude Memory Bank"
+              "title": "Marco Morfin Resume"
             }
           }
         ]
@@ -179,8 +179,14 @@
   },
   "active": "5680b144d94928bf",
   "lastOpenFiles": [
-    "Career/Marco Morfin Resume .md",
+    "Claude Memory Bank/Interview Preparation.md",
+    "Claude Memory Bank/Job Applications.md",
+    "Claude Memory Bank/Cover Letters.md",
+    "Claude Memory Bank/Resume Development.md",
+    "Claude Memory Bank/Index.md",
+    "Claude Memory Bank",
     "Claude Memory Bank.md",
+    "Career/Marco Morfin Resume .md",
     "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
     "Chat-GPT Docs/Omarchy Linux WFH Audio & Video Setup.md",
     "AI Chat/Omarchy Linux WFH Audio & Video Setup.md",
@@ -193,7 +199,6 @@
     "lazyvim.github.io-main/src/css",
     "lazyvim.github.io-main/src/themes",
     "lazyvim.github.io-main/src",
-    "lazyvim.github.io-main/socials.js",
     "lazyvim.github.io-main/static/img/undraw_docusaurus_tree.svg",
     "lazyvim.github.io-main/static/img/undraw_docusaurus_react.svg",
     "lazyvim.github.io-main/static/img/undraw_docusaurus_mountain.svg",
@@ -219,11 +224,6 @@
     "lazyvim.github.io-main/docs/extras/ui/mini-starter.md",
     "lazyvim.github.io-main/docs/extras/ui/mini-indentscope.md",
     "lazyvim.github.io-main/docs/extras/ui/mini-animate.md",
-    "lazyvim.github.io-main/docs/extras/ui/indent-blankline.md",
-    "lazyvim.github.io-main/docs/extras/ui/edgy.md",
-    "lazyvim.github.io-main/docs/extras/ui/dashboard-nvim.md",
-    "lazyvim.github.io-main/docs/extras/ui/alpha.md",
-    "lazyvim.github.io-main/docs/extras/test/core.md",
-    "lazyvim.github.io-main/docs/extras/lsp/none-ls.md"
+    "lazyvim.github.io-main/docs/extras/ui/indent-blankline.md"
   ]
 }

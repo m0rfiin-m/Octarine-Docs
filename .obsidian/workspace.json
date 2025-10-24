@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
+                "file": "Claude Memory Bank.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rounding and Money Format"
+              "title": "Claude Memory Bank"
             }
           }
         ]
@@ -177,11 +177,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65532c1b5a62d5fd",
+  "active": "5680b144d94928bf",
   "lastOpenFiles": [
+    "Career/Marco Morfin Resume .md",
+    "Claude Memory Bank.md",
+    "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
+    "Chat-GPT Docs/Omarchy Linux WFH Audio & Video Setup.md",
     "AI Chat/Omarchy Linux WFH Audio & Video Setup.md",
     "AI Chat",
-    "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
     "lazyvim.github.io-main/src/css/custom.css",
     "lazyvim.github.io-main/src/themes/tokyonight_moon.js",
     "lazyvim.github.io-main/src/themes/tokyonight_storm.js",
@@ -221,9 +224,6 @@
     "lazyvim.github.io-main/docs/extras/ui/dashboard-nvim.md",
     "lazyvim.github.io-main/docs/extras/ui/alpha.md",
     "lazyvim.github.io-main/docs/extras/test/core.md",
-    "lazyvim.github.io-main/docs/extras/lsp/none-ls.md",
-    "lazyvim.github.io-main/docs/extras/lsp/neoconf.md",
-    "lazyvim.github.io-main/docs/extras/linting/eslint.md",
-    "lazyvim.github.io-main/docs/extras/lang/zig.md"
+    "lazyvim.github.io-main/docs/extras/lsp/none-ls.md"
   ]
 }

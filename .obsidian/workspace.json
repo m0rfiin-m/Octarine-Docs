@@ -177,8 +177,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5680b144d94928bf",
+  "active": "65532c1b5a62d5fd",
   "lastOpenFiles": [
+    "AI Chat/Omarchy Linux WFH Audio & Video Setup.md",
+    "AI Chat",
+    "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
     "lazyvim.github.io-main/src/css/custom.css",
     "lazyvim.github.io-main/src/themes/tokyonight_moon.js",
     "lazyvim.github.io-main/src/themes/tokyonight_storm.js",
@@ -188,8 +191,6 @@
     "lazyvim.github.io-main/src/themes",
     "lazyvim.github.io-main/src",
     "lazyvim.github.io-main/socials.js",
-    "lazyvim.github.io-main/sidebars.js",
-    "lazyvim.github.io-main/stylua.toml",
     "lazyvim.github.io-main/static/img/undraw_docusaurus_tree.svg",
     "lazyvim.github.io-main/static/img/undraw_docusaurus_react.svg",
     "lazyvim.github.io-main/static/img/undraw_docusaurus_mountain.svg",
@@ -223,7 +224,6 @@
     "lazyvim.github.io-main/docs/extras/lsp/none-ls.md",
     "lazyvim.github.io-main/docs/extras/lsp/neoconf.md",
     "lazyvim.github.io-main/docs/extras/linting/eslint.md",
-    "lazyvim.github.io-main/docs/extras/lang/zig.md",
-    "lazyvim.github.io-main/docs/extras/lang/yaml.md"
+    "lazyvim.github.io-main/docs/extras/lang/zig.md"
   ]
 }

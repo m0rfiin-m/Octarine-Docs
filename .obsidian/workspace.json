@@ -13,14 +13,12 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
+                "file": "Claude Memory Bank/AI Knowledge Base /4. Non-Fungible Tokens (NFT) - The Analysis of Risk and Return Author Mieszko Mazur.pdf",
                 "page": 1,
-                "left": -21,
-                "top": 670,
-                "zoom": 0.7632119035402771
+                "zoom": 1
               },
               "icon": "lucide-file-text",
-              "title": "03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co."
+              "title": "4. Non-Fungible Tokens (NFT) - The Analysis of Risk and Return Author Mieszko Mazur"
             }
           }
         ]
@@ -124,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co."
+              "title": "Backlinks"
             }
           },
           {
@@ -143,12 +140,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co."
+              "title": "Outgoing links"
             }
           },
           {
@@ -202,20 +198,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "37e724031e8595ad",
+  "active": "65532c1b5a62d5fd",
   "lastOpenFiles": [
-    "Claude Memory Bank/AI Knowledge Base /4. Non-Fungible Tokens (NFT) - The Analysis of Risk and Return Author Mieszko Mazur.pdf",
-    "Claude Memory Bank/AI Knowledge Base /4.-Artificial-intelligence-and-Privacy-Author-Datatilsynet.pdf",
-    "Claude Memory Bank/AI Knowledge Base /1. Internet of things and its applications Author M.Anantha Guptha.pdf",
+    "Claude Memory Bank/PDF/What is a payment gateway, Instamojo.pdf",
+    "Claude Memory Bank/PDF/x86-64-Assembly-Language-Programming-with-Ubuntu.pdf",
+    "Claude Memory Bank/PDF/Web-Development-Essentials-Linux-Professional-Institute.pdf",
+    "Claude Memory Bank/PDF/Web-Accessibility-for-Developers-Greg-Gay-Igor-Karasyov.pdf",
+    "Claude Memory Bank/PDF/The-Undergraduate-Guide-to-R-Trevor-Martin.pdf",
+    "Claude Memory Bank/PDF/The-Swift-Programming-Language-Swift-5.7-Apple-Inc.pdf",
+    "Claude Memory Bank/PDF/The-Missing-Link.-An-Introduction-to-Web-Development-and-Programming-Michael-Mendez.pdf",
+    "Claude Memory Bank/PDF/Swift-Notes-for-Professionals-GoalKicker.pdf",
+    "Claude Memory Bank/PDF/Structure-and-Interpretation-of-Computer-Programs-JavaScript-Edition-Harold-Abelson-and-Gerald-Jay-Sussman.pdf",
+    "Claude Memory Bank/PDF/R-Programming-Robin-Evans.pdf",
+    "Claude Memory Bank/PDF/Python_Mastery_From_Absolute_Beginner_to.pdf",
     "Claude Memory Bank/Windows System Management.md",
-    "Claude Memory Bank/AI Knowledge Base /5. Pixel perfect precision author Ustwo.pdf",
-    "Claude Memory Bank/AI Knowledge Base /6. Everything You Wanted to Know About NFTs Author Akash Agrawal.pdf",
-    "Claude Memory Bank/AI Knowledge Base /3. Bright ideas for user experience designers author Userfocus.pdf",
-    "Claude Memory Bank/AI Knowledge Base /The-Undergraduate-Guide-to-R-Trevor-Martin.pdf",
-    "Claude Memory Bank/AI Knowledge Base /05.-Lecture-note-on-programming-in-C-author-Etuari-Oram-and-Bighnaraj-Naik.pdf",
-    "Claude Memory Bank/AI Knowledge Base /1. Resilient web design author Jeremy Keith.pdf",
-    "Claude Memory Bank/AI Knowledge Base /09.-Microsoft-Excel-Tips-Tricks-Author-Mynda-Treacy.pdf",
-    "Claude Memory Bank/AI Knowledge Base /Explorations-in-Artificial-Intelligence-and-Machine-Learning-CRC-Press.pdf",
     "Claude Memory Bank/Technical Setup.md",
     "Claude Memory Bank/System Maintenance.md",
     "Claude Memory Bank/Rube Integration.md",

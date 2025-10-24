@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
+                "file": "Career/Marco Morfin Resume .md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Functions I - Why, Define, and Call"
+              "title": "Marco Morfin Resume"
             }
           }
         ]
@@ -95,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Career/Marco Morfin Resume .md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Marco Morfin Resume"
             }
           },
           {
@@ -128,11 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Career/Marco Morfin Resume .md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Marco Morfin Resume"
             }
           }
         ],
@@ -166,12 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Career/Marco Morfin Resume .md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Marco Morfin Resume"
             }
           }
         ]
@@ -212,7 +215,7 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "52dcf638ce6eb876",
+  "active": "6b938a9fbc71c683",
   "lastOpenFiles": [
     "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
     "AAS in AI Software Engineering/PY101/Division Modes Quotient and Remainder.md",

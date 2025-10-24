@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
+                "file": "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Talking to Your Program Getting Input from Users"
+              "title": "Functions I - Why, Define, and Call"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
+                "file": "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Talking to Your Program Getting Input from Users"
+              "title": "Backlinks for Functions I - Why, Define, and Call"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
+                "file": "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Talking to Your Program Getting Input from Users"
+              "title": "Outgoing links from Functions I - Why, Define, and Call"
             }
           }
         ],
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
+                "file": "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Talking to Your Program Getting Input from Users"
+              "title": "Outline of Functions I - Why, Define, and Call"
             }
           }
         ]
@@ -215,10 +215,23 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "7d0fec1f15f7c608",
+  "active": "6b938a9fbc71c683",
   "lastOpenFiles": [
+    "AAS in AI Software Engineering/PY101/Division Modes Quotient and Remainder.md",
     "AAS in AI Software Engineering/PY101/Expressions and Operator Precedence.md",
+    "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
     "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
+    "AAS In AI Software Engineering/PY101/Updating Values and Printing Expression.md",
+    "AAS In AI Software Engineering/PY101/Rounding and Money Format.md",
+    "AAS In AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
+    "AAS In AI Software Engineering/PY101/Recap- Printing and Comments.md",
+    "AAS In AI Software Engineering/PY101/Recap - variables, types, and strings essentials.md",
+    "AAS In AI Software Engineering/PY101/Modulo in Practice Parity Cycles Positions.md",
+    "AAS In AI Software Engineering/PY101/Modeling Real World Calculations.md",
+    "AAS In AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
+    "AAS In AI Software Engineering/PY101/Expressions and Operator Precedence.md",
+    "AAS In AI Software Engineering/PY101/Division Modes Quotient and Remainder.md",
+    "AAS In AI Software Engineering/PY101",
     "10/24/25.md",
     "Claude Memory Bank/PDF/1. Internet of things and its applications Author M.Anantha Guptha.pdf",
     "10/24",
@@ -227,13 +240,11 @@
     "AAS in AI Software Engineering/PY101/Updating Values and Printing Expression.md",
     "AAS in AI Software Engineering/PY101/Modeling Real World Calculations.md",
     "AAS in AI Software Engineering/PY101/Division_Modes_Quotient_and_Remainder.md",
-    "AAS in AI Software Engineering/PY101/Division Modes Quotient and Remainder.md",
     "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_storm.js",
     "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_night.js",
     "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_moon.js",
     "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_day.js",
     "Claude Memory Bank/lazyvim.github.io-main/src/css/custom.css",
-    "Claude Memory Bank/lazyvim.github.io-main/src/themes",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_tree.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_react.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/logo.svg",
@@ -251,17 +262,6 @@
     "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/formatting.md",
     "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/linting.md",
     "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/index.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/editor.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/colorscheme.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/coding.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/news.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/keymaps.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/intro.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/installation.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/vscode.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/project.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/startuptime.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/gh.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/rest.md"
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/editor.md"
   ]
 }

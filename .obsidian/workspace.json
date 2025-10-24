@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "b3606599861dcacd",
+    "id": "b3290edfb867ef83",
     "type": "split",
     "children": [
       {
-        "id": "7af44b87fe17a1d1",
+        "id": "69e4978684047d92",
         "type": "tabs",
         "children": [
           {
-            "id": "37e724031e8595ad",
+            "id": "52dcf638ce6eb876",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Claude Memory Bank/AI Knowledge Base /4. Non-Fungible Tokens (NFT) - The Analysis of Risk and Return Author Mieszko Mazur.pdf",
-                "page": 1,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "4. Non-Fungible Tokens (NFT) - The Analysis of Risk and Return Author Mieszko Mazur"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -27,16 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "68848884fb7eb32d",
+    "id": "89abc9ca30a4d0a6",
     "type": "split",
     "children": [
       {
-        "id": "9b55851de64cba9d",
+        "id": "77d4448a7236f45b",
         "type": "tabs",
-        "dimension": 76.7056530214425,
         "children": [
           {
-            "id": "65532c1b5a62d5fd",
+            "id": "f1271b283c8ac1db",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,7 +44,7 @@
             }
           },
           {
-            "id": "20240a40c9f7d6f2",
+            "id": "db9d5a2a47a2ec7d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,7 +61,7 @@
             }
           },
           {
-            "id": "4f9df5301a3d01c2",
+            "id": "bf84e12de9e5747c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,48 +71,21 @@
             }
           }
         ]
-      },
-      {
-        "id": "1deb786979143deb",
-        "type": "tabs",
-        "dimension": 23.294346978557503,
-        "children": [
-          {
-            "id": "5680b144d94928bf",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 300
   },
   "right": {
-    "id": "eb59704d632174e1",
+    "id": "b63788fe4908d637",
     "type": "split",
     "children": [
       {
-        "id": "095055bcf146bb67",
+        "id": "d45c6ea14c6d0ae4",
         "type": "tabs",
         "children": [
           {
-            "id": "b1bb616542fa4028",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "b58fe2a020d86b1c",
+            "id": "e5b738e551e70cba",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -135,7 +103,7 @@
             }
           },
           {
-            "id": "43a9b1fe338a4ce0",
+            "id": "e865e229ff9cce3e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -148,7 +116,7 @@
             }
           },
           {
-            "id": "e60a4761e5efdc5e",
+            "id": "dc2d8e0804bafded",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -163,25 +131,25 @@
             }
           },
           {
-            "id": "704654e7610bbf7c",
+            "id": "7d0fec1f15f7c608",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co."
+              "title": "Outline"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,59 +160,56 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65532c1b5a62d5fd",
+  "active": "f1271b283c8ac1db",
   "lastOpenFiles": [
-    "Claude Memory Bank/PDF/What is a payment gateway, Instamojo.pdf",
-    "Claude Memory Bank/PDF/x86-64-Assembly-Language-Programming-with-Ubuntu.pdf",
-    "Claude Memory Bank/PDF/Web-Development-Essentials-Linux-Professional-Institute.pdf",
-    "Claude Memory Bank/PDF/Web-Accessibility-for-Developers-Greg-Gay-Igor-Karasyov.pdf",
-    "Claude Memory Bank/PDF/The-Undergraduate-Guide-to-R-Trevor-Martin.pdf",
-    "Claude Memory Bank/PDF/The-Swift-Programming-Language-Swift-5.7-Apple-Inc.pdf",
-    "Claude Memory Bank/PDF/The-Missing-Link.-An-Introduction-to-Web-Development-and-Programming-Michael-Mendez.pdf",
-    "Claude Memory Bank/PDF/Swift-Notes-for-Professionals-GoalKicker.pdf",
-    "Claude Memory Bank/PDF/Structure-and-Interpretation-of-Computer-Programs-JavaScript-Edition-Harold-Abelson-and-Gerald-Jay-Sussman.pdf",
-    "Claude Memory Bank/PDF/R-Programming-Robin-Evans.pdf",
-    "Claude Memory Bank/PDF/Python_Mastery_From_Absolute_Beginner_to.pdf",
-    "Claude Memory Bank/Windows System Management.md",
-    "Claude Memory Bank/Technical Setup.md",
-    "Claude Memory Bank/System Maintenance.md",
-    "Claude Memory Bank/Rube Integration.md",
-    "Claude Memory Bank/Resume Development.md",
-    "Claude Memory Bank/PC Building & Hardware.md",
-    "Claude Memory Bank/Omarchy Linux WFH Audio & Video Setup.md",
-    "Claude Memory Bank/Obsidian Vault Management.md",
-    "Claude Memory Bank/LazyVim Customization.md",
-    "Claude Memory Bank/Job Applications.md",
-    "Claude Memory Bank/Interview Preparation.md",
-    "Claude Memory Bank/Index.md",
-    "Claude Memory Bank/Email Protocols.md",
-    "Claude Memory Bank/Email Writing Style.md",
-    "Claude Memory Bank/Git Workflow.md",
-    "Claude Memory Bank/Cover Letters.md",
-    "Career/Marco Morfin Resume .md",
-    "Claude Memory Bank.md",
-    "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
-    "Chat-GPT Docs/Omarchy Linux WFH Audio & Video Setup.md",
+    "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_storm.js",
+    "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_night.js",
+    "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_moon.js",
+    "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_day.js",
+    "Claude Memory Bank/lazyvim.github.io-main/src/css/custom.css",
+    "Claude Memory Bank/lazyvim.github.io-main/src/themes",
+    "Claude Memory Bank/lazyvim.github.io-main/src/css",
+    "Claude Memory Bank/lazyvim.github.io-main/src",
+    "Claude Memory Bank/lazyvim.github.io-main/scripts/build_docs.sh",
+    "Claude Memory Bank/lazyvim.github.io-main/scripts/build_docs.lua",
+    "Claude Memory Bank/lazyvim.github.io-main/scripts",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_tree.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_react.svg",
-    "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_mountain.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/logo.svg",
+    "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_mountain.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/logo.png",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/logo-white.png",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/icon.svg",
-    "Claude Memory Bank/lazyvim.github.io-main/static/img/icon-dark.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/icon.png",
+    "Claude Memory Bank/lazyvim.github.io-main/static/img/icon-dark.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/docusaurus.png",
-    "Claude Memory Bank/lazyvim.github.io-main/README.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/startuptime.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/rest.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/ui.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/util.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/treesitter.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/lsp.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/formatting.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/linting.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/index.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/editor.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/colorscheme.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/coding.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/news.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/keymaps.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/intro.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/installation.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/vscode.md",
     "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/project.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/octo.md"
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/startuptime.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/gh.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/rest.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/octo.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/dot.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/mini-hipatterns.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/gitui.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/chezmoi.md",
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/ui/treesitter-context.md"
   ]
 }

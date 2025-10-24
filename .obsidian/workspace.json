@@ -11,14 +11,16 @@
             "id": "37e724031e8595ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Claude Memory Bank/Windows System Management.md",
-                "mode": "source",
-                "source": false
+                "file": "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
+                "page": 1,
+                "left": -21,
+                "top": 670,
+                "zoom": 0.7632119035402771
               },
-              "icon": "lucide-file",
-              "title": "Windows System Management"
+              "icon": "lucide-file-text",
+              "title": "03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co."
             }
           }
         ]
@@ -122,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Claude Memory Bank/Windows System Management.md",
+                "file": "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Windows System Management"
+              "title": "Backlinks for 03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co."
             }
           },
           {
@@ -141,12 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Claude Memory Bank/Windows System Management.md",
+                "file": "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Windows System Management"
+              "title": "Outgoing links from 03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co."
             }
           },
           {
@@ -170,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Claude Memory Bank/Windows System Management.md",
+                "file": "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Windows System Management"
+              "title": "Outline of 03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co."
             }
           }
         ]
@@ -200,8 +202,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "65532c1b5a62d5fd",
+  "active": "37e724031e8595ad",
   "lastOpenFiles": [
+    "Claude Memory Bank/AI Knowledge Base /4. Non-Fungible Tokens (NFT) - The Analysis of Risk and Return Author Mieszko Mazur.pdf",
+    "Claude Memory Bank/AI Knowledge Base /4.-Artificial-intelligence-and-Privacy-Author-Datatilsynet.pdf",
+    "Claude Memory Bank/AI Knowledge Base /1. Internet of things and its applications Author M.Anantha Guptha.pdf",
+    "Claude Memory Bank/Windows System Management.md",
     "Claude Memory Bank/AI Knowledge Base /5. Pixel perfect precision author Ustwo.pdf",
     "Claude Memory Bank/AI Knowledge Base /6. Everything You Wanted to Know About NFTs Author Akash Agrawal.pdf",
     "Claude Memory Bank/AI Knowledge Base /3. Bright ideas for user experience designers author Userfocus.pdf",
@@ -210,9 +216,6 @@
     "Claude Memory Bank/AI Knowledge Base /1. Resilient web design author Jeremy Keith.pdf",
     "Claude Memory Bank/AI Knowledge Base /09.-Microsoft-Excel-Tips-Tricks-Author-Mynda-Treacy.pdf",
     "Claude Memory Bank/AI Knowledge Base /Explorations-in-Artificial-Intelligence-and-Machine-Learning-CRC-Press.pdf",
-    "Claude Memory Bank/AI Knowledge Base /JavaScript-Notes-for-Professionals-GoalKicker.pdf",
-    "Claude Memory Bank/AI Knowledge Base /18.-PHP-Tutorial-From-beginner-to-master-author-IT-present.pdf",
-    "Claude Memory Bank/AI Knowledge Base /07.-MS-Excel-Lecture-Notes-Author-Government-Arts-College-Coimbatore.pdf",
     "Claude Memory Bank/Technical Setup.md",
     "Claude Memory Bank/System Maintenance.md",
     "Claude Memory Bank/Rube Integration.md",
@@ -228,7 +231,6 @@
     "Claude Memory Bank/Email Writing Style.md",
     "Claude Memory Bank/Git Workflow.md",
     "Claude Memory Bank/Cover Letters.md",
-    "Claude Memory Bank/Windows System Management.md",
     "Career/Marco Morfin Resume .md",
     "Claude Memory Bank.md",
     "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",

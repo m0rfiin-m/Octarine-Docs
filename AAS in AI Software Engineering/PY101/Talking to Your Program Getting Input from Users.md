@@ -63,8 +63,10 @@ Ask for the user's age and tell them how old they’ll be next year.
 
 **Code:**
 ``` python
-age_text = input("age in years: ") # Gets a string age = int(age_text) 
+age_text = input("age in years: ") # Gets a string
+age =int(age text) 
 # Converts to integer print("next year:", age + 1)
+print("next year:" , age + 1)
 
 ```
 ---
@@ -86,10 +88,12 @@ Ask the user for the price of coffee and calculate the cost for two.
     
 
 **Code:**
+``` python
+price_text = input("coffee price $: ")
+price = float(price_text)
+print(f"double order: ${price * 2:.2f}")
 
-python
-
-`price_text = input("coffee price $: ") price = float(price_text) print(f"double order: ${price * 2:.2f}")`
+```
 
 ---
 
@@ -106,11 +110,12 @@ What happens if variable names are misspelled?
     
 
 **Code:**
+``` python
+coffee = 10
+print(cofee)    # Spelling error!
 
-python
 
-`coffee = 10 print(cofee)    # Spelling error!`
-
+```
 ---
 
 # Word Problems & Examples
@@ -132,10 +137,13 @@ Ask the user for their birth year. Calculate their age in 2025.
     
 
 **Code:**
+``` python
+width = float(input("Enter the width (m): "))
+height = float(input("Enter the height (m): "))
+area = width * height
+print(f"The area is {area} square meters.")
 
-python
-
-`birth_year = int(input("Enter your birth year: ")) age = 2025 - birth_year print(f"You are {age} years old in 2025.")`
+```
 
 ---
 
@@ -154,11 +162,13 @@ Ask for width and height (in meters). Calculate the area.
     
 
 **Code:**
+```python
+width = float(input("Enter the width (m): "))
+height = float(input("Enter the height (m): "))
+area = width * height
+print(f"The area is {area} square meters.")
 
-python
-
-`width = float(input("Enter the width (m): ")) height = float(input("Enter the height (m): ")) area = width * height print(f"The area is {area} square meters.")`
-
+```
 ---
 
 ## 3. Shopping Cart Total
@@ -179,9 +189,15 @@ Get the price of three items and add up the total.
 
 **Code:**
 
-python
+```python
+item1 = float(input("Price of item 1: $"))
+item2 = float(input("Price of item 2: $"))
+item3 = float(input("Price of item 3: $"))
+total = item1 + item2 + item3
+print(f"Your total is ${total:.2f}")
 
-`item1 = float(input("Price of item 1: $")) item2 = float(input("Price of item 2: $")) item3 = float(input("Price of item 3: $")) total = item1 + item2 + item3 print(f"Your total is ${total:.2f}")`
+```
+
 
 ---
 

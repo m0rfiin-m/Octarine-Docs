@@ -292,6 +292,6 @@ Marco Morfin
 
 ---
 
-**Back to:** [[Index]]
+**Back to:** [[Claude Memory Bank/Index]]
 
 [Original Email Style Analysis](https://claude.ai/chat/6b9abfac-26d3-4656-bf61-b6f90edc4a7f)

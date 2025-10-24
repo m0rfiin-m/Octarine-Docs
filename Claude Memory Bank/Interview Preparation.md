@@ -352,6 +352,6 @@ m.m0rfiin@gmail.com
 
 ---
 
-**Back to:** [[Index]]
+**Back to:** [[Claude Memory Bank/Index]]
 
 [Full Livewire Interview Prep Conversation](https://claude.ai/chat/9d2ffb1e-f55e-44b6-b17d-dc56e27d39e0)

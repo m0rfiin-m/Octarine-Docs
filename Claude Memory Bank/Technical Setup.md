@@ -418,7 +418,7 @@ Root/
 
 ---
 
-**Back to:** [[Index]]
+**Back to:** [[Claude Memory Bank/Index]]
 
 
 ## macOS Development Environment

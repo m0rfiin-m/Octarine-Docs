@@ -241,7 +241,7 @@ local header = {
 
 **Documentation:**
 - [Alpha.nvim GitHub](https://github.com/goolord/alpha-nvim)
-- [LazyVim Extras: UI - Alpha](../lazyvim.github.io-main/docs/extras/ui/alpha.md)
+- [LazyVim Extras: UI - Alpha](alpha.md)
 - [Omarchy Matte Black Theme](https://github.com/basecamp/omarchy/tree/master/themes/matte-black)
 
 **ASCII Art Sources:**
@@ -293,4 +293,4 @@ local header = {
 
 ---
 
-**Back to:** [[Index]]
+**Back to:** [[Claude Memory Bank/Index]]

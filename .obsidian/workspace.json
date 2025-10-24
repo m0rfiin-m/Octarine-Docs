@@ -194,11 +194,25 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "37e724031e8595ad",
+  "active": "65532c1b5a62d5fd",
   "lastOpenFiles": [
+    "Claude Memory Bank/AI Knowledge Base /5. Pixel perfect precision author Ustwo.pdf",
+    "Claude Memory Bank/AI Knowledge Base /6. Everything You Wanted to Know About NFTs Author Akash Agrawal.pdf",
+    "Claude Memory Bank/AI Knowledge Base /3. Bright ideas for user experience designers author Userfocus.pdf",
+    "Claude Memory Bank/AI Knowledge Base /The-Undergraduate-Guide-to-R-Trevor-Martin.pdf",
+    "Claude Memory Bank/AI Knowledge Base /05.-Lecture-note-on-programming-in-C-author-Etuari-Oram-and-Bighnaraj-Naik.pdf",
+    "Claude Memory Bank/AI Knowledge Base /1. Resilient web design author Jeremy Keith.pdf",
+    "Claude Memory Bank/AI Knowledge Base /09.-Microsoft-Excel-Tips-Tricks-Author-Mynda-Treacy.pdf",
+    "Claude Memory Bank/AI Knowledge Base /Explorations-in-Artificial-Intelligence-and-Machine-Learning-CRC-Press.pdf",
+    "Claude Memory Bank/AI Knowledge Base /JavaScript-Notes-for-Professionals-GoalKicker.pdf",
+    "Claude Memory Bank/AI Knowledge Base /18.-PHP-Tutorial-From-beginner-to-master-author-IT-present.pdf",
+    "Claude Memory Bank/AI Knowledge Base /07.-MS-Excel-Lecture-Notes-Author-Government-Arts-College-Coimbatore.pdf",
     "Claude Memory Bank/Technical Setup.md",
     "Claude Memory Bank/System Maintenance.md",
     "Claude Memory Bank/Rube Integration.md",
@@ -216,19 +230,9 @@
     "Claude Memory Bank/Cover Letters.md",
     "Claude Memory Bank/Windows System Management.md",
     "Career/Marco Morfin Resume .md",
-    "Claude Memory Bank",
     "Claude Memory Bank.md",
     "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
     "Chat-GPT Docs/Omarchy Linux WFH Audio & Video Setup.md",
-    "AI Chat",
-    "Claude Memory Bank/lazyvim.github.io-main/src/css/custom.css",
-    "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_moon.js",
-    "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_storm.js",
-    "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_night.js",
-    "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_day.js",
-    "Claude Memory Bank/lazyvim.github.io-main/src/css",
-    "Claude Memory Bank/lazyvim.github.io-main/src/themes",
-    "Claude Memory Bank/lazyvim.github.io-main/src",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_tree.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_react.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_mountain.svg",
@@ -243,7 +247,6 @@
     "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/startuptime.md",
     "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/rest.md",
     "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/project.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/octo.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/mini-hipatterns.md"
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/octo.md"
   ]
 }

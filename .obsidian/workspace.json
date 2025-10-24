@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
+                "file": "AAS in AI Software Engineering/PY101/Python_Rounding_and_Money_Format.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rounding and Money Format"
+              "title": "Python_Rounding_and_Money_Format"
             }
           }
         ]
@@ -179,8 +179,9 @@
   },
   "active": "5680b144d94928bf",
   "lastOpenFiles": [
-    "AAS in AI Software Engineering/PY101/Updating Values and Printing Expression.md",
     "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
+    "AAS in AI Software Engineering/PY101/Python_Rounding_and_Money_Format.md",
+    "AAS in AI Software Engineering/PY101/Updating Values and Printing Expression.md",
     "AAS in AI Software Engineering/PY101/Recap- Printing and Comments.md",
     "AAS in AI Software Engineering/PY101/Recap - variables, types, and strings essentials.md",
     "AAS in AI Software Engineering/PY101/Division_Modes_Quotient_and_Remainder.md",

@@ -4,23 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "69e4978684047d92",
+        "id": "b49dd5bc1b0391d4",
         "type": "tabs",
         "children": [
           {
-            "id": "52dcf638ce6eb876",
+            "id": "6b938a9fbc71c683",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Claude Memory Bank/PDF/1. Internet of things and its applications Author M.Anantha Guptha.pdf",
-                "page": 1,
-                "left": -23,
-                "top": 845,
-                "zoom": 0.6637948407900041
-              },
-              "icon": "lucide-file-text",
-              "title": "1. Internet of things and its applications Author M.Anantha Guptha"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -87,8 +81,26 @@
     "type": "split",
     "children": [
       {
+        "id": "878e381550c1bd4a",
+        "type": "tabs",
+        "dimension": 27.873563218390807,
+        "children": [
+          {
+            "id": "7922b8bf2c3399c2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
         "id": "d45c6ea14c6d0ae4",
         "type": "tabs",
+        "dimension": 72.12643678160919,
         "children": [
           {
             "id": "e5b738e551e70cba",
@@ -96,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Claude Memory Bank/PDF/1. Internet of things and its applications Author M.Anantha Guptha.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1. Internet of things and its applications Author M.Anantha Guptha"
+              "title": "Backlinks"
             }
           },
           {
@@ -115,12 +126,21 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Claude Memory Bank/PDF/1. Internet of things and its applications Author M.Anantha Guptha.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1. Internet of things and its applications Author M.Anantha Guptha"
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "52dcf638ce6eb876",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -144,27 +164,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Claude Memory Bank/PDF/1. Internet of things and its applications Author M.Anantha Guptha.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1. Internet of things and its applications Author M.Anantha Guptha"
-            }
-          },
-          {
-            "id": "7922b8bf2c3399c2",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -178,17 +187,20 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "daily-notes:Open today's daily note": false
     }
   },
-  "active": "7922b8bf2c3399c2",
+  "active": "52dcf638ce6eb876",
   "lastOpenFiles": [
-    "Claude Memory Bank/PDF/1. Resilient web design author Jeremy Keith.pdf",
+    "10/24/25.md",
     "Claude Memory Bank/PDF/1. Internet of things and its applications Author M.Anantha Guptha.pdf",
+    "10/24",
+    "10",
+    "Claude Memory Bank/PDF/1. Resilient web design author Jeremy Keith.pdf",
     "AAS in AI Software Engineering/PY101/Updating Values and Printing Expression.md",
     "AAS in AI Software Engineering/PY101/Modeling Real World Calculations.md",
     "AAS in AI Software Engineering/PY101/Expressions and Operator Precedence.md",
@@ -200,9 +212,6 @@
     "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_day.js",
     "Claude Memory Bank/lazyvim.github.io-main/src/css/custom.css",
     "Claude Memory Bank/lazyvim.github.io-main/src/themes",
-    "Claude Memory Bank/lazyvim.github.io-main/src/css",
-    "Claude Memory Bank/lazyvim.github.io-main/src",
-    "Claude Memory Bank/lazyvim.github.io-main/scripts/build_docs.sh",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_tree.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_react.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/logo.svg",
@@ -231,7 +240,6 @@
     "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/project.md",
     "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/startuptime.md",
     "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/gh.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/rest.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/octo.md"
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/rest.md"
   ]
 }

@@ -1,7 +1,4 @@
 
-
-# Talking to Your Program: Getting Input from Users
-
 ## Why Do You Need User Input?
 
 - Some programs, like calculators and order forms, need to **react to what the user types**.
@@ -27,10 +24,9 @@ Get the user's name and greet them.
 
 **Code:**
 
-```
 python
 
-`name = input("your name: ") print(f"hi, {name}!")```
+`name = input("your name: ") print(f"hi, {name}!")`
 
 ---
 
@@ -48,8 +44,7 @@ See what type of value `input()` gives you.
 
 **Code:**
 
-```
-```python
+python
 
 `response = input("Type anything: ") print(type(response))  # Always str`
 

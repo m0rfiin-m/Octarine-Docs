@@ -23,10 +23,9 @@ Get the user's name and greet them.
     
 
 **Code:**
-
-python
-
-`name = input("your name: ") print(f"hi, {name}!")`
+```python
+name = input("your name: ") print(f"hi, {name}!")
+```
 
 ---
 
@@ -43,10 +42,10 @@ See what type of value `input()` gives you.
     
 
 **Code:**
+```python 
+response = input("Type anything: ") print(type(response)) # Always str
 
-python
-
-`response = input("Type anything: ") print(type(response))  # Always str`
+``` 
 
 ---
 
@@ -63,11 +62,11 @@ Ask for the user's age and tell them how old they’ll be next year.
     
 
 **Code:**
+``` python
+age_text = input("age in years: ") # Gets a string age = int(age_text) 
+# Converts to integer print("next year:", age + 1)
 
-python
-
-`age_text = input("age in years: ")          # Gets a string age = int(age_text)                        # Converts to integer print("next year:", age + 1)`
-
+```
 ---
 
 ## Step 4: Input With Decimals (Floats)

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Claude Memory Bank/Obsidian Vault Management.md",
+                "file": "Claude Memory Bank/Windows System Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Vault Management"
+              "title": "Windows System Management"
             }
           }
         ]
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Claude Memory Bank/Obsidian Vault Management.md",
+                "file": "Claude Memory Bank/Windows System Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Obsidian Vault Management"
+              "title": "Backlinks for Windows System Management"
             }
           },
           {
@@ -141,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Claude Memory Bank/Obsidian Vault Management.md",
+                "file": "Claude Memory Bank/Windows System Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Obsidian Vault Management"
+              "title": "Outgoing links from Windows System Management"
             }
           },
           {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Claude Memory Bank/Obsidian Vault Management.md",
+                "file": "Claude Memory Bank/Windows System Management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian Vault Management"
+              "title": "Outline of Windows System Management"
             }
           }
         ]
@@ -199,25 +199,27 @@
   },
   "active": "37e724031e8595ad",
   "lastOpenFiles": [
-    "Claude Memory Bank/Windows System Management.md",
-    "Claude Memory Bank/Obsidian Vault Management.md",
-    "Claude Memory Bank/Git Workflow.md",
     "Claude Memory Bank/Technical Setup.md",
-    "Claude Memory Bank/LazyVim Customization.md",
-    "Claude Memory Bank/Index.md",
     "Claude Memory Bank/System Maintenance.md",
-    "Claude Memory Bank/Email Writing Style.md",
-    "Claude Memory Bank/Email Protocols.md",
-    "Claude Memory Bank/Cover Letters.md",
-    "Career/Marco Morfin Resume .md",
-    "Claude Memory Bank/Interview Preparation.md",
-    "Claude Memory Bank/Job Applications.md",
+    "Claude Memory Bank/Rube Integration.md",
     "Claude Memory Bank/Resume Development.md",
+    "Claude Memory Bank/PC Building & Hardware.md",
+    "Claude Memory Bank/Omarchy Linux WFH Audio & Video Setup.md",
+    "Claude Memory Bank/Obsidian Vault Management.md",
+    "Claude Memory Bank/LazyVim Customization.md",
+    "Claude Memory Bank/Job Applications.md",
+    "Claude Memory Bank/Interview Preparation.md",
+    "Claude Memory Bank/Index.md",
+    "Claude Memory Bank/Email Protocols.md",
+    "Claude Memory Bank/Email Writing Style.md",
+    "Claude Memory Bank/Git Workflow.md",
+    "Claude Memory Bank/Cover Letters.md",
+    "Claude Memory Bank/Windows System Management.md",
+    "Career/Marco Morfin Resume .md",
     "Claude Memory Bank",
     "Claude Memory Bank.md",
     "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
     "Chat-GPT Docs/Omarchy Linux WFH Audio & Video Setup.md",
-    "Claude Memory Bank/Omarchy Linux WFH Audio & Video Setup.md",
     "AI Chat",
     "Claude Memory Bank/lazyvim.github.io-main/src/css/custom.css",
     "Claude Memory Bank/lazyvim.github.io-main/src/themes/tokyonight_moon.js",
@@ -242,8 +244,6 @@
     "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/rest.md",
     "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/project.md",
     "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/octo.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/mini-hipatterns.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/gitui.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/gh.md"
+    "Claude Memory Bank/lazyvim.github.io-main/docs/extras/util/mini-hipatterns.md"
   ]
 }

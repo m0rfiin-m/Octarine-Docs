@@ -85,26 +85,9 @@
     "type": "split",
     "children": [
       {
-        "id": "878e381550c1bd4a",
+        "id": "bbb2f5bcc9365cb9",
         "type": "tabs",
-        "dimension": 27.873563218390807,
-        "children": [
-          {
-            "id": "7922b8bf2c3399c2",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          }
-        ]
-      },
-      {
-        "id": "d45c6ea14c6d0ae4",
-        "type": "tabs",
-        "dimension": 72.12643678160919,
+        "dimension": 19.410496046010064,
         "children": [
           {
             "id": "e5b738e551e70cba",
@@ -126,30 +109,6 @@
             }
           },
           {
-            "id": "e865e229ff9cce3e",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Talking to Your Program Getting Input from Users"
-            }
-          },
-          {
-            "id": "52dcf638ce6eb876",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "dc2d8e0804bafded",
             "type": "leaf",
             "state": {
@@ -165,6 +124,45 @@
             }
           },
           {
+            "id": "e865e229ff9cce3e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Talking to Your Program Getting Input from Users"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "878e381550c1bd4a",
+        "type": "tabs",
+        "dimension": 24.658519051042415,
+        "children": [
+          {
+            "id": "7922b8bf2c3399c2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d1ce0476ab81d2e1",
+        "type": "tabs",
+        "dimension": 29.259525521207763,
+        "children": [
+          {
             "id": "7d0fec1f15f7c608",
             "type": "leaf",
             "state": {
@@ -179,8 +177,24 @@
               "title": "Outline of Talking to Your Program Getting Input from Users"
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "7d4292b497059851",
+        "type": "tabs",
+        "dimension": 26.671459381739755,
+        "children": [
+          {
+            "id": "52dcf638ce6eb876",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,7 +215,7 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "6b938a9fbc71c683",
+  "active": "7d0fec1f15f7c608",
   "lastOpenFiles": [
     "AAS in AI Software Engineering/PY101/Expressions and Operator Precedence.md",
     "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",

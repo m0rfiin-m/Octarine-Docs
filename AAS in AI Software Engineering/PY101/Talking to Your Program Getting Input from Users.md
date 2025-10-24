@@ -217,10 +217,12 @@ Ask for Celsius temperature and convert to Fahrenheit.
 
 **Code:**
 
-python
+```python
+celsius = float(input("Temperature in Celsius: "))
+fahrenheit = celsius * 9 / 5 + 32
+print(f"{celsius}°C is {fahrenheit:.1f}°F")
 
-`celsius = float(input("Temperature in Celsius: ")) fahrenheit = celsius * 9 / 5 + 32 print(f"{celsius}°C is {fahrenheit:.1f}°F")`
-
+```
 ---
 
 ## 5. Weekly Pay Calculator
@@ -238,10 +240,13 @@ Ask for hours worked and hourly wage. Calculate weekly pay.
     
 
 **Code:**
+ ```python
+ hours = float(input("Hours worked: "))
+wage = float(input("Hourly wage: $"))
+pay = hours * wage
+print(f"Your pay is ${pay:.2f}")
 
-python
-
-`hours = float(input("Hours worked: ")) wage = float(input("Hourly wage: $")) pay = hours * wage print(f"Your pay is ${pay:.2f}")`
+ ```
 
 ---
 
@@ -261,9 +266,13 @@ Ask for points earned and points possible. Calculate grade percentage.
 
 **Code:**
 
-python
+```python
+earned = float(input("Points earned: "))
+possible = float(input("Points possible: "))
+percentage = (earned / possible) * 100
+print(f"Your grade is {percentage:.1f}%")
 
-`earned = float(input("Points earned: ")) possible = float(input("Points possible: ")) percentage = (earned / possible) * 100 print(f"Your grade is {percentage:.1f}%")`
+```
 
 ---
 
@@ -285,9 +294,16 @@ Ask for bill total and tip percentage. Print tip and total bill.
 
 **Code:**
 
-python
+```python
+bill = float(input("Restaurant bill: $"))
+tip_percent = float(input("Tip percentage: "))
+tip = bill * tip_percent / 100
+total = bill + tip
+print(f"Tip: ${tip:.2f}")
+print(f"Total bill: ${total:.2f}")
 
-`bill = float(input("Restaurant bill: $")) tip_percent = float(input("Tip percentage: ")) tip = bill * tip_percent / 100 total = bill + tip print(f"Tip: ${tip:.2f}") print(f"Total bill: ${total:.2f}")`
+
+```
 
 ---
 

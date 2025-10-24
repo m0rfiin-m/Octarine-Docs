@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions II - Inside the Function.md",
+                "file": "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Functions II - Inside the Function"
+              "title": "Functions III - return vs print and Early Return"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions II - Inside the Function.md",
+                "file": "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Functions II - Inside the Function"
+              "title": "Backlinks for Functions III - return vs print and Early Return"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions II - Inside the Function.md",
+                "file": "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Functions II - Inside the Function"
+              "title": "Outgoing links from Functions III - return vs print and Early Return"
             }
           }
         ],
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions II - Inside the Function.md",
+                "file": "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Functions II - Inside the Function"
+              "title": "Outline of Functions III - return vs print and Early Return"
             }
           }
         ]
@@ -217,8 +217,10 @@
   },
   "active": "6b938a9fbc71c683",
   "lastOpenFiles": [
-    "Career/Marco Morfin Resume .md",
     "AAS in AI Software Engineering/PY101/Functions II - Inside the Function.md",
+    "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
+    "AAS In AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
+    "Career/Marco Morfin Resume .md",
     "AAS In AI Software Engineering/PY101/Functions II - Inside the Function.md",
     "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
     "AAS in AI Software Engineering/PY101/Division Modes Quotient and Remainder.md",
@@ -260,8 +262,6 @@
     "Claude Memory Bank/lazyvim.github.io-main/static/img/docusaurus.png",
     "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/ui.md",
     "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/util.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/treesitter.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/lsp.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/formatting.md"
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/treesitter.md"
   ]
 }

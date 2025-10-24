@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Career/Marco Morfin Resume .md",
+                "file": "Claude Memory Bank/Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Marco Morfin Resume"
+              "title": "Index"
             }
           }
         ]
@@ -179,14 +179,17 @@
   },
   "active": "5680b144d94928bf",
   "lastOpenFiles": [
+    "Claude Memory Bank/Email Writing Style.md",
+    "Claude Memory Bank/Email Protocols.md",
+    "Claude Memory Bank/Index.md",
+    "Claude Memory Bank/Cover Letters.md",
+    "Claude Memory Bank/Technical Setup.md",
+    "Career/Marco Morfin Resume .md",
     "Claude Memory Bank/Interview Preparation.md",
     "Claude Memory Bank/Job Applications.md",
-    "Claude Memory Bank/Cover Letters.md",
     "Claude Memory Bank/Resume Development.md",
-    "Claude Memory Bank/Index.md",
     "Claude Memory Bank",
     "Claude Memory Bank.md",
-    "Career/Marco Morfin Resume .md",
     "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
     "Chat-GPT Docs/Omarchy Linux WFH Audio & Video Setup.md",
     "AI Chat/Omarchy Linux WFH Audio & Video Setup.md",
@@ -221,9 +224,6 @@
     "lazyvim.github.io-main/docs/extras/util/chezmoi.md",
     "lazyvim.github.io-main/docs/extras/ui/treesitter-context.md",
     "lazyvim.github.io-main/docs/extras/ui/smear-cursor.md",
-    "lazyvim.github.io-main/docs/extras/ui/mini-starter.md",
-    "lazyvim.github.io-main/docs/extras/ui/mini-indentscope.md",
-    "lazyvim.github.io-main/docs/extras/ui/mini-animate.md",
-    "lazyvim.github.io-main/docs/extras/ui/indent-blankline.md"
+    "lazyvim.github.io-main/docs/extras/ui/mini-starter.md"
   ]
 }

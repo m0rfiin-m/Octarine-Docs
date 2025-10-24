@@ -95,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Functions I - Why, Define, and Call"
+              "title": "Backlinks"
             }
           },
           {
@@ -129,12 +128,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Functions I - Why, Define, and Call"
+              "title": "Outgoing links"
             }
           }
         ],
@@ -168,13 +166,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Functions I - Why, Define, and Call"
+              "title": "Outline"
             }
           }
         ]
@@ -215,11 +212,11 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "6b938a9fbc71c683",
+  "active": "52dcf638ce6eb876",
   "lastOpenFiles": [
+    "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
     "AAS in AI Software Engineering/PY101/Division Modes Quotient and Remainder.md",
     "AAS in AI Software Engineering/PY101/Expressions and Operator Precedence.md",
-    "AAS in AI Software Engineering/PY101/Functions I - Why, Define, and Call.md",
     "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
     "AAS In AI Software Engineering/PY101/Updating Values and Printing Expression.md",
     "AAS In AI Software Engineering/PY101/Rounding and Money Format.md",

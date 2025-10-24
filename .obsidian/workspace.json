@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
+                "file": "AAS in AI Software Engineering/PY101/Scope and Local Variables in Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Functions III - return vs print and Early Return"
+              "title": "Scope and Local Variables in Python"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
+                "file": "AAS in AI Software Engineering/PY101/Scope and Local Variables in Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Functions III - return vs print and Early Return"
+              "title": "Backlinks for Scope and Local Variables in Python"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
+                "file": "AAS in AI Software Engineering/PY101/Scope and Local Variables in Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Functions III - return vs print and Early Return"
+              "title": "Outgoing links from Scope and Local Variables in Python"
             }
           }
         ],
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
+                "file": "AAS in AI Software Engineering/PY101/Scope and Local Variables in Python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Functions III - return vs print and Early Return"
+              "title": "Outline of Scope and Local Variables in Python"
             }
           }
         ]
@@ -217,8 +217,10 @@
   },
   "active": "6b938a9fbc71c683",
   "lastOpenFiles": [
-    "10/24/25.md",
     "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
+    "AAS in AI Software Engineering/PY101/Scope and Local Variables in Python.md",
+    "AAS In AI Software Engineering/PY101/Scope and Local Variables in Python.md",
+    "10/24/25.md",
     "AAS in AI Software Engineering/PY101/Functions II - Inside the Function.md",
     "AAS In AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
     "Career/Marco Morfin Resume .md",
@@ -260,8 +262,6 @@
     "Claude Memory Bank/lazyvim.github.io-main/static/img/icon.png",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/icon-dark.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/docusaurus.png",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/ui.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/util.md",
-    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/treesitter.md"
+    "Claude Memory Bank/lazyvim.github.io-main/docs/plugins/ui.md"
   ]
 }

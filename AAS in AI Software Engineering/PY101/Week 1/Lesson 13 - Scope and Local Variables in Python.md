@@ -1,4 +1,8 @@
-# Study Guide: Scope and Local Variables in Python
+# Scope and Local Variables in Python
+
+**Date:** October 25, 2025  
+**Course:** PY101 - Introduction to Python  
+**Week:** 1, Lesson 13
 
 ## Key Concepts
 

@@ -1,4 +1,8 @@
-# Lesson: Modeling Real-World Calculations
+# Modeling Real-World Calculations
+
+**Date:** October 23, 2025  
+**Course:** PY101 - Introduction to Python  
+**Week:** 1, Lesson 5
 
 ## Overview
 This lesson focuses on translating **real-world word problems** into **arithmetic expressions** and printing results clearly in Python.  

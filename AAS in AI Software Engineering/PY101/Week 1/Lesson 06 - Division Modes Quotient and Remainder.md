@@ -1,4 +1,8 @@
-# Lesson: Division Modes — `/` vs `//` with Quotient and Remainder
+# Division Modes: `/` vs `//` with Quotient and Remainder
+
+**Date:** October 23, 2025  
+**Course:** PY101 - Introduction to Python  
+**Week:** 1, Lesson 6
 
 ## Overview
 This lesson covers **division operations in Python** — how to calculate **float results**, **whole-number quotients**, and **remainders**.  
@@ -26,7 +30,7 @@ Performs division but **truncates decimals**, returning the **integer quotient**
 print("7//2 =", 7 // 2)
 # Output: 7//2 = 3
 ```
-Useful for counting full groups or “whole boxes” in real-world problems.
+Useful for counting full groups or "whole boxes" in real-world problems.
 
 ---
 
@@ -37,7 +41,7 @@ Finds the **remainder** after full groups are counted.
 print("7 % 2 =", 7 % 2)
 # Output: 7 % 2 = 1
 ```
-The modulo operator helps find what’s **left over** after division.
+The modulo operator helps find what's **left over** after division.
 
 ---
 

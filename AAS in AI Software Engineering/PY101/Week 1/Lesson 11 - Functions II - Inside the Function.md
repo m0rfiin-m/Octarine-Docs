@@ -1,5 +1,9 @@
 # Functions II: Inside the Function
 
+**Date:** October 25, 2025  
+**Course:** PY101 - Introduction to Python  
+**Week:** 1, Lesson 11
+
 ## What Happens Inside a Function?
 
 - The code inside a function runs every time you call it

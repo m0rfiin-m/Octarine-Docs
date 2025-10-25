@@ -1,3 +1,8 @@
+# Rounding and Money Format
+
+**Date:** October 24, 2025  
+**Course:** PY101 - Introduction to Python  
+**Week:** 1, Lesson 8
 
 ## 1. Floating-Point Precision
 - Computers sometimes store decimals imperfectly.  
@@ -97,5 +102,5 @@ bill: $5.31
 ## 7. Summary Rules
 - Use `round(x, 2)` to clean numeric precision.  
 - Use `f"${x:.2f}"` to print currency.  
-- `round()` changes the value; formatting only changes how it’s displayed.  
+- `round()` changes the value; formatting only changes how it's displayed.  
 - `round()` always returns a **float**, even if the result looks like an integer.

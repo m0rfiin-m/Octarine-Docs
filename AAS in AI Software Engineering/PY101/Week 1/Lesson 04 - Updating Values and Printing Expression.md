@@ -1,4 +1,10 @@
-# Using str and expressions
+# Updating Values and Printing Expression
+
+**Date:** October 22, 2025  
+**Course:** PY101 - Introduction to Python  
+**Week:** 1, Lesson 4
+
+## Using str and expressions
 
 First Example:
 print("Hello, Marco!")

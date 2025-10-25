@@ -1,4 +1,8 @@
-# Lesson: Modulo in Practice — Parity, Cycles, and Positions
+# Modulo in Practice: Parity, Cycles, and Positions
+
+**Date:** October 24, 2025  
+**Course:** PY101 - Introduction to Python  
+**Week:** 1, Lesson 7
 
 ## Overview
 This lesson focuses on practical uses of the **modulo operator (%)** in Python.  
@@ -140,7 +144,7 @@ You learned to:
 - Apply `%` for cyclic or repeating patterns.  
 - Understand that `% n` always returns a value from `0` to `n-1`.
 
-The modulo operator is a small but powerful tool in Python’s arithmetic system, essential for **pattern detection, rotations, and step-based calculations**.
+The modulo operator is a small but powerful tool in Python's arithmetic system, essential for **pattern detection, rotations, and step-based calculations**.
 
 ---
 

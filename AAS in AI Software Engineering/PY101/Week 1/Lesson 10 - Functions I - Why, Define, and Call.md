@@ -1,5 +1,9 @@
 # Functions I: Why, Define, and Call
 
+**Date:** October 24, 2025  
+**Course:** PY101 - Introduction to Python  
+**Week:** 1, Lesson 10
+
 ## Why Use Functions?
 
 **Avoid repetition:** Instead of copying/pasting loads of similar code, put the logic in a function and just call it when needed.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AAS in AI Software Engineering/PY101/Week 1/Lesson 09 - Talking to Your Program Getting Input from Users.md",
+                "file": "AAS in AI Software Engineering/PY101/Week 1/Week 1 Review - Cafe Receipt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lesson 09 - Talking to Your Program Getting Input from Users"
+              "title": "Week 1 Review - Cafe Receipt"
             }
           }
         ]
@@ -202,6 +202,7 @@
   },
   "active": "d81fb22079b79787",
   "lastOpenFiles": [
+    "AAS in AI Software Engineering/PY101/Week 1/Lesson 09 - Talking to Your Program Getting Input from Users.md",
     "AAS in AI Software Engineering/PY101/Week 1/Week 1 Review - Cafe Receipt.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 10 - Functions I - Why, Define, and Call.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 15 - Introduction to Debugging.md",
@@ -210,7 +211,6 @@
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 13 - Scope and Local Variables in Python.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 12 - Functions III - return vs print and Early Return.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 11 - Functions II - Inside the Function.md",
-    "AAS in AI Software Engineering/PY101/Week 1/Lesson 09 - Talking to Your Program Getting Input from Users.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 08 - Rounding and Money Format.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 07 - Modulo in Practice Parity Cycles Positions.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 06 - Division Modes Quotient and Remainder.md",

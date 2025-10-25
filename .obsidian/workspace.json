@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7af44b87fe17a1d1",
+        "id": "054533d44c673be8",
         "type": "tabs",
         "children": [
           {
-            "id": "37e724031e8595ad",
+            "id": "f188a6bd2630b9de",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Claude Memory Bank/AI Knowledge Base /4. Non-Fungible Tokens (NFT) - The Analysis of Risk and Return Author Mieszko Mazur.pdf",
-                "page": 1,
-                "zoom": 1
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "4. Non-Fungible Tokens (NFT) - The Analysis of Risk and Return Author Mieszko Mazur"
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -80,7 +80,7 @@
       {
         "id": "1deb786979143deb",
         "type": "tabs",
-        "dimension": 23.294346978557503,
+        "dimension": 23.2943469785575,
         "children": [
           {
             "id": "5680b144d94928bf",
@@ -122,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           },
           {
@@ -140,11 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from conflict-files-obsidian-git"
             }
           },
           {
@@ -168,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co."
+              "title": "Outline of conflict-files-obsidian-git"
             }
           }
         ]
@@ -200,6 +202,9 @@
   },
   "active": "65532c1b5a62d5fd",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
+    "AAS in AI Software Engineering/PY101/Scope and Local Variables in Python.md",
     "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
     "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
     "AAS in AI Software Engineering/PY101/Functions II - Inside the Function.md",
@@ -214,7 +219,6 @@
     "Claude Memory Bank/PDF/The-Missing-Link.-An-Introduction-to-Web-Development-and-Programming-Michael-Mendez.pdf",
     "Claude Memory Bank/PDF/Swift-Notes-for-Professionals-GoalKicker.pdf",
     "Claude Memory Bank/PDF/Structure-and-Interpretation-of-Computer-Programs-JavaScript-Edition-Harold-Abelson-and-Gerald-Jay-Sussman.pdf",
-    "Claude Memory Bank/PDF/R-Programming-Robin-Evans.pdf",
     "Claude Memory Bank/Windows System Management.md",
     "Claude Memory Bank/Technical Setup.md",
     "Claude Memory Bank/System Maintenance.md",
@@ -233,8 +237,6 @@
     "Claude Memory Bank/Cover Letters.md",
     "Career/Marco Morfin Resume .md",
     "Claude Memory Bank.md",
-    "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
-    "Chat-GPT Docs/Omarchy Linux WFH Audio & Video Setup.md",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_tree.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_react.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_mountain.svg",
@@ -244,7 +246,6 @@
     "Claude Memory Bank/lazyvim.github.io-main/static/img/icon.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/icon-dark.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/icon.png",
-    "Claude Memory Bank/lazyvim.github.io-main/static/img/docusaurus.png",
-    "Claude Memory Bank/lazyvim.github.io-main/README.md"
+    "Claude Memory Bank/lazyvim.github.io-main/static/img/docusaurus.png"
   ]
 }

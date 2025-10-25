@@ -1,22 +1,28 @@
-# Week 1 Review: Cafe Receipt
+# Week 1 Review: Cafe Receipt Calculator
 
 **Date:** October 25, 2025  
 **Course:** PY101 - Introduction to Python  
 **Week:** 1, End of Week Review  
-**Status:** ⚠️ Must Complete Before Week 2
+**Status:** ✅ PASSED (+30 Points)
 
-## Why This Review Matters
+## 🎯 Assignment Requirements
 
-This review combines everything you learned in Lessons 1-15: variables, types, user input, expressions, operator precedence, rounding, and formatting. You cannot move to Week 2 until you complete this exercise and the additional practice problems.
+This review tests everything from Lessons 1-15. You must complete this before advancing to Week 2.
+
+**Core Requirements:**
+- Exactly **2 items** (not 3!)
+- **2 functions required**: one for item total, one for overall total
+- Descriptive input prompts for user guidance
+- All prices formatted to **2 decimal places**
+- Clean, readable code
 
 ---
 
-## The Original Problem
+## 📋 The Given Example
 
-**Given Example:**
 ```
 Item: Apple
-Price: 1.5$
+Price: 1.50$
 Quantity: 4
 Total price: 6.00$
 -------------------
@@ -32,7 +38,7 @@ Total cart price: 16.35$
 
 ---
 
-## Your Original Code (With Issues)
+## ❌ Your First Attempt (The Problems)
 
 ```python
 # Mini receipt calculator
@@ -52,28 +58,41 @@ item3 = float(input("Price of item 3: $"))
 item3 = int(input("Quantity of item 3"))
 ```
 
-**Problems Identified:**
-1. **Variable overwriting** - You used `item1` for name, price, and quantity, so each assignment deleted the previous value
-2. **Missing calculations** - You never multiplied price by quantity
-3. **No formatting** - Prices need `.2f` formatting for currency
-4. **Incomplete** - Item 2 and 3 never calculated totals or printed output
-5. **No final sum** - Never added all items together for cart total
+**Critical Issues:**
+
+1. ❌ **No functions** - Assignment requires 2 functions
+2. ❌ **Variable overwriting** - `item1` used for name, price, AND quantity (each overwrites the previous)
+3. ❌ **Missing calculations** - Never multiplied price × quantity
+4. ❌ **No price formatting** - Prices need `.2f` for currency display
+5. ❌ **3 items instead of 2** - Spec calls for exactly 2 items
+6. ❌ **Incomplete code** - Items 2 and 3 never calculated or printed
+7. ❌ **No proper prompts** - Input prompts missing spacing and clarity
+
+**Key Lesson:** Each variable can only hold ONE value at a time. When you assign a new value, the old one is gone!
 
 ---
 
-## Corrected Solution
+## ✅ Final Passing Solution
 
 ```python
 # Mini receipt calculator
+
+def calculate_item_total(price, quantity):
+    """Calculate total for a single item"""
+    return price * quantity
+
+def calculate_overall_total(item1_total, item2_total):
+    """Calculate the overall cart total"""
+    return item1_total + item2_total
 
 # Item 1
 item1_name = input("Item 1: ")
 item1_price = float(input("Price of item 1: $"))
 item1_quantity = int(input("Quantity of item 1: "))
-item1_total = item1_price * item1_quantity
+item1_total = calculate_item_total(item1_price, item1_quantity)
 
 print(f"Item: {item1_name}")
-print(f"Price: {item1_price}$")
+print(f"Price: {item1_price:.2f}$")
 print(f"Quantity: {item1_quantity}")
 print(f"Total price: {item1_total:.2f}$")
 print("-------------------")
@@ -82,69 +101,119 @@ print("-------------------")
 item2_name = input("Item 2: ")
 item2_price = float(input("Price of item 2: $"))
 item2_quantity = int(input("Quantity of item 2: "))
-item2_total = item2_price * item2_quantity
+item2_total = calculate_item_total(item2_price, item2_quantity)
 
 print(f"Item: {item2_name}")
-print(f"Price: {item2_price}$")
+print(f"Price: {item2_price:.2f}$")
 print(f"Quantity: {item2_quantity}")
 print(f"Total price: {item2_total:.2f}$")
-print("-------------------")
 
-# Item 3
-item3_name = input("Item 3: ")
-item3_price = float(input("Price of item 3: $"))
-item3_quantity = int(input("Quantity of item 3: "))
-item3_total = item3_price * item3_quantity
-
-print(f"Item: {item3_name}")
-print(f"Price: {item3_price}$")
-print(f"Quantity: {item3_quantity}")
-print(f"Total price: {item3_total:.2f}$")
-
-# Calculate total cart price
-total_cart = item1_total + item2_total + item3_total
+# Calculate overall cart total
+total_cart = calculate_overall_total(item1_total, item2_total)
 
 print("########################")
 print(f"Total cart price: {total_cart:.2f}$")
 print("########################")
 ```
 
-**Key Fixes:**
-1. **Separate variables** - Each piece of data gets its own variable name
-2. **Calculate totals** - Multiply price by quantity for each item
-3. **Format currency** - Use `.2f` to show exactly two decimal places
-4. **Complete all sections** - All three items have full input, calculation, and output
-5. **Sum the cart** - Add all item totals for final cart price
+**What Makes This Pass:**
+
+✅ **Two functions implemented** - `calculate_item_total()` and `calculate_overall_total()`  
+✅ **Descriptive prompts** - Users know what to enter  
+✅ **Proper formatting** - All prices show 2 decimals with `.2f`  
+✅ **Exactly 2 items** - Follows spec requirement  
+✅ **Separate variables** - Each data point has its own variable  
+✅ **Complete calculations** - Multiplies price × quantity correctly  
+✅ **Clean, organized code** - Easy to read and understand
 
 ---
 
-## Concepts Applied
+## 📚 Concepts Applied (Lessons Referenced)
 
-This exercise uses:
+### From Lesson 1: Printing and Comments
+- `print()` for output display
+- F-strings for formatted text: `f"Item: {item1_name}"`
+- String repetition: `"#" * 24` for separators
 
-✅ **Variables** - Storing different types of data (Lesson 2)  
-✅ **Type conversion** - `float()` and `int()` for user input (Lesson 9)  
-✅ **User input** - `input()` to get data from user (Lesson 9)  
-✅ **Expressions** - `price * quantity` for calculations (Lesson 3)  
-✅ **F-strings** - `f"{variable:.2f}"` for formatted output (Lesson 1, 8)  
-✅ **Rounding/Formatting** - `.2f` for money display (Lesson 8)  
-✅ **String repetition** - `"#" * 24` for visual separators (Lesson 1)
+### From Lesson 2: Variables, Types, and String Essentials
+- Variables for storing data: `item1_name`, `item1_price`, `item1_quantity`
+- Different data types: strings (`str`), decimals (`float`), integers (`int`)
+- Type checking with `type()` when debugging
+
+### From Lesson 3: Expressions and Operator Precedence
+- Mathematical expressions: `price * quantity`
+- Operator precedence in calculations
+
+### From Lesson 8: Rounding and Money Format
+- Currency formatting: `.2f` displays exactly 2 decimal places
+- Difference between `round()` and formatted display
+
+### From Lesson 9: Getting Input from Users
+- `input()` function for user interaction
+- Type conversion: `float(input())` and `int(input())`
+- Descriptive prompts for user guidance
+
+### From Lesson 10: Functions I
+- **Function definition:** `def calculate_item_total(price, quantity):`
+- **Parameters:** Values passed into functions
+- **Return values:** Functions send back calculated results
+- **Function calls:** Using functions to avoid code repetition
 
 ---
 
-## Additional Practice Problems
+## 🎓 Grader Feedback Analysis
 
-Test your Week 1 knowledge with these similar exercises. Try to solve them in LazyVim or your IDE without looking at the solutions first.
+### ✅ Strengths (What You Did Right)
+- Uses two clear functions for item and overall totals
+- Captures all required inputs and prints every receipt element
+- Displays prices and totals with two decimal places
+- Code is clean and easy to read
 
-### Practice 1: Restaurant Bill Calculator
+### 💡 Areas for Improvement (For Next Time)
+- Align columns more neatly for a professional receipt
+- Consider grouping the two item printouts in a reusable function to avoid repetition
+
+**Advanced Improvement Example:**
+```python
+def print_item_receipt(name, price, quantity, total):
+    """Reusable function to print item details"""
+    print(f"Item: {name}")
+    print(f"Price: {price:.2f}$")
+    print(f"Quantity: {quantity}")
+    print(f"Total price: {total:.2f}$")
+    print("-------------------")
+
+# Then call it for each item:
+print_item_receipt(item1_name, item1_price, item1_quantity, item1_total)
+print_item_receipt(item2_name, item2_price, item2_quantity, item2_total)
+```
+
+---
+
+## 🔧 Additional Practice Problems
+
+Practice the same concepts with different scenarios. Each problem includes:
+- Clear requirements
+- Lesson hints to guide you
+- Example output
+- Complete solution (try first before looking!)
+
+### Practice 1: Restaurant Bill with Functions
 
 **Problem:**  
-Create a program that calculates a restaurant bill with tax and tip.
+Calculate a restaurant bill with tax and tip using functions.
+
+**📖 Lesson Hints:**
+- **Lesson 10:** Use functions to calculate tax and tip separately
+- **Lesson 8:** Format all currency to 2 decimals
+- **Lesson 3:** Remember operator precedence for calculations
 
 **Requirements:**
+- Create a function `calculate_tax(amount, rate)` that returns tax
+- Create a function `calculate_tip(amount, rate)` that returns tip
 - Get meal cost from user
 - Calculate 8.5% tax
-- Calculate 18% tip (on subtotal before tax)
+- Calculate 18% tip (on original amount, before tax)
 - Display: subtotal, tax, tip, and total
 
 **Example Output:**
@@ -159,20 +228,32 @@ Total: $56.93
 ```
 
 <details>
-<summary>Solution</summary>
+<summary>💡 Solution</summary>
 
 ```python
-# Restaurant Bill Calculator
+# Restaurant Bill Calculator with Functions
 
+def calculate_tax(amount, rate):
+    """Calculate tax based on amount and rate"""
+    return amount * rate
+
+def calculate_tip(amount, rate):
+    """Calculate tip based on amount and rate"""
+    return amount * rate
+
+# Get input
 meal_cost = float(input("Enter meal cost: $"))
 
+# Define rates
 tax_rate = 0.085
 tip_rate = 0.18
 
-tax = meal_cost * tax_rate
-tip = meal_cost * tip_rate
+# Calculate using functions
+tax = calculate_tax(meal_cost, tax_rate)
+tip = calculate_tip(meal_cost, tip_rate)
 total = meal_cost + tax + tip
 
+# Display receipt
 print("-------------------")
 print(f"Subtotal: ${meal_cost:.2f}")
 print(f"Tax (8.5%): ${tax:.2f}")
@@ -185,18 +266,24 @@ print(f"Total: ${total:.2f}")
 
 ---
 
-### Practice 2: Shipping Cost Calculator
+### Practice 2: Shipping Calculator with Functions
 
 **Problem:**  
-Calculate shipping cost based on package weight and distance.
+Calculate shipping cost with multiple components using functions.
+
+**📖 Lesson Hints:**
+- **Lesson 10:** Break calculations into separate functions
+- **Lesson 3:** Use expressions to combine base rate + charges
+- **Lesson 1:** Use string repetition for visual separators
 
 **Requirements:**
-- Get package weight (in lbs) from user
-- Get shipping distance (in miles) from user
-- Base rate: $5.00
+- Create `calculate_weight_charge(weight, rate)` function
+- Create `calculate_distance_charge(distance, rate)` function
+- Base rate: $5.00 (constant)
 - Per pound: $0.50
 - Per mile: $0.10
-- Display: base rate, weight charge, distance charge, total
+- Get weight and distance from user
+- Display all components and total
 
 **Example Output:**
 ```
@@ -211,22 +298,34 @@ Total shipping: $26.00
 ```
 
 <details>
-<summary>Solution</summary>
+<summary>💡 Solution</summary>
 
 ```python
-# Shipping Cost Calculator
+# Shipping Cost Calculator with Functions
 
+def calculate_weight_charge(weight, rate):
+    """Calculate charge based on weight"""
+    return weight * rate
+
+def calculate_distance_charge(distance, rate):
+    """Calculate charge based on distance"""
+    return distance * rate
+
+# Get input
 weight = float(input("Package weight (lbs): "))
 distance = float(input("Shipping distance (miles): "))
 
+# Define rates
 base_rate = 5.00
 per_pound = 0.50
 per_mile = 0.10
 
-weight_charge = weight * per_pound
-distance_charge = distance * per_mile
+# Calculate using functions
+weight_charge = calculate_weight_charge(weight, per_pound)
+distance_charge = calculate_distance_charge(distance, per_mile)
 total = base_rate + weight_charge + distance_charge
 
+# Display breakdown
 print("=" * 24)
 print(f"Base rate: ${base_rate:.2f}")
 print(f"Weight charge: ${weight_charge:.2f}")
@@ -239,16 +338,24 @@ print(f"Total shipping: ${total:.2f}")
 
 ---
 
-### Practice 3: Event Ticket Sales
+### Practice 3: Movie Ticket Sales with Functions
 
 **Problem:**  
-Calculate total revenue from ticket sales for an event with multiple ticket types.
+Calculate ticket sales for different customer types using functions.
+
+**📖 Lesson Hints:**
+- **Lesson 10:** One function can be reused for different ticket types
+- **Lesson 2:** Use descriptive variable names for each ticket type
+- **Lesson 8:** Format all currency consistently
 
 **Requirements:**
-- Get number of adult tickets sold (price: $25.00 each)
-- Get number of child tickets sold (price: $15.00 each)
-- Get number of senior tickets sold (price: $20.00 each)
-- Display: each ticket type with quantity and subtotal, then grand total
+- Create `calculate_ticket_revenue(quantity, price)` function
+- Create `calculate_total_revenue(adult_rev, child_rev, senior_rev)` function
+- Adult tickets: $25.00 each
+- Child tickets: $15.00 each
+- Senior tickets: $20.00 each
+- Get quantities sold for each type
+- Display breakdown and grand total
 
 **Example Output:**
 ```
@@ -264,29 +371,40 @@ Total revenue: $1725.00
 ```
 
 <details>
-<summary>Solution</summary>
+<summary>💡 Solution</summary>
 
 ```python
-# Event Ticket Sales Calculator
+# Movie Ticket Sales Calculator with Functions
 
+def calculate_ticket_revenue(quantity, price):
+    """Calculate revenue for one ticket type"""
+    return quantity * price
+
+def calculate_total_revenue(adult_rev, child_rev, senior_rev):
+    """Calculate total revenue from all ticket types"""
+    return adult_rev + child_rev + senior_rev
+
+# Get input
 adult_qty = int(input("Adult tickets sold: "))
 child_qty = int(input("Child tickets sold: "))
 senior_qty = int(input("Senior tickets sold: "))
 
+# Define prices
 adult_price = 25.00
 child_price = 15.00
 senior_price = 20.00
 
-adult_total = adult_qty * adult_price
-child_total = child_qty * child_price
-senior_total = senior_qty * senior_price
+# Calculate using functions
+adult_revenue = calculate_ticket_revenue(adult_qty, adult_price)
+child_revenue = calculate_ticket_revenue(child_qty, child_price)
+senior_revenue = calculate_ticket_revenue(senior_qty, senior_price)
+total_revenue = calculate_total_revenue(adult_revenue, child_revenue, senior_revenue)
 
-total_revenue = adult_total + child_total + senior_total
-
+# Display results
 print("=" * 24)
-print(f"Adult tickets: {adult_qty} x ${adult_price:.2f} = ${adult_total:.2f}")
-print(f"Child tickets: {child_qty} x ${child_price:.2f} = ${child_total:.2f}")
-print(f"Senior tickets: {senior_qty} x ${senior_price:.2f} = ${senior_total:.2f}")
+print(f"Adult tickets: {adult_qty} x ${adult_price:.2f} = ${adult_revenue:.2f}")
+print(f"Child tickets: {child_qty} x ${child_price:.2f} = ${child_revenue:.2f}")
+print(f"Senior tickets: {senior_qty} x ${senior_price:.2f} = ${senior_revenue:.2f}")
 print("=" * 24)
 print(f"Total revenue: ${total_revenue:.2f}")
 ```
@@ -295,24 +413,23 @@ print(f"Total revenue: ${total_revenue:.2f}")
 
 ---
 
-### Practice 4: Grade Calculator
+### Practice 4: Grade Calculator with Functions
 
 **Problem:**  
-Calculate final grade from multiple assignment scores.
+Calculate average grade from multiple assignments using functions.
+
+**📖 Lesson Hints:**
+- **Lesson 10:** Create a function that accepts multiple scores
+- **Lesson 3:** Division for average calculation
+- **Lesson 8:** Round average to 2 decimal places
 
 **Requirements:**
-- Get scores for 3 assignments (out of 100 points each)
-- Calculate average
-- Display: each score, average, and letter grade message
+- Create `calculate_average(score1, score2, score3)` function
+- Get 3 assignment scores from user
+- Calculate and display average
+- Show all individual scores and the computed average
 
-**Grading Scale:**
-- 90-100: A
-- 80-89: B
-- 70-79: C
-- 60-69: D
-- Below 60: F
-
-**Note:** For this week, just display the average. We'll add letter grade logic in future weeks when we learn conditionals.
+**Note:** Letter grades will come in Week 2 when you learn conditionals!
 
 **Example Output:**
 ```
@@ -328,17 +445,24 @@ Average: 88.33
 ```
 
 <details>
-<summary>Solution</summary>
+<summary>💡 Solution</summary>
 
 ```python
-# Grade Calculator
+# Grade Calculator with Functions
 
+def calculate_average(score1, score2, score3):
+    """Calculate average of three scores"""
+    return (score1 + score2 + score3) / 3
+
+# Get input
 assignment1 = float(input("Assignment 1 score: "))
 assignment2 = float(input("Assignment 2 score: "))
 assignment3 = float(input("Assignment 3 score: "))
 
-average = (assignment1 + assignment2 + assignment3) / 3
+# Calculate using function
+average = calculate_average(assignment1, assignment2, assignment3)
 
+# Display results
 print("=" * 24)
 print(f"Assignment 1: {assignment1:.0f}")
 print(f"Assignment 2: {assignment2:.0f}")
@@ -351,18 +475,22 @@ print(f"Average: {average:.2f}")
 
 ---
 
-### Practice 5: Fuel Cost Calculator
+### Practice 5: Road Trip Fuel Cost with Functions
 
 **Problem:**  
-Calculate the cost of a road trip based on distance, fuel efficiency, and gas price.
+Calculate fuel cost for a road trip using functions.
+
+**📖 Lesson Hints:**
+- **Lesson 10:** Separate functions for gallons needed and total cost
+- **Lesson 6:** Division for calculating gallons
+- **Lesson 8:** Format fuel cost to 2 decimals
 
 **Requirements:**
-- Get trip distance (miles) from user
-- Get car's fuel efficiency (miles per gallon) from user
-- Get current gas price (per gallon) from user
-- Calculate gallons needed
-- Calculate total fuel cost
-- Display: distance, MPG, gallons needed, cost per gallon, total cost
+- Create `calculate_gallons_needed(distance, mpg)` function
+- Create `calculate_fuel_cost(gallons, price_per_gallon)` function
+- Get trip distance, car MPG, and gas price from user
+- Calculate gallons needed and total cost
+- Display all information in organized format
 
 **Example Output:**
 ```
@@ -379,18 +507,29 @@ Total fuel cost: $60.27
 ```
 
 <details>
-<summary>Solution</summary>
+<summary>💡 Solution</summary>
 
 ```python
-# Fuel Cost Calculator
+# Road Trip Fuel Cost Calculator with Functions
 
+def calculate_gallons_needed(distance, mpg):
+    """Calculate gallons needed for trip"""
+    return distance / mpg
+
+def calculate_fuel_cost(gallons, price_per_gallon):
+    """Calculate total fuel cost"""
+    return gallons * price_per_gallon
+
+# Get input
 distance = float(input("Trip distance (miles): "))
 mpg = float(input("Fuel efficiency (MPG): "))
 gas_price = float(input("Gas price per gallon: $"))
 
-gallons_needed = distance / mpg
-total_cost = gallons_needed * gas_price
+# Calculate using functions
+gallons_needed = calculate_gallons_needed(distance, mpg)
+total_cost = calculate_fuel_cost(gallons_needed, gas_price)
 
+# Display results
 print("=" * 24)
 print(f"Trip distance: {distance:.0f} miles")
 print(f"Fuel efficiency: {mpg:.0f} MPG")
@@ -404,77 +543,115 @@ print(f"Total fuel cost: ${total_cost:.2f}")
 
 ---
 
-## Testing Your Understanding
+## 🎯 Self-Assessment Checklist
 
-Before moving to Week 2, make sure you can:
+Before moving to Week 2, verify you can:
 
-- [ ] Create variables with meaningful names for different data types
-- [ ] Use `input()` to get data from users
-- [ ] Convert input strings to numbers with `int()` and `float()`
-- [ ] Perform calculations using expressions with correct operator precedence
-- [ ] Format currency output with `.2f` in f-strings
-- [ ] Print organized output with visual separators
-- [ ] Debug common errors like variable overwriting and type mismatches
+**Functions (Lesson 10):**
+- [ ] Define functions with `def function_name(parameters):`
+- [ ] Use `return` to send values back from functions
+- [ ] Call functions and use their returned values
+- [ ] Create functions that accept multiple parameters
 
-**Challenge:** Can you modify the cafe receipt to handle 5 items instead of 3? Try it without looking at the solution!
+**Variables & Types (Lesson 2):**
+- [ ] Create variables with meaningful, descriptive names
+- [ ] Understand the three core types: `int`, `float`, `str`
+- [ ] Avoid variable name reuse/overwriting
+
+**User Input (Lesson 9):**
+- [ ] Use `input()` with descriptive prompts
+- [ ] Convert strings to numbers with `int()` and `float()`
+- [ ] Handle different data types appropriately
+
+**Calculations (Lesson 3):**
+- [ ] Write expressions with correct operator precedence
+- [ ] Use parentheses to control evaluation order
+- [ ] Multiply, divide, add, and subtract correctly
+
+**Formatting (Lessons 1, 8):**
+- [ ] Format currency with `.2f` in f-strings
+- [ ] Use f-strings for variable interpolation: `f"text {variable}"`
+- [ ] Create visual separators with string repetition
+
+**Debugging:**
+- [ ] Identify and fix variable overwriting issues
+- [ ] Recognize type conversion errors
+- [ ] Debug missing calculations or incomplete code
 
 ---
 
-## Common Mistakes to Avoid
+## ⚠️ Common Mistakes Reference
 
-**Mistake 1: Reusing Variable Names**
+### Mistake 1: Variable Overwriting
 ```python
-# Bad
+# ❌ Bad: Each assignment erases the previous value
 item = input("Item name: ")
 item = float(input("Price: "))  # Lost the name!
+item = int(input("Quantity: "))  # Lost the price!
 
-# Good
+# ✅ Good: Separate variables for each piece of data
 item_name = input("Item name: ")
 item_price = float(input("Price: "))
+item_quantity = int(input("Quantity: "))
 ```
 
-**Mistake 2: Forgetting to Convert Input**
+### Mistake 2: Missing Type Conversion
 ```python
-# Bad
-price = input("Price: ")  # This is a string!
-total = price * 2  # TypeError or wrong result
+# ❌ Bad: Input is always a string
+price = input("Price: ")
+total = price * 2  # TypeError or wrong result!
 
-# Good
-price = float(input("Price: "))  # Convert to number
+# ✅ Good: Convert to appropriate numeric type
+price = float(input("Price: "))
 total = price * 2
 ```
 
-**Mistake 3: Incorrect Operator Precedence**
+### Mistake 3: No Functions When Required
 ```python
-# Bad
-total = price + tax * quantity  # Tax applied to quantity only
+# ❌ Bad: Inline calculations (when spec requires functions)
+item1_total = item1_price * item1_quantity
+total_cart = item1_total + item2_total
 
-# Good
-total = (price + tax) * quantity  # Tax added to price first
+# ✅ Good: Use functions as required
+def calculate_item_total(price, quantity):
+    return price * quantity
+
+item1_total = calculate_item_total(item1_price, item1_quantity)
 ```
 
-**Mistake 4: Missing Currency Formatting**
+### Mistake 4: Missing Currency Formatting
 ```python
-# Bad
-print(f"Total: ${total}")  # Might show: Total: $16.3333333
+# ❌ Bad: Inconsistent decimal places
+print(f"Price: {price}$")  # Might show: 1.5$ or 1.333333$
 
-# Good
-print(f"Total: ${total:.2f}")  # Shows: Total: $16.33
+# ✅ Good: Always 2 decimals for currency
+print(f"Price: {price:.2f}$")  # Shows: 1.50$ or 1.33$
+```
+
+### Mistake 5: Wrong Number of Items
+```python
+# ❌ Bad: 3 items when spec says 2
+# (Processing item1, item2, AND item3)
+
+# ✅ Good: Follow spec exactly
+# (Only process item1 and item2)
 ```
 
 ---
 
-## What's Next?
+## 🚀 Next Steps
 
-Once you complete the cafe receipt and at least 3 of the practice problems:
+**You've completed Week 1!** Here's what to do next:
 
-1. Test each program multiple times with different inputs
-2. Make sure output formatting matches the examples
-3. Save your working solutions
-4. Move on to Week 2 with confidence
+1. ✅ **Review your passing solution** - Make sure you understand every line
+2. 📝 **Complete at least 3 practice problems** - Build muscle memory
+3. 🔄 **Try variations** - What if there were 4 items? Different calculations?
+4. 🎓 **Reflect on feedback** - Consider the "areas for improvement" suggestions
+5. ➡️ **Move to Week 2** - You're ready for the next challenge!
 
-**Remember:** These fundamentals are the building blocks for everything else in Python. Take time to master them now!
+**Pro Tip:** The concepts you learned this week (variables, functions, input, formatting) are the foundation of EVERYTHING in programming. Time spent mastering them now saves hours of confusion later.
 
 ---
 
+**Grade:** PASSED ✅ (+30 points)  
 **Last Updated:** October 25, 2025

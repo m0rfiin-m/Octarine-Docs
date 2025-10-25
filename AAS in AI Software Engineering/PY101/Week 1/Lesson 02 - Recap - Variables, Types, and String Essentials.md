@@ -369,7 +369,7 @@ print(f"GPA: {student_gpa}")
 
 # Output:
 # Student: Marco
-# Name: 25
+# Age: 25
 # GPA: 3.85
 ```
 

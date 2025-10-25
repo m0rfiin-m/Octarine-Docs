@@ -11,14 +11,10 @@
             "id": "d81fb22079b79787",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Rounding and Money Format"
+              "title": "New tab"
             }
           }
         ]
@@ -200,8 +196,26 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d81fb22079b79787",
+  "active": "65532c1b5a62d5fd",
   "lastOpenFiles": [
+    "AAS in AI Software Engineering/PY101/Week 1/Division Modes Quotient and Remainder.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Expressions and Operator Precedence.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Functions I - Why, Define, and Call.md",
+    "Claude Memory Bank/Templates/PY101 Lesson Enhancement Template.md",
+    "Claude Memory Bank/Templates",
+    "AAS in AI Software Engineering/PY101/Week 1/Functions II - Inside the Function.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Functions III - return vs print and Early Return.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Introduction to Debugging.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Rounding and Money Format.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Python Errors - Meet the Traceback.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Modulo in Practice Parity Cycles Positions.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Scope and Local Variables in Python.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Talking to Your Program Getting Input from Users.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Updating Values and Printing Expression.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Modeling Real World Calculations.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Lesson 02 - Recap - Variables, Types, and String Essentials.md",
+    "AAS in AI Software Engineering/PY101/Week 1/Lesson 01 - Recap - Printing and Comments.md",
+    "AAS in AI Software Engineering/PY101/Week 1",
     "AAS in AI Software Engineering/PY101/Lesson 02 - Recap - Variables, Types, and String Essentials.md",
     "AAS in AI Software Engineering/PY101/Python Errors - Meet the Traceback.md",
     "AAS in AI Software Engineering/PY101/Modulo in Practice Parity Cycles Positions.md",
@@ -212,14 +226,6 @@
     "AAS in AI Software Engineering/PY101/Functions III - return vs print and Early Return.md",
     "AAS in AI Software Engineering/PY101/Introduction to Debugging.md",
     "AAS in AI Software Engineering/PY101/Updating Values and Printing Expression.md",
-    "AAS in AI Software Engineering/PY101/Scope and Local Variables in Python.md",
-    "AAS in AI Software Engineering/PY101/Rounding and Money Format.md",
-    "AAS in AI Software Engineering/PY101/Recap - variables, types, and strings essentials.md",
-    "AAS in AI Software Engineering/PY101/Talking to Your Program Getting Input from Users.md",
-    "AAS in AI Software Engineering/PY101/Expressions and Operator Precedence.md",
-    "AAS in AI Software Engineering/PY101/Division Modes Quotient and Remainder.md",
-    "AAS in AI Software Engineering/PY101/Recap- Printing and Comments.md",
-    "conflict-files-obsidian-git.md",
     "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
     "Claude Memory Bank/PDF/What is a payment gateway, Instamojo.pdf",
     "Claude Memory Bank/PDF/x86-64-Assembly-Language-Programming-with-Ubuntu.pdf",
@@ -228,16 +234,6 @@
     "Claude Memory Bank/PDF/The-Undergraduate-Guide-to-R-Trevor-Martin.pdf",
     "Claude Memory Bank/PDF/The-Swift-Programming-Language-Swift-5.7-Apple-Inc.pdf",
     "Claude Memory Bank/PDF/The-Missing-Link.-An-Introduction-to-Web-Development-and-Programming-Michael-Mendez.pdf",
-    "Claude Memory Bank/PDF/Swift-Notes-for-Professionals-GoalKicker.pdf",
-    "Claude Memory Bank/PDF/Structure-and-Interpretation-of-Computer-Programs-JavaScript-Edition-Harold-Abelson-and-Gerald-Jay-Sussman.pdf",
-    "Claude Memory Bank/Windows System Management.md",
-    "Claude Memory Bank/Technical Setup.md",
-    "Claude Memory Bank/System Maintenance.md",
-    "Claude Memory Bank/Rube Integration.md",
-    "Claude Memory Bank/Resume Development.md",
-    "Claude Memory Bank/PC Building & Hardware.md",
-    "Claude Memory Bank/Omarchy Linux WFH Audio & Video Setup.md",
-    "Claude Memory Bank/Obsidian Vault Management.md",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_tree.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_react.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_mountain.svg",

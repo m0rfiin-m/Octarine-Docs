@@ -30,9 +30,10 @@ University of Science & Technology
 ## MISSION
 
 - M1: To solve free higher education, I want to make enough money to create a
+University similar to Tom Holland where he and other spon
+- M2:  To solve free higher education, I want to make enough money to create a
 University similar to Tom Holland where he and other sponsors will be covering
 the cost.
-- M2: 
 
 ## NARRATIVES
 

@@ -24,19 +24,15 @@ University of Science & Technology
 
 ## PROBLEMS
 
-- P1: A problem I would like to solve is the lack of jobs for people after
-getting their Bachelors Degree.
-- P2: The lack of free higher education and healthcare for American citizens,
-but the rest of the world has it.
+- P1: Unable to figure out of coding is meant for me.  I have a great interest in coding but feel AI has made things so easy that I do not learn. 
+- P2: The lack of free higher education in America. 
 
 ## MISSION
 
 - M1: To solve free higher education, I want to make enough money to create a
 University similar to Tom Holland where he and other sponsors will be covering
 the cost.
-- M2: For free healthcare I would like to have better laws in place that change
-the healthcare system in America. Although capitalism is the heart of America
-there should be ways to make lives easier for fellow Americans.
+- M2: 
 
 ## NARRATIVES
 

@@ -1,130 +1,92 @@
-# Welcome to Mastery - PDL Course
+# Welcome to Mastery: Personal Development & Leadership
 
-*Source: 0_1_Welcome_To_Mastery__Personal_Development__Leadership__Content__Classes___FSO.pdf*
+**Date:** October 27, 2025  
+**Course:** MDL 501 - Mastery: Personal Development and Leadership  
+**Module:** 0.1 - Course Introduction
+
+## Course Overview
+
+This course allows you to map your own path toward achievement by providing a holistic understanding of success, personal motivation, resiliency, and intellectual commitment. Through historical and contemporary case studies, you'll explore the psychology and strategy behind lifelong learning and personal fulfillment.
 
 ---
 
-## Page 1
+## Your Instructor
 
-START HERE FOR SUCCESS: IMPORTANT COURSE INFORMATION
-0.1 Welcome To Mastery: Personal Development
-& Leadership
-Due Sun, Nov 23, 2025 @ 11:59 PM EST • 0% weight
-ASSIGNMENT ACTIVITY
-10/27/25, 10:45 AM 0.1 Welcome To Mastery: Personal Development & Leadership - Content - Classes – FSO
-https://online.fullsail.edu/class_sections/274787/modules/913370/activities/5226020 1/6
+**Name:** Dr. Dan Spellman  
+**Title:** Course Director, Entertainment Business Master's Program  
+**Email:** dspellman@fullsail.com  
+**Phone:** 407-739-5080  
+**Office:** Full Sail University, Building 4D
 
-*[Image: Page 1]*
+### Communication Guidelines
 
-## Page 2
+**Primary Contact Method:** LMS messaging  
+**Response Time:** 24-48 hours  
+**Zoom Sessions:** Available by appointment
 
-About Your Instructor |Dr. Dan Spellman | Course Director
-Entertainment Business Master's Program | Full Sail University
-Instructor Contact Information
-Please review every section in every module during the course, then mark to "complete" each,
-indicating your review and understanding. It is imperative that you thoroughly review all
-sections and modules to gain an understanding of the concepts for application in real-world
-settings.
-Name: Dr. Dan Spellman
-Main Method of Communication: Phone- 407- 739-5080
-Email: dspellman@fullsail.com
-Office Building: Full Sail University, 4D
-About Contacting Your Instructor
-0:00 / 1:46 1X
-10/27/25, 10:45 AM 0.1 Welcome To Mastery: Personal Development & Leadership - Content - Classes – FSO
-https://online.fullsail.edu/class_sections/274787/modules/913370/activities/5226020 2/6
+When messaging your instructor:
+- Clearly state which assignment you're referring to
+- Specify the problem or question
+- Include relevant details to help get better assistance
 
-*[Image: Page 2]*
+---
 
-## Page 3
+## Important Course Information
 
-If after reading the instructions carefully, and you still have questions, please message me in
-the LMS, and in your message, make sure that you state which assignment you are referring to.
-In your message, make sure that you specify the problem to allow me to better assist you.
-The best method to reach me is through the LMS; however, a Zoom session can be scheduled if
-needed.
-Note: Messages are generally answered within 24-48 hours.
-TIP: This is not a course that you can complete only on the weekends. This is a writing course,
-and it takes a lot of time to brainstorm in addition to the time to complete the assignment.
-Various Professors for Weekly Lectures
-In the Mastery and Personal Development course, we have various Course Directors who
-facilitate (teach) the weekly Zoom meetings on various dates and times. Please check the
-Meetings tab in the LMS for more details regarding the date and times for each weekly lecture.
-Plagiarism
-We want to encourage you to practice citing sources with your discussion post and
-additional assignments. If you use AI for assistance, make sure to share the link in your
-references section or on the references page; otherwise, it is considered academic
-plagiarism to use the writing of AI and pass it off as your own.
-Textbook Information
-Core Textbook: Mastery by Robert Greene
-The book for this course is Mastery by Robert Greene. You should have received a message in
-your Full Sail e-mail account that gives you directions on how to download the book. Please
-check your Full Sail e-mail account to make certain that you received the book.
-If you did not receive your book, please contact technicalsupport@fullsail.edu as soon as
-possible so you will not fall behind in the course.
-10/27/25, 10:45 AM 0.1 Welcome To Mastery: Personal Development & Leadership - Content - Classes – FSO
-https://online.fullsail.edu/class_sections/274787/modules/913370/activities/5226020 3/6
+### ⚠️ Critical Notes
 
-*[Image: Page 3]*
+**Workload:** This is NOT a weekend-only course. Writing assignments require significant brainstorming time beyond completion time.
 
-## Page 4
+**Live Sessions:** Various Course Directors facilitate weekly Zoom meetings. Check the Meetings tab for dates and times.
 
-Entrepreneurs Who Changed History by DK Publishing
-This book is accessible through your O'Reilly Online Learning account. You can log into O'Reilly
-Online Learning through the Library page in Full Sail One.
-Entrepreneurs on O'Reilly: https://learning.oreilly.com/library/view/entrepreneurs-who
-changed/9780744036114/
-Stretch by Barbara Mistick; Karie Willyerd; Joseph Grenny
-This book is accessible through your O'Reilly Online Learning account. You can log into O'Reilly
-Online Learning through the Library page in Full Sail One.
-Stretch on O'Reilly: https://learning.oreilly.com/library/view/stretch/9781119087250/
-Design Thinking for Strategic Innovation by Idris Mootee
-This book is accessible through your O'Reilly Online Learning account. You can log into O'Reilly
-Online Learning through the Library page in Full Sail One.
-Design Thinking on O'Reilly: https://learning.oreilly.com/library/view/design-thinking
-for/9781118748688/
-Resources
-Resources for the Mastery Course are available for download below.
-Mastery Course Syllabus
-Mastery Course At-A-Glance
-APA Formatted Sample Template
-PDL-O_Syllabus.pdf
-772 KB
-MDL_Course_at_a_GlanceO-2-2.pd... .pdf
-115 KB
-10/27/25, 10:45 AM 0.1 Welcome To Mastery: Personal Development & Leadership - Content - Classes – FSO
-https://online.fullsail.edu/class_sections/274787/modules/913370/activities/5226020 4/6
+**Plagiarism Policy:** If you use AI for assistance, you MUST cite it in your references. Failing to do so is considered academic plagiarism.
 
-*[Image: Page 4]*
+---
 
-## Page 5
+## Required Textbooks
 
-CurrentAPA_Template_7th.docx
-21 KB
-Files
-Here are all of the files the instructor has uploaded for you.
-PDL-O_Syllabus.pdf
-772 KB
-MDL_Course_at_a_GlanceO-2-2.pd... .pdf
-115 KB
-CurrentAPA_Template_7th.docx
-21 KB
-Completion
-Click on the button below if you have completed this assignment.
-Feedback
-Send a comment or question to your instructor.
-Your comment or question to Daniel Spellman
-MARK AS COMPLETED
-10/27/25, 10:45 AM 0.1 Welcome To Mastery: Personal Development & Leadership - Content - Classes – FSO
-https://online.fullsail.edu/class_sections/274787/modules/913370/activities/5226020 5/6
+### Core Textbook
 
-*[Image: Page 5]*
+**Mastery** by Robert Greene
 
-## Page 6
+You should have received download instructions via your Full Sail email. If not, contact technicalsupport@fullsail.edu immediately.
 
-UP NEXT
-0.2 Professionalism: Global Professionalism Standards
-10/27/25, 10:45 AM 0.1 Welcome To Mastery: Personal Development & Leadership - Content - Classes – FSO
-https://online.fullsail.edu/class_sections/274787/modules/913370/activities/5226020 6/6
+### Additional Reading (via O'Reilly Online Learning)
 
-*[Image: Page 6]*
+Access through Library page in Full Sail One:
+
+1. **Entrepreneurs Who Changed History** by DK Publishing  
+   [View on O'Reilly](https://learning.oreilly.com/library/view/entrepreneurs-who-changed/9780744036114/)
+
+2. **Stretch** by Barbara Mistick, Karie Willyerd, Joseph Grenny  
+   [View on O'Reilly](https://learning.oreilly.com/library/view/stretch/9781119087250/)
+
+3. **Design Thinking for Strategic Innovation** by Idris Mootee  
+   [View on O'Reilly](https://learning.oreilly.com/library/view/design-thinking-for/9781118748688/)
+
+---
+
+## Course Resources
+
+The following resources are available for download in the LMS:
+
+📄 **PDL-O Course Syllabus** (772 KB)  
+📄 **Mastery Course At-A-Glance** (115 KB)  
+📄 **APA Formatted Sample Template** (21 KB)
+
+---
+
+## Key Takeaways
+
+✅ **This course requires consistent effort** - Plan time throughout the week, not just weekends  
+✅ **Multiple instructors available** - Check the Meetings tab for weekly Zoom sessions  
+✅ **Cite AI assistance** - Always include links in your references when using AI tools  
+✅ **Access all textbooks early** - Contact support immediately if you have access issues  
+✅ **Use available resources** - Download syllabus, templates, and course guides
+
+**Remember:** This course is the foundation for your entire mastery journey. The habits and frameworks you develop here will serve you throughout your graduate program and beyond.
+
+---
+
+**Last Updated:** October 27, 2025  
+**Due Date:** November 23, 2025 @ 11:59 PM EST

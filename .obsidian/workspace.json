@@ -11,10 +11,14 @@
             "id": "d81fb22079b79787",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Writing Examples.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Writing Examples"
             }
           }
         ]
@@ -92,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 302,
+    "collapsed": true
   },
   "right": {
     "id": "eb59704d632174e1",
@@ -196,8 +201,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "65532c1b5a62d5fd",
+  "active": "d81fb22079b79787",
   "lastOpenFiles": [
+    "Writing Examples.md",
     "Personal Development and Leadership/Graduate Level Resources.md",
     "Personal Development and Leadership/Discussion 1.2 - Grit & Ambition.md",
     "Personal Development and Leadership/Disscussion 1.2.md",
@@ -226,7 +232,6 @@
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 05 - Modeling Real World Calculations.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 04 - Updating Values and Printing Expression.md",
     "Claude Memory Bank/Templates/PY101 Renaming Status.md",
-    "AAS in AI Software Engineering/PY101/Week 1/Lesson 03 - Expressions and Operator Precedence.md",
     "Claude Memory Bank/Templates",
     "AAS in AI Software Engineering/PY101/Week 1",
     "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",

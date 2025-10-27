@@ -4,17 +4,16 @@ WEEK 1: FINDING YOUR LIFE'S CALLING
 ```
 # 1.2 Discussion Activity: Grit & Ambition
 
-```
+
 Next Due Wed, Oct 29, 2025 @ 11:59 PM EDT• 5 % weight
 ASSIGNMENT ACTIVITY
-```
 ## Objectives
 
-```
+
 Interpret the concepts from the reading in Stretch . 
 Demonstrate what "Grit" means through the presentation by Angela Duckworth.
 Identify your own Grit and Ambition through self-assessments.
-```
+
 ## Rationale
 
 Discussion of ideas and concepts is a key component to growth and understanding. In these weekly discussions,
@@ -45,20 +44,13 @@ need to first login to the O'Reilly platform via the Full Sail Library). 
     below).
 4. In two to four complete paragraphs, with applicable headings, complete the following post:
 
-```
-0:00 / 6:10 1X
-```
 
-```
-Introduce yourself.  Where are you from? What degree program are you starting? Provide insights about
-yourself regarding your career focus and aspirations.
-Reflect upon your results from the Grit and Ambition Scales.  Determine and describe  three areas where
-you scored the highest and three areas where you scored the lowest. 
-For your strengths from both assessments , reflect on why you think they are so high and describe how
-these might help you on your mastery journey. 
+Introduce yourself.  Where are you from? What degree program are you starting? Provide insights about yourself regarding your career focus and aspirations.
+Reflect upon your results from the Grit and Ambition Scales.  Determine and describe  three areas where you scored the highest and three areas where you scored the lowest. 
+For your strengths from both assessments , reflect on why you think they are so high and describe how these might help you on your mastery journey. 
 For your weaknesses from both assessments , provide reflection points on how you can develop those
 areas. 
-```
+
 5. **Cite in the text (APA) the source** for three (3) concepts from the reading that resonated with your results
     from the Grit and Ambition Scale self-assessments and **explain** why you chose those concepts.
 6. **Reference** the book at the end of your writing.
@@ -86,73 +78,53 @@ Due Sunday before 11:59pm EDT unless otherwise communicated by instructor.
 
 ## Assignment Downloads
 
-```
+
 GritAssessment.pdf
 118 KB
-```
 
-```
+
 AmbitionAssessment.pdf
 67 KB
-```
 #### Files
 
 Here are all of the files the instructor has uploaded for you.
 
-```
 GritAssessment.pdf
 118 KB
+
 AmbitionAssessment.pdf
 67 KB
-```
+
 #### Rubric
 
 Meet grading expectations.
 
-```
+
 Exemplary
 100 - 90 %
-```
-```
+
 Effective
 89 - 80 %
-```
-```
+
 Developing
 79 - 70 %
-```
-```
+
 Beginning
 69 - 60 %
-```
-```
+
 Insufficient
 59 - 0 %
-```
-```
+
 Not Attempted
-```
-```
+
 Individual
 Input & WritingStyle
 20 % weight
-```
-```
-Exemplary - See
-details
-Effective - See
-details
-Developing -
-See details
-Beginning - See
-details
-Insufficient -
-See details
-Not attempted
+
+
 ```
 ### Effective
 
-```
 This category examines what you brought to the table in discussion with your colleagues in response and in compliance
 to the assignment instructions.
 You addressed questions/requirements initially posted by your instructor.
@@ -162,10 +134,6 @@ You used your own language. There may be minor spelling, grammar, punctuation, a
 Your discussion board entries displayed a consistent command of sentence structure, paragraph organization, and
 effective vocabulary with minor errors.
 There was an overall sense of clarity and coherence to your postings.
-```
-
-
-```
 
 ## Completion
 

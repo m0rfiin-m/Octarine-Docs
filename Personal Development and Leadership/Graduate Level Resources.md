@@ -72,8 +72,7 @@ https://online.fullsail.edu/class_sections/274787/modules/913370/activities/5226
 
 ## Page 4
 
-Library Resources for research and writing about
-various cultural content
+Library Resources for research and writing about various cultural content
 From the Full Sail Library:
 A new resource came across featuring articles from British publications covering a plethora of
 genre such as Black Lives Matter: BLM

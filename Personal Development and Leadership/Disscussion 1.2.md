@@ -1,7 +1,4 @@
-
-```
 WEEK 1: FINDING YOUR LIFE'S CALLING
-```
 # 1.2 Discussion Activity: Grit & Ambition
 
 
@@ -121,8 +118,6 @@ Individual
 Input & WritingStyle
 20 % weight
 
-
-```
 ### Effective
 
 This category examines what you brought to the table in discussion with your colleagues in response and in compliance
@@ -139,81 +134,4 @@ There was an overall sense of clarity and coherence to your postings.
 
 **1 post** required by Wed, Oct 29, 2025 @ 11:59 PM EDT and **1 reply** required by Sun, Nov 2, 2025 @ 11:59 PM EST. Self-replies
 do not count towards completion.
-
-```
-Max size 4.0 GB
-```
-```
-GO TO DISCUSSION
-```
-```
-Exemplary
-100 - 90 %
-```
-```
-Effective
-89 - 80 %
-```
-```
-Developing
-79 - 70 %
-```
-```
-Beginning
-69 - 60 %
-```
-```
-Insufficient
-59 - 0 %
-```
-```
-Not Attempted
-CriticalThinking &
-Analysis
-20 % weight
-```
-```
-Exemplary - Seedetails Effective - Seedetails Developing -See details Beginning - Seedetails Insufficient -See details Not attempted
-```
-```
-Sources &Research
-20 % weight
-```
-```
-Exemplary - Seedetails Effective - Seedetails Developing -See details Beginning - Seedetails Insufficient -See details Not attempted
-```
-```
-GroupParticipation &
-Interaction
-40 % weight
-```
-```
-Exemplary - Seedetails Effective - Seedetails Developing -See details Beginning - Seedetails Insufficient -See details Not attempted
-```
-```
-EXPAND
-```
-```
-DETAILS DETAILS DETAILS DETAILS DETAILS
-```
-```
-DETAILS DETAILS DETAILS DETAILS DETAILS
-```
-```
-DETAILS DETAILS DETAILS DETAILS DETAILS
-```
-```
-0 words
-```
-```
-Your post...
-```
-```
-ATTACH FILE(S)
-```
-
-
-
-
-
 

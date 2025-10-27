@@ -11,14 +11,10 @@
             "id": "d81fb22079b79787",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal Development and Leadership/Disscussion 1.2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Disscussion 1.2"
+              "title": "New tab"
             }
           }
         ]
@@ -200,14 +196,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d81fb22079b79787",
+  "active": "65532c1b5a62d5fd",
   "lastOpenFiles": [
     "Personal Development and Leadership/Graduate Level Resources.md",
+    "Personal Development and Leadership/Discussion 1.2 - Grit & Ambition.md",
+    "Personal Development and Leadership/Disscussion 1.2.md",
     "Personal Development and Leadership/Grit Assessment.md",
     "Personal Development and Leadership/In-Text Citation Examples.md",
     "Personal Development and Leadership/Reference Page Examples.md",
     "Personal Development and Leadership/Welcome to Mastery - PDL Course.md",
-    "Personal Development and Leadership/Disscussion 1.2.md",
     "Personal Development and Leadership/Reference Page Example.md",
     "Personal Development and Leadership/Ambition Assessment.md",
     "Personal Development and Leadership/You Have Dreams - Stretch Assignment.md",
@@ -230,7 +227,6 @@
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 04 - Updating Values and Printing Expression.md",
     "Claude Memory Bank/Templates/PY101 Renaming Status.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 03 - Expressions and Operator Precedence.md",
-    "Claude Memory Bank/Templates/PY101 Lesson Enhancement Template.md",
     "Claude Memory Bank/Templates",
     "AAS in AI Software Engineering/PY101/Week 1",
     "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",

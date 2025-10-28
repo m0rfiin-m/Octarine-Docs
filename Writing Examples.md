@@ -17,7 +17,13 @@ Fixed Mindset is believing that abilities are fixed traits while Growth Mindset 
 
 My ambition score was a 3.00. I currently have the foundation for pursing challenges and goals but can work on following a Growth Mindset. (Mistick et aI.)  In order to be ambitious it is important to reject the fixed mindset.  The belief that ambitions are static in favor of growth, where setbacks are valuable feedback rather than personal shortcomings. By viewing failure as an invitation to seek advice and try new strategies, you can further elevate your Ambition and ensure continued development toward long-term mastery (Mistick et al.).
 
-Finding Meaning in the work is a redefinition of success 
+Finding Meaning in the work is a redefinition of success as looking for meaning in the work rather than just attaining status spoke with both my Grit and Ambition scores (Mistick et al.). By connecting day to day efforts to a bigger purpose, I will remain engaged and resilient, especially during hard or overwhelming periods within my time. 
+
+
+
+# Reference
+
+Mistick, B., Willyerd, K., & Grenny, J. (n.d.). Stretch: How to future-proof yourself for tomorrow's job market. Wiley. Retrieved from [https://learning.oreilly.com/library/view/stretch/9781119087250/](https://learning.oreilly.com/library/view/stretch/9781119087250/)​
 
 
 

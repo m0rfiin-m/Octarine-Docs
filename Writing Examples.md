@@ -12,8 +12,10 @@ I also carried a strong determination in Resilience. Resilience is being able to
 
 Where I can work more on myself is building a resilience against distractions.  When facing setbacks, highly resilient people "accept hard times with a steady hand" and focus on what they can learn from the experience, rather than feeling shame or blame (Mistick et al.). I need to develop mental fortitude to maintain focus and ensure I learn from false starts.
 
-Stretch shows how Growth vs Fixed Mindset deal with failure. The recommended approach is to follow the Growth Mindset. 
+The reading shows how Growth vs Fixed Mindset deal with failure. The recommended approach is to follow the Growth Mindset. 
 Fixed Mindset is believing that abilities are fixed traits while Growth Mindset shows that failure is seen as an encouragement to seek advice or different things to overcome and move forward. 
+
+Where I lack is in my Ambition as I scored a 3.00. I currently have the foundation for pursing challenges and goals but can work on following a Growth Mindset. (Mistick et aI.)  In order to be ambitious it is important to reject the fixed mindset. 
 
 As my Ambition score was in between 3.0 meaning not to high but not to low. I learned that for me Ambition is measured by the success achieved through hard work and dedication. In the reading it states that "Success has been redefined as less about accumulating status and more about finding meaning in our careers" (Mistick et al.). That passage resonates with me as I have changed many times different job throughout my life one thing was in common for me. I did not feel successful unless I understood the meaning as to why. Each job had similar aspects in career choice but none satisfied me to say hey I want a long lasting career here. 
 

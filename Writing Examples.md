@@ -6,4 +6,4 @@ Hello my name is Marco Morfin I currently live in Los Angeles California. The pr
 ## Reflection 
 
 Based on my Grit results I scored a 3.75 which is moderate to high levels of perseverance. After reviewing the Grit results I learned that I have the ability to maintain commitment despite setbacks. 
-As for the Ambition scale I scored a 3.0 which is right int he middle. I am not too ambitious but just enough to complete a goal.  In the reading "Bouncing Forward" 
+As for the Ambition scale I scored a 3.0 which is right int he middle. I am not too ambitious but just enough to complete a goal.  Although I do not see my self as ambitious or gritty there was areas where I scored high 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writing Examples.md",
+                "file": "AAS in AI Software Engineering/PY101/Week 2/Lesson 01 - Control Flow Overview - Decisions vs Repetition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writing Examples"
+              "title": "Lesson 01 - Control Flow Overview - Decisions vs Repetition"
             }
           }
         ]
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302,
-    "collapsed": true
+    "width": 302
   },
   "right": {
     "id": "eb59704d632174e1",
@@ -204,6 +203,8 @@
   "active": "d81fb22079b79787",
   "lastOpenFiles": [
     "Writing Examples.md",
+    "AAS in AI Software Engineering/PY101/Week 2/Lesson 01 - Control Flow Overview - Decisions vs Repetition.md",
+    "AAS in AI Software Engineering/PY101/Week 2",
     "Personal Development and Leadership/Graduate Level Resources.md",
     "Personal Development and Leadership/Discussion 1.2 - Grit & Ambition.md",
     "Personal Development and Leadership/Disscussion 1.2.md",
@@ -231,14 +232,12 @@
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 06 - Division Modes Quotient and Remainder.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 05 - Modeling Real World Calculations.md",
     "AAS in AI Software Engineering/PY101/Week 1/Lesson 04 - Updating Values and Printing Expression.md",
-    "Claude Memory Bank/Templates/PY101 Renaming Status.md",
     "Claude Memory Bank/Templates",
     "AAS in AI Software Engineering/PY101/Week 1",
     "Claude Memory Bank/AI Knowledge Base /03.-Fundamentals-of-Computer-Programming-with-C-author-Svetlin-Nakov-Co..pdf",
     "Claude Memory Bank/Books/What is a payment gateway, Instamojo.pdf",
     "Claude Memory Bank/Books/x86-64-Assembly-Language-Programming-with-Ubuntu.pdf",
     "Claude Memory Bank/Books/Web-Development-Essentials-Linux-Professional-Institute.pdf",
-    "Claude Memory Bank/Books/Web-Accessibility-for-Developers-Greg-Gay-Igor-Karasyov.pdf",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_tree.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_react.svg",
     "Claude Memory Bank/lazyvim.github.io-main/static/img/undraw_docusaurus_mountain.svg",

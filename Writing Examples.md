@@ -15,8 +15,9 @@ Where I can work more on myself is building a resilience against distractions.  
 The reading shows how Growth vs Fixed Mindset deal with failure. The recommended approach is to follow the Growth Mindset. 
 Fixed Mindset is believing that abilities are fixed traits while Growth Mindset shows that failure is seen as an encouragement to seek advice or different things to overcome and move forward. 
 
-Ambition as I scored a 3.00. I currently have the foundation for pursing challenges and goals but can work on following a Growth Mindset. (Mistick et aI.)  In order to be ambitious it is important to reject the fixed mindset. 
+My ambition score was a 3.00. I currently have the foundation for pursing challenges and goals but can work on following a Growth Mindset. (Mistick et aI.)  In order to be ambitious it is important to reject the fixed mindset.  The belief that ambitions are static in favor of growth, where setbacks are valuable feedback rather than personal shortcomings. By viewing failure as an invitation to seek advice and try new strategies, you can further elevate your Ambition and ensure continued development toward long-term mastery (Mistick et al.).
 
+Finding Meaning in the work is a redefinition of success 
 
 
 

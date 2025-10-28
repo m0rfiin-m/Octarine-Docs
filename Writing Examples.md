@@ -17,4 +17,6 @@ Fixed Mindset is believing that abilities are fixed traits while Growth Mindset 
 
 As my Ambition score was in between 3.0 meaning not to high but not to low. I learned that for me Ambition is measured by the success achieved through hard work and dedication. In the reading it states that "Success has been redefined as less about accumulating status and more about finding meaning in our careers" (Mistick et al.). That passage resonates with me as I have changed many times different job throughout my life one thing was in common for me. I did not feel successful unless I understood the meaning as to why. Each job had similar aspects in career choice but none satisfied me to say hey I want a long lasting career here. 
 
+Ways I can improve my Ambition score 
+
 

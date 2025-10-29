@@ -1,4 +1,6 @@
+
 # Mastery Presentation Script
+
 **Course:** Mastery: Personal Development and Leadership
 **Student:** Marco Morfin
 **Program:** Masters in Entertainment Business, Full Sail University
@@ -16,7 +18,7 @@ What I desire to accomplish in the entertainment industry is to be at the inters
 
 As I read through Greene's five strategies for finding your Life's Task, each one revealed something different about my own journey.
 
-**The Primal Inclination Strategy** reminded me that my fascination with computers wasn't just a hobby - it was a signal. Greene talks about those "primal inclinations that present themselves with remarkable clarity" (Greene, 2012, p. X), and I realize that my childhood attraction to technology wasn't random. It's been there all along, even when I tried to ignore it or thought I wasn't "smart enough" to pursue it seriously.
+**The Primal Inclination Strategy** reminded me that my fascination with computers wasn't just a hobby  it was a signal. Greene talks about those "primal inclinations that present themselves with remarkable clarity" (Greene, 2012, p. X), and I realize that my childhood attraction to technology wasn't random. It's been there all along, even when I tried to ignore it or thought I wasn't "smart enough" to pursue it seriously.
 
 **The Darwinian Strategy** showed me that I don't have to choose just one path. Greene describes how masters like Yoky Matsuoka conquered multiple fields and combined them to create something uniquely their own. This gave me permission to stop seeing entertainment business and technology as competing interests and start seeing them as complementary strengths I can merge.
 
@@ -71,6 +73,7 @@ Greene, R. (2012). *Mastery*. Viking.
 ## Presentation Notes
 
 **Timing Guidance:**
+
 - Introduction: 30-40 seconds
 - Reflection: 90-110 seconds (about 18 seconds per strategy)
 - Expand: 70-90 seconds
@@ -80,6 +83,7 @@ Greene, R. (2012). *Mastery*. Viking.
 **Total Time:** Approximately 4-5 minutes
 
 **Delivery Tips:**
+
 - Speak conversationally, not like reading
 - Pause after the turning point story for emphasis
 - Show genuine emotion when discussing frustration and adaptation

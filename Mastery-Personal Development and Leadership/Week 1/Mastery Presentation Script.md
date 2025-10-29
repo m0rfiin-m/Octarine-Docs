@@ -14,7 +14,7 @@ What I desire to accomplish is to be successful within the Entertainment Industr
 
 As I read through Greene's five strategies for finding your Life's Task, each one revealed something different about my own journey.
 
-**The Primal Inclination Strategy** reminded me that my fascination with computers wasn't just a hobby  it was a signal. Greene talks about those "primal inclinations that present themselves with remarkable clarity" (Greene, 2012, pp. 29 to 32), and I realize that my childhood attraction to technology wasn't random. It's been there all along, even when I tried to ignore it or thought I wasn't "smart enough" to pursue it seriously.
+**The Primal Inclination Strategy** reminded me that my fascination with computers wasn't just a hobby it was a signal. Greene talks about those "primal inclinations that present themselves with remarkable clarity" (Greene, 2012, pp. 29 to 32), and I realize that my childhood attraction to technology wasn't random. It's been there all along, even when I tried to ignore it or thought I wasn't "smart enough" to pursue it seriously.
 
 **The Darwinian Strategy** showed me that I don't have to choose just one path. Greene describes how masters like Yoky Matsuoka conquered multiple fields and combined them to create something uniquely their own. This gave me permission to stop seeing entertainment business and technology as competing interests and start seeing them as complementary strengths I can merge.
 
@@ -24,7 +24,7 @@ As I read through Greene's five strategies for finding your Life's Task, each on
 
 **The Life or Death Strategy** speaks to the frustration I've felt. Greene says we must "listen to the message of this frustration and pain" and let it guide us back to our true path. That frustration after graduation, that sense of having wasted time—it wasn't a sign of failure. It was a signal that I needed to course correct, not abandon ship entirely.
 
-## Expand: My Turning Point Story—The Adaptation Strategy
+## Expand: My Turning Point Story - The Adaptation Strategy
 
 The strategy that connects most deeply with my experience is the Adaptation Strategy, and my turning point came right after completing my Bachelor's in Esports Management Performance and Production at Harrisburg University.
 

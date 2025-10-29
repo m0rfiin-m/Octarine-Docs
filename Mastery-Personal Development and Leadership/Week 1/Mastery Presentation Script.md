@@ -10,7 +10,7 @@
 
 ## Introduction
 
-What I desire to accomplish in the entertainment industry is to be at the intersection of creativity and innovation. My dream career path is to work within the entertainment business sector where I can leverage both strategic business thinking and emerging technologies to create meaningful experiences. The entertainment industry is evolving rapidly with technology, and I want to be someone who understands both worlds - the business fundamentals and the technical possibilities that are reshaping how we create and deliver entertainment.
+What I desire to accomplish is to be . My dream career path is to work within the entertainment business sector where I can leverage both strategic business thinking and emerging technologies to create meaningful experiences. The entertainment industry is evolving rapidly with technology, and I want to be someone who understands both worlds - the business fundamentals and the technical possibilities that are reshaping how we create and deliver entertainment.
 
 ---
 

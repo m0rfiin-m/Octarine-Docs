@@ -8,15 +8,15 @@
 
 ## Introduction
 
-What I desire to accomplish is to be successful within the Entertainment Industry. My dream career path is to work within the entertainment business where I can utilize both business and technology to create meaningful experiences. The entertainment industry is evolving rapidly with technology, and I want to be someone who understands both worlds, the business fundamentals and the technical possibilities that are reshaping how we create and deliver entertainment.
+My goal is to achieve success within the Entertainment Industry. My dream career path is to work within the entertainment business where I can utilize both business and technology to create meaningful experiences. The entertainment industry is evolving rapidly with technology, and I want to be someone who understands both worlds, the business fundamentals and the technical possibilities that are reshaping how we create and deliver entertainment.
 
 ## Reflection: Insights from the Five Strategies
 
 As I read through Greene's five strategies for finding your Life's Task, each one revealed something different about my own journey.
 
-**The Primal Inclination Strategy** reminded me that my fascination with computers wasn't just a hobby; it was a signal. Greene talks about those "primal inclinations that present themselves with remarkable clarity" (Greene, 2012, pp. 29 to 32), and I realize that my childhood attraction to technology wasn't random. It's been there all along, even when I tried to ignore it or thought I wasn't "smart enough" to pursue it seriously.
+**The Primal Inclination Strategy** reminded me that my fascination with computers wasn't just a hobby; it was a signal. Greene discusses those "primal inclinations that present themselves with remarkable clarity" (Greene, 2012, pp. 29-32), and I realize that my childhood attraction to technology wasn't random. It's been there all along, even when I tried to ignore it or thought I wasn't "smart enough" to pursue it seriously.
 
-**The Darwinian Strategy** showed me that I don't have to choose just one path. Greene describes how masters like Yoky Matsuoka conquered multiple fields and combined them to create something uniquely their own. This gave me permission to stop seeing the entertainment business and technology as competing interests and start seeing them as complementary strengths I can merge.
+**The Darwinian Strategy** showed me that I don't have to choose just one path. Greene describes how masters like Yoky Matsuoka conquered multiple fields and combined them to create something uniquely their own. This gave me the courage to stop seeing the entertainment business and technology as competing interests and start seeing them as complementary strengths I can merge.
 
 **The Rebellion Strategy** hit hard because I recognized how much anxiety about money and job security had influenced my decisions. Greene warns that choosing a path "for superficial reasons, such as the lure of money, fame, or attention" leads to suffering (Greene, 2012, pp. 36 to 38). While I haven't chosen a false path entirely, I've let financial stress cloud my judgment about what truly matters to me.
 

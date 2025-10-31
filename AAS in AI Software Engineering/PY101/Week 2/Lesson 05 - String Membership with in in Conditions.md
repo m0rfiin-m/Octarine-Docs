@@ -1,16 +1,16 @@
 
-## Lesson 5: String Membership with `in` in Conditions
+## Lesson 5: String Membership with `in` Conditions
 
 **Course:** PY101 – Python Fundamentals
 **Week:** 2
 **Date:** October 29, 2025
-**Status:** 📘 Study Guide
+**Status:** 📘 Completed
 
 ---
 
 ### Overview
 
-This lesson explains how to test if one string exists inside another using the `in` and `not in` operators.
+This lesson explains how to test whether one string exists within another using the 'in' and 'not op’ operators.
 These operators return `True` or `False` and are often used inside `if` statements to make decisions.
 
 ---

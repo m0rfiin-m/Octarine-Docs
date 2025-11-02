@@ -1,7 +1,8 @@
+
 # Score Tracker Review - PY101 Week 2
 
-**Date:** October 30, 2025  
-**Course:** PY101 - Introduction to Python  
+**Date:** October 30, 2025
+**Course:** PY101 - Introduction to Python
 **Week:** 2, Review Challenge
 
 ## What This Review Covers
@@ -14,20 +15,21 @@ This document tracks the evolution of a Score Tracker program through multiple a
 
 Build a score tracker program that:
 
-✅ Asks for the names of two teams  
-✅ Prompts for the maximum score needed to win (must be a positive integer)  
-✅ Repeatedly asks the user for the current score of each team  
+✅ Asks for the names of two teams
+✅ Prompts for the maximum score needed to win (must be a positive integer)
+✅ Repeatedly asks the user for the current score of each team
 ✅ The program continues until:
-  - One team reaches or goes past the maximum score (they win automatically), OR
-  - The user types "Game over" to stop the game manually  
-✅ Scores entered should be non-negative integers (handle invalid entries by asking again)  
-✅ Include at least one function and comments  
-✅ Show scores after each round, and the winner at the end  
-✅ Make sure your code runs without syntax or runtime errors
+
+- One team reaches or goes past the maximum score (they win automatically), OR
+- The user types "Game over" to stop the game manually
+  ✅ Scores entered should be non-negative integers (handle invalid entries by asking again)
+  ✅ Include at least one function and comments
+  ✅ Show scores after each round, and the winner at the end
+  ✅ Make sure your code runs without syntax or runtime errors
 
 ### Expected Output Example
 
-```
+```plaintext
 Welcome to the Live Score Tracker!
 
 Enter Team 1 name: Tigers
@@ -143,7 +145,7 @@ print("#" * 35)
 
 **What Worked:**
 
-✅ Main loop correctly updates and displays scores  
+✅ Main loop correctly updates and displays scores
 ✅ Ends the game when a team reaches maximum score or user types "game over"
 
 **Lesson Learned:** Always read requirements carefully. "At least one function" means you MUST include a function, not just might want to.
@@ -264,9 +266,9 @@ display_final_score(team1_name, team1_score, team2_name, team2_score)
 
 **What Worked:**
 
-✅ Validates user input for maximum score and each score update  
-✅ Loop ends correctly when a team reaches the target or user types "Game over"  
-✅ Uses a clear helper function to print the final scoreboard  
+✅ Validates user input for maximum score and each score update
+✅ Loop ends correctly when a team reaches the target or user types "Game over"
+✅ Uses a clear helper function to print the final scoreboard
 ✅ Code is readable with comments and good variable names
 
 **What Needs Improvement:**
@@ -409,17 +411,17 @@ display_final_score(team1_name, team1_score, team2_name, team2_score)
 
 **What Worked:**
 
-✅ Clean, readable code with helpful comments  
-✅ Correct validation for positive maximum score and non-negative score updates  
-✅ Loop ends properly when a team reaches the limit or user types "Game over"  
-✅ Clear final output with winner or tie announcement  
-✅ Keeps last valid scores when "Game over" is typed  
-✅ Consistent behavior across all exit paths  
+✅ Clean, readable code with helpful comments
+✅ Correct validation for positive maximum score and non-negative score updates
+✅ Loop ends properly when a team reaches the limit or user types "Game over"
+✅ Clear final output with winner or tie announcement
+✅ Keeps last valid scores when "Game over" is typed
+✅ Consistent behavior across all exit paths
 ✅ Tighter validation loop for maximum score
 
 **Minor Improvements Noted:**
 
-⚠️ Max-score check happens after Team 1's score is entered (fixed version checks immediately)  
+⚠️ Max-score check happens after Team 1's score is entered (fixed version checks immediately)
 ⚠️ Header width matches sample exactly
 
 **Lesson Learned:** Early exit conditions save unnecessary prompts. Check win conditions as soon as possible.
@@ -429,53 +431,126 @@ display_final_score(team1_name, team1_score, team2_name, team2_score)
 ## Key Concepts Used (Week 2)
 
 ### Lesson 1-2: Control Flow and If/Else
+
 - Decision making with if/elif/else
 - Proper indentation
 - Multiple conditional branches
 
 ### Lesson 3: Logical Operators
+
 - `not game_over` in while loop condition
 - Combining conditions with `or` in win check
 
 ### Lesson 4: Booleans and Comparisons
+
 - `>=` for win condition
 - `>` and `<` for winner determination
 - `==` for string comparison ("game over")
 
 ### Lesson 5: String Membership
+
 - `.lower()` method for case-insensitive input
 - `.isdigit()` method for validation
 
 ### Lesson 6: Elif Statements
+
 - Multiple conditions for winner determination
 - Validation logic with elif chains
 
 ### Lesson 9: While Loops
+
 - Main game loop with `while not game_over`
 - Validation loops with `while not valid_input`
 - Tighter validation with `while max_score <= 0`
 
 ### Lesson 10: Break and Continue
+
 - `break` to exit loops when game ends
 - `break` when win condition is met
 
 ### Lesson 11: Counters and Totals
+
 - Score tracking (totals)
 - Boolean flags (`game_over`, `valid_input`) act as counters
 
----
+# Trim Down Version: 
+
+```python
+# Score Tracker
+
+def display_final_score(team1_name, team1_score, team2_name, team2_score):
+    print("\n" + "#" * 11 + " Final Score " + "#" * 11)
+    print(f"{team1_name}: {team1_score} | {team2_name}: {team2_score}")
+    
+    if team1_score > team2_score:
+        print(f"{team1_name} wins!")
+    elif team2_score > team1_score:
+        print(f"{team2_name} wins!")
+    else:
+        print("It's a tie!")
+
+print("#" * 32)
+print("Welcome to the Score Tracker!\n")
+
+team1_name = input("Enter team 1 name: ")
+team2_name = input("Enter team 2 name: ")
+
+# Get valid max score
+while True:
+    try:
+        max_score = int(input("Enter maximum score to win: "))
+        if max_score > 0:
+            break
+        print("Score must be greater than 0. Try again.")
+    except ValueError:
+        print("Please enter a valid number.")
+
+team1_score = 0
+team2_score = 0
+print("\n--- Game Started! ---\n")
+
+# Game loop
+while True:
+    # Team 1 adds points
+    score_input = input(f"Enter points for {team1_name} (or 'game over'): ")
+    if score_input.lower() == "game over":
+        break
+    if not score_input.isdigit():
+        print("Invalid input. Enter a number or 'game over'.")
+        continue
+    team1_score += int(score_input)
+
+    # Team 2 adds points
+    score_input = input(f"Enter points for {team2_name} (or 'game over'): ")
+    if score_input.lower() == "game over":
+        break
+    if not score_input.isdigit():
+        print("Invalid input. Enter a number or 'game over'.")
+        continue
+    team2_score += int(score_input)
+
+    print(f"Current Score | {team1_name}: {team1_score} | {team2_name}: {team2_score}\n")
+
+    # Check for winner
+    if team1_score >= max_score or team2_score >= max_score:
+        break
+
+display_final_score(team1_name, team1_score, team2_name, team2_score)
+```
 
 ## Common Mistakes to Avoid
 
 ### 1. Forgetting Required Elements
 
 ❌ **Wrong:**
+
 ```python
 # No function at all
 print("Score:", score)
 ```
 
 ✅ **Right:**
+
 ```python
 def display_score(score):
     """Display the score."""
@@ -487,12 +562,14 @@ def display_score(score):
 ### 2. No Input Validation
 
 ❌ **Wrong:**
+
 ```python
 score = int(input("Enter score: "))
 # Crashes if user enters "hello"
 ```
 
 ✅ **Right:**
+
 ```python
 while True:
     score_input = input("Enter score: ")
@@ -508,6 +585,7 @@ while True:
 ### 3. Inconsistent Behavior
 
 ❌ **Wrong:**
+
 ```python
 # Path 1: Clears scores
 if condition1:
@@ -520,6 +598,7 @@ if condition2:
 ```
 
 ✅ **Right:**
+
 ```python
 # Both paths keep scores OR both clear scores
 if condition1:
@@ -534,6 +613,7 @@ if condition2:
 ### 4. Asking for Unnecessary Input
 
 ❌ **Wrong:**
+
 ```python
 team1_score = int(input("Team 1: "))
 if team1_score >= max_score:
@@ -542,6 +622,7 @@ if team1_score >= max_score:
 ```
 
 ✅ **Right:**
+
 ```python
 team1_score = int(input("Team 1: "))
 if team1_score >= max_score:
@@ -554,6 +635,7 @@ if team1_score >= max_score:
 ### 5. Weak Validation Loops
 
 ❌ **Wrong:**
+
 ```python
 while True:
     max_score_input = input("Enter max score: ")
@@ -565,6 +647,7 @@ while True:
 ```
 
 ✅ **Right:**
+
 ```python
 max_score = 0
 while max_score <= 0:
@@ -588,12 +671,12 @@ while max_score <= 0:
 **Goal:** Track how many rounds were played.
 
 **Requirements:**
+
 - Initialize a counter before the loop
 - Increment it each round
 - Display total rounds at the end
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Add to the game code:
@@ -607,19 +690,18 @@ round_count += 1
 # After game ends
 print(f"Total rounds played: {round_count}")
 ```
-</details>
 
 ### Problem 2: Total Points Scored
 
 **Goal:** Calculate total points scored by both teams.
 
 **Requirements:**
+
 - Initialize a total before the loop
 - Add both team scores each round
 - Display total at the end
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Add to the game code:
@@ -633,19 +715,18 @@ total_points += team1_score + team2_score
 # After game ends
 print(f"Total points scored: {total_points}")
 ```
-</details>
 
 ### Problem 3: Average Score Per Round
 
 **Goal:** Calculate and display average score per round.
 
 **Requirements:**
+
 - Use both counter and total
 - Calculate average (avoid division by zero)
 - Display with one decimal place
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Combine Problems 1 and 2, then add:
@@ -657,19 +738,18 @@ if round_count > 0:
 else:
     print("No rounds played")
 ```
-</details>
 
 ### Problem 4: Winning Margin
 
 **Goal:** Display how many points the winner won by.
 
 **Requirements:**
+
 - Calculate difference between scores
 - Only show if there's a winner (not a tie)
 - Display in final results
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Add to display_final_score function:
@@ -692,20 +772,19 @@ def display_final_score(team1_name, team1_score, team2_name, team2_score):
     
     print("##################################")
 ```
-</details>
 
 ### Problem 5: Lead Changes
 
 **Goal:** Track how many times the lead changed during the game.
 
 **Requirements:**
+
 - Initialize counter before loop
 - Compare previous leader to current leader
 - Increment when leader changes
 - Display total lead changes
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Add to the game code:
@@ -733,19 +812,18 @@ previous_leader = current_leader
 # After game ends
 print(f"Lead changes: {lead_changes}")
 ```
-</details>
 
 ### Problem 6: Score Validation with Range
 
 **Goal:** Only accept scores within a reasonable range (0-100).
 
 **Requirements:**
+
 - Modify validation to check range
 - Give appropriate error messages
 - Still allow "game over"
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Modify score input validation:
@@ -766,19 +844,18 @@ while not valid_input:
     else:
         print("Please enter a valid number or 'Game over' to end.")
 ```
-</details>
 
 ### Problem 7: Close Game Indicator
 
 **Goal:** Tell user if the game was close (within 5 points).
 
 **Requirements:**
+
 - Calculate point difference
 - Display message if difference ≤ 5
 - Show in final results
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Add to display_final_score function after winner:
@@ -788,19 +865,18 @@ if team1_score != team2_score:
     if difference <= 5:
         print("What a close game!")
 ```
-</details>
 
 ### Problem 8: Comeback Tracker
 
 **Goal:** Track if a team came from behind to win.
 
 **Requirements:**
+
 - Track who was leading after first round
 - Compare first leader to final winner
 - Display comeback message if different
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Add to the game code:
@@ -828,7 +904,6 @@ def display_final_score(team1_name, team1_score, team2_name, team2_score, first_
         if first_leader != "" and first_leader != team2_name:
             print("Amazing comeback victory!")
 ```
-</details>
 
 ---
 
@@ -837,6 +912,7 @@ def display_final_score(team1_name, team1_score, team2_name, team2_score, first_
 ### 1. Break Down the Requirements
 
 Before writing any code:
+
 - List each requirement
 - Identify which Week 2 concept solves it
 - Write pseudocode first
@@ -844,6 +920,7 @@ Before writing any code:
 ### 2. Test Input Validation
 
 Always test with bad input:
+
 - Type letters where numbers expected
 - Type negative numbers
 - Type "game over" at different points
@@ -852,6 +929,7 @@ Always test with bad input:
 ### 3. Trace Your Logic
 
 Walk through your code manually:
+
 - What happens if Team 1 enters 15 and wins immediately?
 - What happens if user types "game over" right away?
 - What happens with a tie score?
@@ -859,6 +937,7 @@ Walk through your code manually:
 ### 4. Read Error Messages Carefully
 
 Common errors and what they mean:
+
 - `NameError`: Variable not defined (forgot to initialize?)
 - `ValueError`: Can't convert string to int (need validation?)
 - `IndentationError`: Incorrect spacing (check your indents)
@@ -866,6 +945,7 @@ Common errors and what they mean:
 ### 5. Use Comments as Planning
 
 Write comments first, code second:
+
 ```python
 # Get team names
 
@@ -887,26 +967,43 @@ Write comments first, code second:
 Before submitting any code review:
 
 **Requirements:**
+
 - [ ] At least one function included
+
 - [ ] Input validation for all user inputs
+
 - [ ] Comments explaining major sections
+
 - [ ] Code runs without errors
+
 - [ ] Handles "game over" correctly
+
 - [ ] Shows scores after each round
+
 - [ ] Displays final winner
 
 **Quality:**
+
 - [ ] Consistent behavior (no score resets)
+
 - [ ] Efficient (no unnecessary prompts)
+
 - [ ] Readable variable names
+
 - [ ] Proper indentation
+
 - [ ] Follows Week 2 concepts only
 
 **Testing:**
+
 - [ ] Tested with valid inputs
+
 - [ ] Tested with invalid inputs
+
 - [ ] Tested "game over" at different points
+
 - [ ] Tested immediate win (first score = max)
+
 - [ ] Tested tie game
 
 ---

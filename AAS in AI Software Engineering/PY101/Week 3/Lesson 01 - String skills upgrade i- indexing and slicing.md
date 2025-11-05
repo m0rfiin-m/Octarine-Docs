@@ -54,7 +54,7 @@ This lesson covers the fundamentals of string indexing and slicing in Python, bu
 
 - Example:
 
-  ```plaintext
+  ```python
   python
   ```
 
@@ -149,5 +149,3 @@ python
   - End at 2/3 of the string
 
   - Remember integer division (`//`) for indices
-
- 

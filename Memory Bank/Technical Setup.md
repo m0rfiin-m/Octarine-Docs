@@ -1,3 +1,4 @@
+
 # Technical Setup
 
 **Last Updated:** October 23, 2025
@@ -418,7 +419,7 @@ Root/
 
 ---
 
-**Back to:** [[Claude Memory Bank/Index]]
+**Back to:** [[Memory Bank/Index]]
 
 
 ## macOS Development Environment

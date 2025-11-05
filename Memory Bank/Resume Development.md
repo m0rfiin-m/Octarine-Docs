@@ -1,3 +1,4 @@
+
 # Resume Development
 
 **Last Updated:** October 23, 2025
@@ -220,4 +221,4 @@ May 2018 to January 2020
 
 ---
 
-**Back to:** [[Claude Memory Bank/Index]]
+**Back to:** [[Memory Bank/Index]]

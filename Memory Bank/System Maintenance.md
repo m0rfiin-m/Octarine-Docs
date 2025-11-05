@@ -1,3 +1,4 @@
+
 # System Maintenance
 
 **Last Updated:** October 24, 2025
@@ -358,4 +359,4 @@ sudo shutdown -r now
 
 ---
 
-**Back to:** [[Claude Memory Bank/Index]]
+**Back to:** [[Memory Bank/Index]]

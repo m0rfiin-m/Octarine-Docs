@@ -1,3 +1,4 @@
+
 # Email Protocols
 
 **Last Updated:** October 23, 2025
@@ -415,6 +416,6 @@ linkedin.com/in/marco-morfin
 
 ---
 
-**Back to:** [[Claude Memory Bank/Index]]
+**Back to:** [[Memory Bank/Index]]
 
 [Email Copilot Instructions Development](https://claude.ai/chat/dd77e9e1-df5f-4a2e-ba42-9d06f582fe80)

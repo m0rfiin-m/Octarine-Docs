@@ -1,3 +1,4 @@
+
 # LazyVim Customization
 
 **Last Updated:** October 24, 2025
@@ -293,7 +294,7 @@ local header = {
 
 ---
 
-**Back to:** [[Claude Memory Bank/Index]]
+**Back to:** [[Memory Bank/Index]]
 # LazyVim Customization
 
 **Last Updated:** October 24, 2025

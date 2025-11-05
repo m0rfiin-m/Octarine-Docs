@@ -1,10 +1,4 @@
 
-Of course. I've analyzed your detailed guide and distilled it into a clean, reusable template. This version removes all the instructional meta-commentary and leaves just the fillable structure, perfect for saving in your `.templates/` folder.
-
-You can save this file as `PY101 Lesson Template.md`.
-
----
-
 # [Lesson Title]
 
 **Date:** [Month Day, 2025]
@@ -36,8 +30,6 @@ print(example_variable)
 ```
 
 **[Key takeaway or explanation of the code block.]**
-
- 
 
 ---
 
@@ -75,7 +67,7 @@ good_example = "correct approach"
 
 [Problem description. Be clear and concise.]
 
- <span class="hidden-blocks" style="display: none;">Solution</span>
+Solution
 
 ```python
 # Full solution code
@@ -85,8 +77,6 @@ print(answer)
 ```
 
 **Explanation:** [Brief note about the solution approach or why it works.]
-
- 
 
 ---
 

@@ -1,7 +1,8 @@
+
 # String Skills Upgrade III: Splitting and Joining Text
 
-**Date:** November 5, 2025  
-**Course:** PY101 - Introduction to Python  
+**Date:** November 5, 2025
+**Course:** PY101 - Introduction to Python
 **Week:** 3, Lesson 3
 
 ## What You'll Learn
@@ -56,7 +57,7 @@ print(words)
 When your data has extra spaces around separators, they stay in the result:
 
 ```python
-messy = " a , b , c "
+amessy = " a , b , c "
 parts = messy.split(",")
 print(parts)
 # Output: [' a ', ' b ', ' c ']
@@ -79,6 +80,7 @@ print(clean)
 ```
 
 **How It Works:**
+
 1. `.split(",")` divides at commas: `[' a ', ' b ', ' c ']`
 2. Loop through each item
 3. `.strip()` removes spaces from each piece
@@ -104,7 +106,7 @@ print(len(parts))
 
 ### Visual Breakdown
 
-```
+```plaintext
 "red,blue,,green"
      ↓    ↓↓
 "red" "blue" "" "green"
@@ -242,7 +244,7 @@ print(text.len())
 # AttributeError: 'str' object has no attribute 'len'
 ```
 
-**Why This Fails:**  
+**Why This Fails:**
 `len()` is a function, not a method. It goes on the outside, not after a dot.
 
 **Fixed Code:**
@@ -254,7 +256,7 @@ print(len(parts))
 # Output: 3
 ```
 
-**Why This Works:**  
+**Why This Works:**
 `len()` is called as a function with the list as an argument.
 
 ---
@@ -271,7 +273,7 @@ for item in fields:
 # NameError: name 'cleaned' is not defined
 ```
 
-**Why This Fails:**  
+**Why This Fails:**
 The list is named `clean`, but we're trying to append to `cleaned`.
 
 **Fixed Code:**
@@ -285,7 +287,7 @@ print(clean)
 # Output: ['a', 'b', 'c']
 ```
 
-**Why This Works:**  
+**Why This Works:**
 Variable name is consistent throughout.
 
 ---
@@ -301,7 +303,7 @@ print(sentence)
 # NameError: name 'sentence' is not defined
 ```
 
-**Why This Fails:**  
+**Why This Fails:**
 Variable is created as `snetence` but referenced as `sentence`.
 
 **Fixed Code:**
@@ -313,7 +315,7 @@ print(sentence)
 # Output: Hello World
 ```
 
-**Why This Works:**  
+**Why This Works:**
 Spelling is correct and consistent.
 
 ---
@@ -329,7 +331,7 @@ def csv_clean(line)
 # SyntaxError: invalid syntax
 ```
 
-**Why This Fails:**  
+**Why This Fails:**
 Missing colon `:` after function definition.
 
 **Fixed Code:**
@@ -348,7 +350,7 @@ print(csv_clean(' eggs, milk, , bread , '))
 # Output: eggs;milk;bread
 ```
 
-**Why This Works:**  
+**Why This Works:**
 Proper syntax with colon, correct indentation, and complete logic.
 
 ---
@@ -386,12 +388,14 @@ print(result)
 ### How This Function Works
 
 **Step 1: Split**
+
 ```python
 ' eggs, milk, , bread , '.split(",")
 # [' eggs', ' milk', ' ', ' bread ', ' ']
 ```
 
 **Step 2: Strip and Filter**
+
 ```python
 for item in parts:
     item = item.strip()  # Remove spaces
@@ -401,6 +405,7 @@ for item in parts:
 ```
 
 **Step 3: Join**
+
 ```python
 ";".join(clean)
 # 'eggs;milk;bread'
@@ -414,8 +419,7 @@ for item in parts:
 
 Split `"Python is amazing"` into a list of words:
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 sentence = "Python is amazing"
@@ -426,14 +430,11 @@ print(words)
 
 **Explanation:** `.split()` with no argument splits on whitespace.
 
-</details>
-
 **Exercise 2: Clean and Split**
 
 Split `" red , blue , green "` on commas and remove spaces:
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 text = " red , blue , green "
@@ -447,14 +448,11 @@ print(clean)
 
 **Explanation:** Split first, then strip each piece.
 
-</details>
-
 **Exercise 3: Join with Hyphens**
 
 Join `['2025', '11', '05']` with hyphens:
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 parts = ['2025', '11', '05']
@@ -465,14 +463,11 @@ print(date)
 
 **Explanation:** Separator goes before `.join()`.
 
-</details>
-
 **Exercise 4: Count Words**
 
 Count how many words are in `"The quick brown fox"`:
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 sentence = "The quick brown fox"
@@ -483,14 +478,11 @@ print(len(words))
 
 **Explanation:** Split into words, then count with `len()`.
 
-</details>
-
 **Exercise 5: Remove Empty Strings**
 
 Split `"a,,b,,c"` and remove empty strings:
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 text = "a,,b,,c"
@@ -505,14 +497,11 @@ print(clean)
 
 **Explanation:** Use `if item:` to filter out empty strings.
 
-</details>
-
 **Exercise 6: Build URL Path**
 
 Join `['users', 'marco', 'profile']` with slashes:
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 parts = ['users', 'marco', 'profile']
@@ -523,20 +512,19 @@ print(f"/{path}")
 
 **Explanation:** Join with `/`, then add leading slash.
 
-</details>
-
 ---
 
 ## Split vs Join Comparison
 
 | Operation | Method | Input | Output |
-|-----------|--------|-------|--------|
+| --- | --- | --- | --- |
 | Split | `text.split(",")` | `"a,b,c"` | `['a', 'b', 'c']` |
 | Join | `",".join(list)` | `['a', 'b', 'c']` | `"a,b,c"` |
 | Split | `text.split()` | `"a b c"` | `['a', 'b', 'c']` |
 | Join | `" ".join(list)` | `['a', 'b', 'c']` | `"a b c"` |
 
 **Key Difference:**
+
 - `.split()` - string → list
 - `.join()` - list → string
 
@@ -591,12 +579,12 @@ print(format_list(cities, " | "))
 
 ## Key Takeaways
 
-✅ **`.split(separator)` divides strings into lists** - Use specific separator or default whitespace  
-✅ **Consecutive separators create empty strings** - `"a,,b"` splits to `['a', '', 'b']`  
-✅ **`.strip()` cleans individual pieces** - Remove spaces after splitting  
-✅ **`.join(list)` combines lists into strings** - Separator goes BEFORE .join()  
-✅ **Filter empty strings with `if item:`** - Keeps only non-empty values  
-✅ **`in` keyword checks list membership** - Returns True/False for existence  
+✅ `.split(separator)` **divides strings into lists** - Use specific separator or default whitespace
+✅ **Consecutive separators create empty strings** - `"a,,b"` splits to `['a', '', 'b']`
+✅ `.strip()` **cleans individual pieces** - Remove spaces after splitting
+✅ `.join(list)` **combines lists into strings** - Separator goes BEFORE .join()
+✅ **Filter empty strings with** `if item:` - Keeps only non-empty values
+✅ `in` **keyword checks list membership** - Returns True/False for existence
 ✅ **Careful naming prevents bugs** - Use consistent variable names throughout
 
 **Remember:** Split takes you from string to list, join takes you from list to string. Always clean (strip) between splitting and joining for best results.

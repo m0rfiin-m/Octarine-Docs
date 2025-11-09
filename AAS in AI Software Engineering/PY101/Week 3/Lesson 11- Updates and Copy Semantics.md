@@ -55,7 +55,7 @@ print(menu)   # Output: {'Pizza': 99, 'Pho': 8}
 
 Python
 
-```plaintext
+```python
 temps = [10, 20, 30]
 alias = temps         # Same object
 copy = temps.copy()   # Different object, same values

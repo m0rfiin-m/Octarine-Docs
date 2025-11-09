@@ -3,7 +3,7 @@
 **Course:** PY101 - Introduction to Python  
 **Purpose:** Comprehensive reference of all concepts, vocabulary, and syntax learned throughout the course
 
-**Last Updated:** October 30, 2025
+**Last Updated:** November 9, 2025
 
 ---
 
@@ -28,6 +28,7 @@ Each section includes:
 
 - [Week 1: Python Basics](#week-1-python-basics)
 - [Week 2: Control Flow](#week-2-control-flow)
+- [Week 3: Advanced Strings, Lists, and Dictionaries](#week-3-advanced-strings-lists-and-dictionaries)
 - [Quick Reference Tables](#quick-reference-tables)
 
 ---
@@ -1134,6 +1135,1506 @@ display_score("Tigers", 15)
 
 ---
 
+## Week 3: Advanced Strings, Lists, and Dictionaries
+
+### String Indexing and Slicing
+
+**What it does:** Accesses individual characters or portions of a string.
+
+**Indexing Syntax:**
+```python
+text[index]  # Access single character
+```
+
+**Examples - Positive Indexing:**
+```python
+text = "Python"
+print(text[0])  # "P" (first character)
+print(text[1])  # "y" (second character)
+print(text[5])  # "n" (last character)
+```
+
+**Examples - Negative Indexing:**
+```python
+text = "Python"
+print(text[-1])  # "n" (last character)
+print(text[-2])  # "o" (second to last)
+print(text[-6])  # "P" (first character)
+```
+
+**Slicing Syntax:**
+```python
+text[start:stop]       # From start up to (not including) stop
+text[start:stop:step]  # With custom step
+```
+
+**Slicing Examples:**
+```python
+text = "Python"
+
+# Basic slicing
+print(text[0:3])   # "Pyt" (indices 0, 1, 2)
+print(text[2:5])   # "tho" (indices 2, 3, 4)
+
+# Omitting bounds
+print(text[:3])    # "Pyt" (from beginning to index 3)
+print(text[3:])    # "hon" (from index 3 to end)
+print(text[:])     # "Python" (entire string)
+
+# With step
+print(text[::2])   # "Pto" (every other character)
+print(text[1::2])  # "yhn" (every other, starting at index 1)
+print(text[::-1])  # "nohtyP" (reverse string)
+
+# Negative indices in slicing
+print(text[-4:-1]) # "tho" (from -4 up to -1)
+```
+
+**Key Rules:**
+- Indexing starts at 0 (zero-based)
+- Stop index is EXCLUSIVE (not included in result)
+- Negative indices count from end (-1 is last)
+- Slicing never raises IndexError (returns empty string if out of range)
+
+**Common Uses:**
+- Extract portions of strings
+- Reverse strings with `[::-1]`
+- Get first/last n characters
+- Skip characters with step parameter
+
+**Related Concepts:** strings, lists (same indexing/slicing rules)
+
+---
+
+### Common String Methods
+
+**What they do:** Built-in functions that process and transform strings.
+
+#### Cleaning Methods
+
+**strip() - Remove whitespace from both ends:**
+```python
+text = "  Hello  "
+print(text.strip())  # "Hello"
+
+# Remove specific characters
+text = "!!!Hello!!!"
+print(text.strip("!"))  # "Hello"
+```
+
+**Common Pattern - Method Chaining:**
+```python
+user_input = "  MARCO  "
+clean = user_input.strip().lower()  # "marco"
+```
+
+#### Case Conversion
+
+```python
+text = "hello world"
+
+print(text.lower())       # "hello world"
+print(text.upper())       # "HELLO WORLD"
+print(text.title())       # "Hello World"
+print(text.capitalize())  # "Hello world" (only first letter)
+```
+
+#### Searching
+
+**in keyword - Check if substring exists:**
+```python
+text = "Hello World"
+print("Hello" in text)    # True
+print("Goodbye" in text)  # False
+```
+
+**find() - Get position of substring:**
+```python
+text = "Hello World"
+print(text.find("World"))   # 6 (starting index)
+print(text.find("Goodbye")) # -1 (not found)
+```
+
+**When to use:**
+- Use `in` when you only need to know if substring exists
+- Use `find()` when you need the position
+
+#### Replacing
+
+**replace() - Replace all occurrences:**
+```python
+text = "Hello World"
+print(text.replace("World", "Python"))  # "Hello Python"
+print(text.replace("l", "L"))           # "HeLLo WorLd"
+
+# Delete by replacing with empty string
+text = "Hello!!!"
+print(text.replace("!", ""))  # "Hello"
+```
+
+#### Method Chaining
+
+**Combining multiple methods:**
+```python
+text = "  HELLO WORLD!!!  "
+result = text.strip().lower().replace("!", "")
+print(result)  # "hello world"
+```
+
+**Important:** 
+- String methods return NEW strings (don't modify original)
+- Must assign result to use it: `text = text.strip()`
+- Order matters in chains: usually `.strip()` first
+
+**Common Uses:**
+- Cleaning user input
+- Standardizing text for comparison
+- Formatting output
+- Data preprocessing
+
+**Related Concepts:** strings, splitting and joining
+
+---
+
+### Splitting and Joining
+
+**What they do:** Convert between strings and lists of strings.
+
+#### Splitting Strings
+
+**split() - Divide string into list:**
+```python
+# Split on whitespace (default)
+text = "apple banana cherry"
+words = text.split()
+print(words)  # ['apple', 'banana', 'cherry']
+
+# Split on specific separator
+text = "apple,banana,cherry"
+words = text.split(",")
+print(words)  # ['apple', 'banana', 'cherry']
+```
+
+**Important Behaviors:**
+```python
+# Default split() removes ALL whitespace
+text = "apple    banana"  # Multiple spaces
+words = text.split()
+print(words)  # ['apple', 'banana'] (no empty strings)
+
+# Specific separator keeps empty strings
+text = "a,,b"
+parts = text.split(",")
+print(parts)  # ['a', '', 'b'] (empty string in middle)
+```
+
+**Common Pattern - Split and Clean:**
+```python
+text = "apple, banana, cherry"
+# Split, then strip each piece
+items = [item.strip() for item in text.split(",")]
+print(items)  # ['apple', 'banana', 'cherry']
+```
+
+#### Joining Strings
+
+**join() - Combine list into string:**
+```python
+words = ["apple", "banana", "cherry"]
+
+# Join with space
+result = " ".join(words)
+print(result)  # "apple banana cherry"
+
+# Join with comma and space
+result = ", ".join(words)
+print(result)  # "apple, banana, cherry"
+
+# Join with hyphen
+result = "-".join(words)
+print(result)  # "apple-banana-cherry"
+
+# Join with nothing (concatenate)
+letters = ["H", "e", "l", "l", "o"]
+result = "".join(letters)
+print(result)  # "Hello"
+```
+
+**Important:** Separator goes BEFORE `.join()`, not inside.
+
+**Common Workflow:**
+```python
+# Split → Clean → Filter → Join
+text = "apple, , banana, cherry, "
+parts = text.split(",")                      # Split on comma
+clean = [item.strip() for item in parts]     # Clean each piece
+filtered = [item for item in clean if item]  # Remove empties
+result = "; ".join(filtered)                 # Join with semicolon
+print(result)  # "apple; banana; cherry"
+```
+
+**Common Uses:**
+- Parsing CSV or delimited data
+- Processing user input with multiple values
+- Building formatted output from lists
+- Converting between string and list formats
+
+**Related Concepts:** strings, lists, string methods
+
+---
+
+### Creating Lists
+
+**What it does:** Creates ordered collections of items.
+
+#### Manual Creation
+
+**Syntax:**
+```python
+list_name = [item1, item2, item3]
+```
+
+**Examples:**
+```python
+# List of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# List of strings
+names = ["Alice", "Bob", "Charlie"]
+
+# Mixed types (not recommended)
+mixed = [1, "two", 3.0, True]
+
+# Empty list
+empty = []
+```
+
+**Best Practice:** Keep lists homogeneous (same type of items).
+
+#### Using range()
+
+**Create lists from range:**
+```python
+# Convert range to list
+numbers = list(range(1, 6))
+print(numbers)  # [1, 2, 3, 4, 5]
+
+# With step
+evens = list(range(2, 11, 2))
+print(evens)  # [2, 4, 6, 8, 10]
+
+# Countdown
+countdown = list(range(10, 0, -1))
+print(countdown)  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+```
+
+#### List Properties
+
+```python
+numbers = [10, 20, 30, 40, 50]
+
+# Length
+print(len(numbers))  # 5
+
+# Access items by index
+print(numbers[0])    # 10 (first item)
+print(numbers[-1])   # 50 (last item)
+
+# Modify items
+numbers[0] = 99
+print(numbers)  # [99, 20, 30, 40, 50]
+```
+
+**Key Differences from Strings:**
+- Lists are MUTABLE (can change after creation)
+- Strings are IMMUTABLE (cannot change after creation)
+
+**Common Uses:**
+- Storing collections of related items
+- Building lists dynamically with loops
+- Processing multiple values together
+
+**Related Concepts:** range(), list methods, iteration
+
+---
+
+### List Indexing and Slicing
+
+**What it does:** Accesses and modifies list elements.
+
+#### Indexing
+
+**Accessing values:**
+```python
+fruits = ["apple", "banana", "cherry", "date"]
+
+# Positive indexing (from start)
+print(fruits[0])   # "apple"
+print(fruits[2])   # "cherry"
+
+# Negative indexing (from end)
+print(fruits[-1])  # "date" (last)
+print(fruits[-2])  # "cherry" (second to last)
+```
+
+**Modifying values:**
+```python
+fruits = ["apple", "banana", "cherry"]
+
+# Change single item
+fruits[1] = "blueberry"
+print(fruits)  # ['apple', 'blueberry', 'cherry']
+
+# Change using negative index
+fruits[-1] = "dragonfruit"
+print(fruits)  # ['apple', 'blueberry', 'dragonfruit']
+```
+
+#### Slicing
+
+**Extracting sublists:**
+```python
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Basic slicing
+print(numbers[2:5])    # [2, 3, 4]
+print(numbers[:3])     # [0, 1, 2] (first 3)
+print(numbers[7:])     # [7, 8, 9] (from index 7 to end)
+print(numbers[:])      # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] (entire list)
+
+# With step
+print(numbers[::2])    # [0, 2, 4, 6, 8] (every other)
+print(numbers[1::2])   # [1, 3, 5, 7, 9] (every other, start at 1)
+print(numbers[::-1])   # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0] (reverse)
+```
+
+#### References vs Copies
+
+**Assignment creates reference (alias):**
+```python
+original = [1, 2, 3]
+reference = original  # Points to SAME list
+
+reference[0] = 99
+print(original)  # [99, 2, 3] - ORIGINAL CHANGED!
+print(reference is original)  # True (same object)
+```
+
+**Slicing creates copy:**
+```python
+original = [1, 2, 3]
+copy = original[:]  # Creates NEW list
+
+copy[0] = 99
+print(original)  # [1, 2, 3] - unchanged
+print(copy)      # [99, 2, 3]
+print(copy is original)  # False (different objects)
+```
+
+**Other ways to copy:**
+```python
+original = [1, 2, 3]
+
+copy1 = original.copy()    # Using .copy() method
+copy2 = list(original)     # Using list() constructor
+copy3 = original[:]        # Using slice
+```
+
+**Identity vs Equality:**
+```python
+list1 = [1, 2, 3]
+list2 = [1, 2, 3]
+list3 = list1
+
+print(list1 == list2)  # True (same values)
+print(list1 is list2)  # False (different objects)
+print(list1 is list3)  # True (same object)
+```
+
+**Common Uses:**
+- Extract portions of lists
+- Create independent copies
+- Reverse lists
+- Get first/last n items
+
+**Related Concepts:** strings (same slicing syntax), list methods, mutability
+
+---
+
+### List Iteration
+
+**What it does:** Loops through list items.
+
+#### Value-Based Loops
+
+**When to use:** You only need the values, not the positions.
+
+```python
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)
+# Output:
+# apple
+# banana
+# cherry
+```
+
+**Processing values:**
+```python
+numbers = [1, 2, 3, 4, 5]
+total = 0
+
+for num in numbers:
+    total += num
+
+print(f"Sum: {total}")  # Sum: 15
+```
+
+#### Index-Based Loops
+
+**When to use:** You need positions or want to modify the list.
+
+```python
+fruits = ["apple", "banana", "cherry"]
+
+for i in range(len(fruits)):
+    print(f"Index {i}: {fruits[i]}")
+# Output:
+# Index 0: apple
+# Index 1: banana
+# Index 2: cherry
+```
+
+**Modifying list during iteration:**
+```python
+numbers = [1, 2, 3, 4, 5]
+
+for i in range(len(numbers)):
+    numbers[i] = numbers[i] * 2
+
+print(numbers)  # [2, 4, 6, 8, 10]
+```
+
+#### Guard Patterns
+
+**Selective processing based on position:**
+```python
+scores = [85, 92, 78, 95, 88]
+
+for i in range(len(scores)):
+    if i == 0:
+        print(f"First score: {scores[i]}")
+    elif i == len(scores) - 1:
+        print(f"Last score: {scores[i]}")
+    else:
+        print(f"Score: {scores[i]}")
+```
+
+#### Membership Testing
+
+**Check if item exists before processing:**
+```python
+fruits = ["apple", "banana", "cherry"]
+
+# Check membership
+if "banana" in fruits:
+    print("We have bananas!")
+
+# Check absence
+if "grape" not in fruits:
+    print("No grapes available")
+```
+
+#### Accumulation Patterns
+
+**Building values during iteration:**
+```python
+numbers = [10, 20, 30, 40, 50]
+
+# Sum
+total = 0
+for num in numbers:
+    total += num
+print(f"Total: {total}")  # Total: 150
+
+# Count matching items
+count = 0
+for num in numbers:
+    if num > 25:
+        count += 1
+print(f"Count: {count}")  # Count: 3
+```
+
+**Critical Rule:** Never modify a list while iterating over it directly. Build a new list instead.
+
+```python
+# BAD - Don't do this
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    if num % 2 == 0:
+        numbers.remove(num)  # Can cause unexpected behavior!
+
+# GOOD - Build new list
+numbers = [1, 2, 3, 4, 5]
+odds = []
+for num in numbers:
+    if num % 2 != 0:
+        odds.append(num)
+```
+
+**Common Uses:**
+- Processing each item in collection
+- Accumulating totals or counts
+- Searching for specific items
+- Building new lists from existing ones
+
+**Related Concepts:** for loops, range(), list methods
+
+---
+
+### Common List Methods
+
+**What they do:** Built-in functions that modify or query lists.
+
+#### Adding Items
+
+**append() - Add to end (most common):**
+```python
+fruits = ["apple", "banana"]
+fruits.append("cherry")
+print(fruits)  # ['apple', 'banana', 'cherry']
+```
+
+**insert() - Add at specific position:**
+```python
+fruits = ["apple", "cherry"]
+fruits.insert(1, "banana")  # Insert at index 1
+print(fruits)  # ['apple', 'banana', 'cherry']
+```
+
+**extend() - Add all items from another iterable:**
+```python
+fruits = ["apple", "banana"]
+more_fruits = ["cherry", "date"]
+
+fruits.extend(more_fruits)
+print(fruits)  # ['apple', 'banana', 'cherry', 'date']
+```
+
+**append() vs extend():**
+```python
+# append adds the entire object
+fruits = ["apple"]
+fruits.append(["banana", "cherry"])
+print(fruits)  # ['apple', ['banana', 'cherry']] - nested!
+
+# extend adds each item individually
+fruits = ["apple"]
+fruits.extend(["banana", "cherry"])
+print(fruits)  # ['apple', 'banana', 'cherry'] - flattened!
+```
+
+#### Removing Items
+
+**remove() - Remove first matching value:**
+```python
+fruits = ["apple", "banana", "cherry", "banana"]
+fruits.remove("banana")  # Removes first "banana"
+print(fruits)  # ['apple', 'cherry', 'banana']
+
+# Always check first to avoid ValueError
+if "grape" in fruits:
+    fruits.remove("grape")
+else:
+    print("Grape not found")
+```
+
+**pop() - Remove and return item:**
+```python
+fruits = ["apple", "banana", "cherry"]
+
+# Remove last item
+last = fruits.pop()
+print(last)    # "cherry"
+print(fruits)  # ['apple', 'banana']
+
+# Remove at specific index
+first = fruits.pop(0)
+print(first)   # "apple"
+print(fruits)  # ['banana']
+```
+
+**Method Comparison:**
+
+| Method | Finds By | Returns | Raises Error? |
+|--------|----------|---------|---------------|
+| `.remove(value)` | Value | None | Yes (ValueError if not found) |
+| `.pop(index)` | Position | Removed item | Yes (IndexError if invalid index) |
+| `.pop()` | Last position | Removed item | Yes (IndexError if empty) |
+
+**Safe removal pattern:**
+```python
+fruits = ["apple", "banana", "cherry"]
+
+# Safe remove by value
+item = "banana"
+if item in fruits:
+    fruits.remove(item)
+    print(f"Removed {item}")
+else:
+    print(f"{item} not found")
+
+# Safe pop by index
+if len(fruits) > 0:
+    last = fruits.pop()
+    print(f"Removed {last}")
+```
+
+**Common Uses:**
+- Building lists dynamically
+- Adding user input to collections
+- Removing unwanted items
+- Processing queues or stacks
+
+**Related Concepts:** lists, iteration, list building patterns
+
+---
+
+### Sorting Lists
+
+**What it does:** Arranges list items in order.
+
+#### sorted() Function
+
+**Returns NEW sorted list (original unchanged):**
+```python
+numbers = [3, 1, 4, 1, 5, 9, 2]
+sorted_numbers = sorted(numbers)
+
+print(sorted_numbers)  # [1, 1, 2, 3, 4, 5, 9]
+print(numbers)         # [3, 1, 4, 1, 5, 9, 2] - unchanged
+```
+
+**Syntax:**
+```python
+sorted(list, reverse=False, key=None)
+```
+
+#### .sort() Method
+
+**Modifies list IN PLACE (returns None):**
+```python
+numbers = [3, 1, 4, 1, 5, 9, 2]
+numbers.sort()
+
+print(numbers)  # [1, 1, 2, 3, 4, 5, 9]
+```
+
+**Syntax:**
+```python
+list.sort(reverse=False, key=None)
+```
+
+**Important:** Don't assign the result of `.sort()`!
+```python
+# WRONG - result will be None
+numbers = [3, 1, 2]
+numbers = numbers.sort()  # numbers is now None!
+
+# RIGHT - .sort() modifies in place
+numbers = [3, 1, 2]
+numbers.sort()  # numbers is now [1, 2, 3]
+```
+
+#### Reverse Parameter
+
+**Descending order:**
+```python
+numbers = [3, 1, 4, 1, 5, 9, 2]
+
+# sorted() with reverse
+desc = sorted(numbers, reverse=True)
+print(desc)  # [9, 5, 4, 3, 2, 1, 1]
+
+# .sort() with reverse
+numbers.sort(reverse=True)
+print(numbers)  # [9, 5, 4, 3, 2, 1, 1]
+```
+
+#### Key Parameter
+
+**Custom sort criterion:**
+
+**Sort by length:**
+```python
+words = ["apple", "pie", "banana", "cherry"]
+sorted_words = sorted(words, key=len)
+print(sorted_words)  # ['pie', 'apple', 'banana', 'cherry']
+```
+
+**Sort by absolute value:**
+```python
+numbers = [-5, 2, -10, 3, -1]
+sorted_nums = sorted(numbers, key=abs)
+print(sorted_nums)  # [-1, 2, 3, -5, -10]
+```
+
+**Case-insensitive string sorting:**
+```python
+names = ["alice", "Bob", "Charlie", "david"]
+sorted_names = sorted(names, key=str.lower)
+print(sorted_names)  # ['alice', 'Bob', 'Charlie', 'david']
+```
+
+**Sort tuples by specific element:**
+```python
+students = [("Alice", 85), ("Bob", 92), ("Charlie", 78)]
+
+# Sort by second element (score)
+by_score = sorted(students, key=lambda x: x[1])
+print(by_score)
+# [('Charlie', 78), ('Alice', 85), ('Bob', 92)]
+```
+
+#### When to Use Each
+
+**Use sorted():**
+- When you need both original and sorted versions
+- When sorting is temporary for one operation
+- When working with immutable data
+
+**Use .sort():**
+- When you only need the sorted version
+- When memory efficiency matters
+- When you won't use the original order again
+
+**Stable Sorting:**
+Equal items maintain their original relative order.
+
+```python
+# Two-level sort: sort by secondary first, then primary
+students = [("Alice", 85), ("Bob", 85), ("Charlie", 90)]
+students.sort(key=lambda x: x[0])  # Sort by name first
+students.sort(key=lambda x: x[1], reverse=True)  # Then by score
+# Students with same score keep name order
+```
+
+**Common Uses:**
+- Organizing data alphabetically or numerically
+- Finding min/max values (sort then access first/last)
+- Preparing data for display
+- Ranking items
+
+**Related Concepts:** lists, lambda functions, comparison operators
+
+---
+
+### Dictionary Basics
+
+**What it does:** Stores data as key-value pairs for fast lookup.
+
+#### Creating Dictionaries
+
+**Syntax:**
+```python
+dict_name = {
+    "key1": value1,
+    "key2": value2,
+    "key3": value3
+}
+```
+
+**Examples:**
+```python
+# Simple dictionary
+person = {
+    "name": "Marco",
+    "age": 25,
+    "city": "Phoenix"
+}
+
+# Different value types
+student = {
+    "name": "Alice",
+    "grades": [85, 90, 92],
+    "is_active": True
+}
+
+# Empty dictionary
+empty_dict = {}
+```
+
+#### Accessing Values
+
+**Direct access with []:**
+```python
+person = {"name": "Marco", "age": 25}
+
+print(person["name"])  # "Marco"
+print(person["age"])   # 25
+
+# KeyError if key doesn't exist
+print(person["city"])  # KeyError: 'city'
+```
+
+**Safe access with .get():**
+```python
+person = {"name": "Marco", "age": 25}
+
+# Returns None if key missing
+print(person.get("city"))  # None
+
+# Returns default value if key missing
+print(person.get("city", "Unknown"))  # "Unknown"
+
+# Still works if key exists
+print(person.get("name", "Unknown"))  # "Marco"
+```
+
+**When to use each:**
+- Use `[]` when you're sure the key exists
+- Use `.get()` when key might be missing
+
+#### Adding and Updating
+
+**Add new key-value pair:**
+```python
+person = {"name": "Marco"}
+person["age"] = 25
+print(person)  # {'name': 'Marco', 'age': 25}
+```
+
+**Update existing value:**
+```python
+person = {"name": "Marco", "age": 25}
+person["age"] = 26
+print(person)  # {'name': 'Marco', 'age': 26}
+```
+
+**Same syntax for both add and update:**
+```python
+scores = {}
+scores["math"] = 85      # Adds
+scores["math"] = 90      # Updates
+scores["science"] = 88   # Adds
+```
+
+#### Key Rules
+
+**Keys must be immutable:**
+```python
+# Valid keys
+valid = {
+    "string_key": 1,      # String ✓
+    42: "number",         # Number ✓
+    (1, 2): "tuple"       # Tuple ✓
+}
+
+# Invalid keys
+invalid = {
+    [1, 2]: "list"        # List ✗ - TypeError!
+}
+```
+
+**Keys must be unique:**
+```python
+# Duplicate keys - last one wins
+person = {
+    "name": "Marco",
+    "age": 25,
+    "age": 26  # This overwrites the previous "age"
+}
+print(person)  # {'name': 'Marco', 'age': 26}
+```
+
+**Values can be any type:**
+```python
+data = {
+    "number": 42,
+    "list": [1, 2, 3],
+    "dict": {"nested": "value"},
+    "bool": True
+}
+```
+
+#### Basic Operations
+
+**Length:**
+```python
+person = {"name": "Marco", "age": 25, "city": "Phoenix"}
+print(len(person))  # 3
+```
+
+**Get all values:**
+```python
+scores = {"math": 85, "science": 90, "english": 88}
+print(scores.values())  # dict_values([85, 90, 88])
+
+# Calculate average
+average = sum(scores.values()) / len(scores)
+print(average)  # 87.666...
+```
+
+**Check if key exists:**
+```python
+person = {"name": "Marco", "age": 25}
+
+if "name" in person:
+    print(f"Name: {person['name']}")
+
+if "city" not in person:
+    print("City not specified")
+```
+
+**Common Uses:**
+- Storing structured data (like JSON)
+- Fast lookups by key
+- Counting occurrences
+- Mapping relationships
+
+**Related Concepts:** lists, iteration, nested structures
+
+---
+
+### Dictionary Iteration
+
+**What it does:** Loops through dictionary keys, values, or pairs.
+
+#### Loop Through Keys
+
+**Using .keys() method:**
+```python
+scores = {"math": 85, "science": 90, "english": 88}
+
+for subject in scores.keys():
+    print(subject)
+# Output:
+# math
+# science
+# english
+```
+
+**Shortcut (default behavior):**
+```python
+scores = {"math": 85, "science": 90, "english": 88}
+
+for subject in scores:  # Same as scores.keys()
+    print(subject)
+```
+
+#### Loop Through Values
+
+**Using .values() method:**
+```python
+scores = {"math": 85, "science": 90, "english": 88}
+
+for score in scores.values():
+    print(score)
+# Output:
+# 85
+# 90
+# 88
+```
+
+**Calculations on values:**
+```python
+scores = {"math": 85, "science": 90, "english": 88}
+
+total = 0
+for score in scores.values():
+    total += score
+
+average = total / len(scores)
+print(f"Average: {average}")  # Average: 87.666...
+```
+
+#### Loop Through Key-Value Pairs
+
+**Using .items() method (most common):**
+```python
+scores = {"math": 85, "science": 90, "english": 88}
+
+for subject, score in scores.items():
+    print(f"{subject}: {score}")
+# Output:
+# math: 85
+# science: 90
+# english: 88
+```
+
+**With conditionals:**
+```python
+scores = {"math": 85, "science": 90, "english": 88}
+
+for subject, score in scores.items():
+    if score >= 90:
+        print(f"{subject}: A grade!")
+    else:
+        print(f"{subject}: {score}")
+```
+
+#### When to Use Each Method
+
+| Method | Use When | Example |
+|--------|----------|---------|
+| `.keys()` | Only need keys | Check if certain keys exist |
+| `.values()` | Only need values | Calculate sum/average |
+| `.items()` | Need both | Display formatted output |
+
+**Common Patterns:**
+
+**Finding maximum value:**
+```python
+scores = {"math": 85, "science": 90, "english": 88}
+
+max_score = 0
+max_subject = ""
+
+for subject, score in scores.items():
+    if score > max_score:
+        max_score = score
+        max_subject = subject
+
+print(f"Best: {max_subject} ({max_score})")
+```
+
+**Counting occurrences:**
+```python
+votes = ["apple", "banana", "apple", "cherry", "banana", "apple"]
+count = {}
+
+for fruit in votes:
+    if fruit in count:
+        count[fruit] += 1
+    else:
+        count[fruit] = 1
+
+print(count)  # {'apple': 3, 'banana': 2, 'cherry': 1}
+```
+
+**Filtering:**
+```python
+scores = {"math": 85, "science": 90, "english": 88, "history": 75}
+
+# Build new dict with scores >= 85
+high_scores = {}
+for subject, score in scores.items():
+    if score >= 85:
+        high_scores[subject] = score
+
+print(high_scores)  # {'math': 85, 'science': 90, 'english': 88}
+```
+
+**Common Uses:**
+- Processing all entries in dictionary
+- Calculating statistics on values
+- Filtering or transforming data
+- Building formatted output
+
+**Related Concepts:** dictionaries, for loops, tuples (unpacking in .items())
+
+---
+
+### Copy Semantics
+
+**What it does:** Explains the difference between assigning and copying collections.
+
+#### Assignment Creates Alias
+
+**Lists:**
+```python
+original = [1, 2, 3]
+alias = original  # Points to SAME list
+
+alias[0] = 99
+print(original)  # [99, 2, 3] - CHANGED!
+print(alias)     # [99, 2, 3]
+
+print(alias is original)  # True (same object)
+```
+
+**Dictionaries:**
+```python
+original = {"name": "Marco", "age": 25}
+alias = original  # Points to SAME dict
+
+alias["age"] = 26
+print(original)  # {'name': 'Marco', 'age': 26} - CHANGED!
+print(alias)     # {'name': 'Marco', 'age': 26}
+
+print(alias is original)  # True (same object)
+```
+
+#### Creating Independent Copies
+
+**Lists:**
+```python
+original = [1, 2, 3]
+
+# Method 1: .copy()
+copy1 = original.copy()
+
+# Method 2: slice
+copy2 = original[:]
+
+# Method 3: list() constructor
+copy3 = list(original)
+
+# All are independent
+copy1[0] = 99
+print(original)  # [1, 2, 3] - unchanged
+print(copy1)     # [99, 2, 3]
+```
+
+**Dictionaries:**
+```python
+original = {"name": "Marco", "age": 25}
+
+# Method 1: .copy()
+copy1 = original.copy()
+
+# Method 2: dict() constructor
+copy2 = dict(original)
+
+# Both are independent
+copy1["age"] = 26
+print(original)  # {'name': 'Marco', 'age': 25} - unchanged
+print(copy1)     # {'name': 'Marco', 'age': 26}
+```
+
+#### Identity vs Equality
+
+**== checks values (equality):**
+```python
+list1 = [1, 2, 3]
+list2 = [1, 2, 3]
+
+print(list1 == list2)  # True (same values)
+```
+
+**is checks if same object (identity):**
+```python
+list1 = [1, 2, 3]
+list2 = [1, 2, 3]
+list3 = list1
+
+print(list1 is list2)  # False (different objects)
+print(list1 is list3)  # True (same object)
+```
+
+**When it matters:**
+```python
+# Equality check (usually what you want)
+if my_list == [1, 2, 3]:
+    print("List contains 1, 2, 3")
+
+# Identity check (less common)
+if my_list is original_list:
+    print("These are the exact same list object")
+```
+
+**Common Uses:**
+- Creating independent copies before modifying
+- Understanding why changing one variable affects another
+- Avoiding unintended side effects in functions
+- Deep vs shallow copying (for nested structures)
+
+**Related Concepts:** lists, dictionaries, mutability, nested structures
+
+---
+
+### Nested Structures
+
+**What it does:** Stores collections inside other collections.
+
+#### Accessing Nested Data
+
+**List of lists:**
+```python
+grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Access outer list first, then inner
+print(grid[0])     # [1, 2, 3] (first row)
+print(grid[0][0])  # 1 (first row, first column)
+print(grid[1][2])  # 6 (second row, third column)
+print(grid[2][1])  # 8 (third row, second column)
+```
+
+**Dictionary of dictionaries:**
+```python
+users = {
+    "user1": {"name": "Alice", "age": 25},
+    "user2": {"name": "Bob", "age": 30}
+}
+
+# Access outer key first, then inner
+print(users["user1"])         # {'name': 'Alice', 'age': 25}
+print(users["user1"]["name"]) # "Alice"
+print(users["user2"]["age"])  # 30
+```
+
+**List of dictionaries:**
+```python
+students = [
+    {"name": "Alice", "grade": 85},
+    {"name": "Bob", "grade": 92},
+    {"name": "Charlie", "grade": 78}
+]
+
+# Access list index first, then dictionary key
+print(students[0])          # {'name': 'Alice', 'grade': 85}
+print(students[0]["name"])  # "Alice"
+print(students[1]["grade"]) # 92
+```
+
+**Dictionary of lists:**
+```python
+courses = {
+    "math": [85, 90, 88],
+    "science": [92, 87, 95]
+}
+
+# Access dictionary key first, then list index
+print(courses["math"])     # [85, 90, 88]
+print(courses["math"][0])  # 85
+print(courses["science"][2])  # 95
+```
+
+#### Modifying Nested Data
+
+**Modify nested list:**
+```python
+grid = [[1, 2], [3, 4]]
+grid[0][1] = 99
+print(grid)  # [[1, 99], [3, 4]]
+```
+
+**Modify nested dictionary:**
+```python
+users = {"user1": {"name": "Alice", "age": 25}}
+users["user1"]["age"] = 26
+print(users)  # {'user1': {'name': 'Alice', 'age': 26}}
+```
+
+#### The Alias Trap
+
+**Extracting nested item creates alias:**
+```python
+data = [[1, 2], [3, 4]]
+sublist = data[0]  # Alias, not copy!
+
+sublist[0] = 99
+print(data)  # [[99, 2], [3, 4]] - ORIGINAL CHANGED!
+```
+
+**Solution - Make explicit copy:**
+```python
+data = [[1, 2], [3, 4]]
+sublist = data[0][:]  # Create copy with slice
+
+sublist[0] = 99
+print(data)     # [[1, 2], [3, 4]] - unchanged
+print(sublist)  # [99, 2]
+```
+
+#### Safe Dictionary Access
+
+**Use .get() to avoid KeyError:**
+```python
+users = {
+    "user1": {"name": "Alice", "age": 25},
+    "user2": {"name": "Bob"}  # Missing "age"
+}
+
+# BAD - can raise KeyError
+age = users["user2"]["age"]  # KeyError!
+
+# GOOD - safe access
+age = users.get("user2", {}).get("age", "Unknown")
+print(age)  # "Unknown"
+
+# Even better - check at each level
+if "user2" in users and "age" in users["user2"]:
+    age = users["user2"]["age"]
+else:
+    age = "Unknown"
+```
+
+#### Iterating Nested Structures
+
+**Loop through list of dictionaries:**
+```python
+students = [
+    {"name": "Alice", "grade": 85},
+    {"name": "Bob", "grade": 92}
+]
+
+for student in students:
+    print(f"{student['name']}: {student['grade']}")
+```
+
+**Loop through dictionary of lists:**
+```python
+courses = {
+    "math": [85, 90, 88],
+    "science": [92, 87, 95]
+}
+
+for course, grades in courses.items():
+    avg = sum(grades) / len(grades)
+    print(f"{course}: {avg:.1f}")
+```
+
+**Common Uses:**
+- Storing structured data (like JSON)
+- Representing tables or grids
+- Managing complex data relationships
+- Building data from APIs or files
+
+**Related Concepts:** lists, dictionaries, copy semantics, .get() method
+
+---
+
+### Text Parsing
+
+**What it does:** Converts raw text into structured data.
+
+#### Parsing Multi-line Text
+
+**splitlines() - Split text into lines:**
+```python
+data = """Alice|Paris|29
+Bob|London|32
+Charlie|Tokyo|28"""
+
+lines = data.splitlines()
+print(lines)
+# ['Alice|Paris|29', 'Bob|London|32', 'Charlie|Tokyo|28']
+```
+
+#### Converting to Structured Data
+
+**Parse into list of dictionaries:**
+```python
+raw_data = """Alice|Paris|29
+Bob|London|32
+Charlie|Tokyo|28"""
+
+records = []
+lines = raw_data.splitlines()
+
+for line in lines:
+    parts = line.split("|")
+    record = {
+        "name": parts[0],
+        "city": parts[1],
+        "age": int(parts[2])  # Convert to integer
+    }
+    records.append(record)
+
+print(records)
+# [
+#   {'name': 'Alice', 'city': 'Paris', 'age': 29},
+#   {'name': 'Bob', 'city': 'London', 'age': 32},
+#   {'name': 'Charlie', 'city': 'Tokyo', 'age': 28}
+# ]
+```
+
+**Access parsed data:**
+```python
+# Get first person's name
+print(records[0]["name"])  # "Alice"
+
+# Loop through all records
+for record in records:
+    print(f"{record['name']} lives in {record['city']}")
+```
+
+#### Type Conversion During Parsing
+
+**Convert numeric strings:**
+```python
+line = "Product|19.99|50"
+parts = line.split("|")
+
+product = {
+    "name": parts[0],           # String
+    "price": float(parts[1]),   # Convert to float
+    "quantity": int(parts[2])   # Convert to integer
+}
+
+print(product)
+# {'name': 'Product', 'price': 19.99, 'quantity': 50}
+```
+
+#### Values Are Copied
+
+**Dictionary values are independent from source:**
+```python
+line = "Alice|25"
+parts = line.split("|")
+
+person = {
+    "name": parts[0],
+    "age": parts[1]
+}
+
+# Modifying parts doesn't affect dictionary
+parts[0] = "Bob"
+print(person["name"])  # "Alice" (unchanged)
+```
+
+#### Practical Parsing Pattern
+
+**Complete workflow:**
+```python
+# 1. Raw data (multi-line string)
+raw_data = """Math|85|3
+Science|90|4
+English|88|3"""
+
+# 2. Split into lines
+lines = raw_data.splitlines()
+
+# 3. Parse each line
+courses = []
+for line in lines:
+    parts = line.split("|")
+    course = {
+        "subject": parts[0],
+        "grade": int(parts[1]),
+        "credits": int(parts[2])
+    }
+    courses.append(course)
+
+# 4. Use structured data
+total_points = 0
+total_credits = 0
+
+for course in courses.items():
+    points = course["grade"] * course["credits"]
+    total_points += points
+    total_credits += course["credits"]
+
+gpa = total_points / total_credits
+print(f"GPA: {gpa:.2f}")
+```
+
+**Common Uses:**
+- Reading CSV or delimited files
+- Processing configuration files
+- Parsing API responses
+- Converting text data to structured format
+
+**Related Concepts:** strings, split(), dictionaries, lists, type conversion
+
+---
+
 ## Quick Reference Tables
 
 ### Operator Precedence (Order of Operations)
@@ -1214,6 +2715,54 @@ result = (2 + 3) * 4  # 20 (parentheses first)
 | `for` with list | Processing each item in collection | `for name in names:` |
 | `while` | Continue until condition changes | `while score < 100:` |
 | `while True` with `break` | Need explicit exit point | `while True: if done: break` |
+
+---
+
+### String Slicing Patterns
+
+| Pattern | Example | Result | Use Case |
+|---------|---------|--------|----------|
+| `text[start:stop]` | `"Python"[0:3]` | `"Pyt"` | Extract substring |
+| `text[:n]` | `"Python"[:3]` | `"Pyt"` | First n characters |
+| `text[n:]` | `"Python"[3:]` | `"hon"` | From position to end |
+| `text[:]` | `"Python"[:]` | `"Python"` | Copy entire string |
+| `text[::2]` | `"Python"[::2]` | `"Pto"` | Every other character |
+| `text[::-1]` | `"Python"[::-1]` | `"nohtyP"` | Reverse string |
+| `text[-n:]` | `"Python"[-3:]` | `"hon"` | Last n characters |
+
+---
+
+### List Methods Quick Reference
+
+| Method | What It Does | Example | Returns |
+|--------|--------------|---------|---------|
+| `.append(item)` | Add to end | `list.append(5)` | None (modifies in place) |
+| `.insert(i, item)` | Add at position | `list.insert(0, 5)` | None (modifies in place) |
+| `.extend(iterable)` | Add all items | `list.extend([1,2])` | None (modifies in place) |
+| `.remove(value)` | Remove first match | `list.remove(5)` | None (raises ValueError if not found) |
+| `.pop()` | Remove last item | `item = list.pop()` | Removed item |
+| `.pop(i)` | Remove at index | `item = list.pop(0)` | Removed item |
+| `.sort()` | Sort in place | `list.sort()` | None (modifies in place) |
+| `.copy()` | Create copy | `new = list.copy()` | New list |
+| `sorted(list)` | Return sorted | `new = sorted(list)` | New sorted list |
+| `len(list)` | Get length | `n = len(list)` | Integer |
+
+---
+
+### Dictionary Methods Quick Reference
+
+| Method | What It Does | Example | Returns |
+|--------|--------------|---------|---------|
+| `dict[key]` | Access value | `dict["name"]` | Value (raises KeyError if missing) |
+| `.get(key)` | Safe access | `dict.get("name")` | Value or None |
+| `.get(key, default)` | Safe with default | `dict.get("name", "Unknown")` | Value or default |
+| `dict[key] = value` | Add/update | `dict["name"] = "Alice"` | None (modifies in place) |
+| `.keys()` | Get all keys | `for k in dict.keys():` | View of keys |
+| `.values()` | Get all values | `for v in dict.values():` | View of values |
+| `.items()` | Get key-value pairs | `for k,v in dict.items():` | View of (key, value) tuples |
+| `len(dict)` | Count pairs | `n = len(dict)` | Integer |
+| `.copy()` | Create copy | `new = dict.copy()` | New dictionary |
+| `key in dict` | Check key exists | `if "name" in dict:` | Boolean |
 
 ---
 
@@ -1322,6 +2871,73 @@ if not found:
     print(f"{target} not found")
 ```
 
+### Text Parsing Pipeline
+```python
+# Split → Clean → Filter → Join
+text = "apple, , banana, cherry, "
+
+# Step 1: Split on delimiter
+parts = text.split(",")
+
+# Step 2: Strip whitespace from each part
+clean = [item.strip() for item in parts]
+
+# Step 3: Filter out empty strings
+filtered = [item for item in clean if item]
+
+# Step 4: Join with new delimiter
+result = "; ".join(filtered)
+print(result)  # "apple; banana; cherry"
+```
+
+### Safe Dictionary Access
+```python
+# Pattern 1: Using .get() with default
+person = {"name": "Marco", "age": 25}
+city = person.get("city", "Unknown")
+print(city)  # "Unknown"
+
+# Pattern 2: Check before accessing
+if "city" in person:
+    city = person["city"]
+else:
+    city = "Unknown"
+
+# Pattern 3: Nested safe access
+users = {"user1": {"name": "Alice"}}
+age = users.get("user1", {}).get("age", "Unknown")
+```
+
+### List Building Pattern
+```python
+# Initialize empty list
+results = []
+
+# Process items and build list
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for num in numbers:
+    if num % 2 == 0:  # Filter condition
+        doubled = num * 2  # Transform
+        results.append(doubled)
+
+print(results)  # [4, 8, 12, 16, 20]
+```
+
+### Dictionary Counter Pattern
+```python
+# Count occurrences
+items = ["apple", "banana", "apple", "cherry", "banana", "apple"]
+counts = {}
+
+for item in items:
+    if item in counts:
+        counts[item] += 1
+    else:
+        counts[item] = 1
+
+print(counts)  # {'apple': 3, 'banana': 2, 'cherry': 1}
+```
+
 ---
 
 ## Debugging Tips
@@ -1365,6 +2981,30 @@ age = int("twenty")
 age_str = input("Enter age: ")
 if age_str.isdigit():
     age = int(age_str)
+```
+
+**IndexError:**
+```python
+# Error: list index out of range
+numbers = [1, 2, 3]
+print(numbers[5])  # IndexError!
+# Fix: Check length first
+if 5 < len(numbers):
+    print(numbers[5])
+else:
+    print("Index out of range")
+```
+
+**KeyError:**
+```python
+# Error: key doesn't exist in dictionary
+person = {"name": "Marco"}
+print(person["age"])  # KeyError: 'age'
+# Fix: Use .get() for safe access
+age = person.get("age", "Unknown")
+# Or check first
+if "age" in person:
+    print(person["age"])
 ```
 
 ---

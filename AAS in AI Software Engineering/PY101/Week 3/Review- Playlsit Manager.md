@@ -72,7 +72,7 @@
 
   Python
 
-  ```plaintext
+  ```python
   genre_counts = {}
   for song in playlist:
       genre = song["genre"]
@@ -86,7 +86,7 @@
 
   Python
 
-  ```plaintext
+  ```python
   artists = set()
   for song in playlist:
       artists.add(song["artist"])

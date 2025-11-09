@@ -53,8 +53,6 @@ print(menu)   # Output: {'Pizza': 99, 'Pho': 8}
 
 - `is` **(Identity):** Checks if two variables are the **exact same object** in memory.
 
-Python
-
 ```python
 temps = [10, 20, 30]
 alias = temps         # Same object
@@ -85,9 +83,7 @@ You learned three ways. All of them create a new, independent list.
 
 **Example:**
 
-Python
-
-```plaintext
+```python
 temps = [10, 20, 30]
 copy1 = temps.copy()
 copy1[0] = 42
@@ -106,9 +102,7 @@ You learned two ways. Both create a new, independent dictionary.
 
 **Example:**
 
-Python
-
-```plaintext
+```python
 menu = {"Pizza": 12, "Pho": 8}
 menu_copy = dict(menu)
 menu_copy["Pho"] = 5

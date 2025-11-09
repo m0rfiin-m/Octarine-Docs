@@ -96,8 +96,6 @@ print(line.split("|"))
 
 When you create a dictionary, Python copies the values over. It does **not** create a live link to the original `parts` list.
 
-Python
-
 ```python
 parts = ["Alice", "Paris", "29"]
 
@@ -113,8 +111,6 @@ print(person)
 ```
 
 ---
-
-The operator `is` checks for this. `first_day is temps_by_day[0]` would return `True`, because they are the same object.
 
 ### 4. Safe Access: `[]` vs. `.get()`
 

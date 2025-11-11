@@ -152,6 +152,7 @@ Observed output:[100, 24, 21]
 [22, 24, 21]
 
 
+```
 
 What this proves:
 
@@ -159,44 +160,29 @@ Alias: daily_temps and temps point to the same data; changing one changes the ot
 
 Copy: temps[:] creates a new list; changes don’t propagate.
 
-```
-
-Start:temps = [22, 24, 21]
-
-Alias and copy:daily_temps = temps          # alias: same underlying list
-
-daily_temps_copy = temps[:]  # copy: new list with same values
-
-Proof:daily_temps[0] = 100
-
-print(temps)
-
-print(daily_temps_copy)
-
-Observed output:[100, 24, 21]
-
-[22, 24, 21]
-
-What this proves:
-
-- **Alias:** daily_temps and temps point to the same data; changing one changes the other.
-- **Copy:** temps[:] creates a new list; changes don’t propagate.
-
 **Final Edits You Made**
 
-You reinforced the concept with a second pass and name corrections:temps = [22, 24,21]
+You reinforced the concept with a second pass and name corrections:
+
+```python
+temps = [22, 24,21]
 
 daily_temps = temps
 
 dail_temps_copy = temps[:]   # small typo retained from your work: "dail" instead of "daily"
 
+
+
 daily_temps[0] = 100
 
 print(temps)
 
+
+
 get_avg = dail_temps_copy
 
 calculate_average_temperature = get_avg
+```
 
 Note on naming:
 

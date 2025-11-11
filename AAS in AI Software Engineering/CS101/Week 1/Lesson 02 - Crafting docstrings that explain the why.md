@@ -121,47 +121,10 @@ return (temp_f -32) * 5/9
 
 ```
 
+Final polished docstring (corrected grammar and format):
+
+```python
 def convert_f_to_c(temp_f):
-
-return (temp_f - 32) * 5/9
-
-Your first attempt (issues: mismatched param, unclear return, wrong return code):def convert_f_to_c(temp_f):
-
-"""
-
-Convert fahrenheit to celcius
-
-Args:
-
-celcius: new temp
-
-Return:
-
-(temp_f -32) * 5/9
-
-"""
-
-return temp_f
-
-Improved version (still needed polish):def convert_f_to_c(temp_f):
-
-"""
-
-Convert fahrenheit to celcius
-
-Args:
-
-temp_f: new temp
-
-Return:
-
-converted temps
-
-"""
-
-return (temp_f -32) * 5/9
-
-Final polished docstring (corrected grammar and format):def convert_f_to_c(temp_f):
 
 """
 
@@ -182,6 +145,7 @@ return (temp_f -32) * 5/9
 Testing:print(convert_f_to_c(98))
 
 Observed output:36.666666666666664
+```
 
 Lesson learned:
 
@@ -191,7 +155,10 @@ Lesson learned:
 
 **Example 4: Repeating symbols (your iterations and fixes)**
 
-Prompted function:def fancy_line(symbol, length):
+Prompted function:
+
+```python
+def fancy_line(symbol, length):
 
 return symbol * length
 
@@ -209,11 +176,18 @@ length: how many times to repeat
 
 Returns: A string made by repeating the symbol
 
+
+
 """
 
 return fancy_line
 
-Final corrected version:def fancy_line(symbol, length):
+```
+
+Final corrected version:
+
+```python
+def fancy_line(symbol, length):
 
 """
 
@@ -232,6 +206,7 @@ A string made by repeating the symbol.
 """
 
 return symbol * length
+```
 
 Lesson learned:
 
@@ -257,7 +232,10 @@ You responded: yes, no, yes, yes — then aligned your docstrings to the full pa
 - Mixing comments with docstrings; they’re different tools.
 - Testing variables outside function scope (print the function call instead).
 
-**Cheat sheet: copy/paste-ready pattern**def function_name(param1, param2):
+**Cheat sheet: copy/paste-ready pattern**
+
+```python
+def function_name(param1, param2):
 
 """
 
@@ -278,3 +256,4 @@ What is returned and in what form (type), stated simply.
 # implementation
 
 Keep docstrings focused on intent and usage. Save internal mechanics for the code or comments when necessary.
+```

@@ -139,8 +139,6 @@ What improved:
 **Quick reference (copy/paste)**# Functions separated by exactly one blank line
 
 ```python
-```
-
 def add(a, b):
 
 return a + b
@@ -168,5 +166,6 @@ print("one", end=" ")
 print("two")
 
 print()  # visual gap
+```
 
 Clean code is about reducing friction: fast scanning, fewer formatting bugs, and zero surprises when you come back later.

@@ -16,23 +16,42 @@ Readable code is code another developer can understand fast. You’ll use consis
 
 **Core Patterns From the Lesson**
 
-- Top-level docstring:"""
+Top-level docstring:
+
+```python
+"""
 
 Prints numbers 0 to 4, separated by commas.
 
 """
 
-- Purposeful comment (explains intent):# Loop intended to show the number range from 0–4
+```
 
-- Clean loop and print:for count in range(5):
+Purposeful comment (explains intent):
 
+```python
+# Loop intended to show the number range from 0–4
+```
+
+Clean loop and print:for count in range(5):
+
+```python
 print(count, end=",")
 
-- Clean f-string spacing:print(f"val: {i}")   # prefer space after colon for clarity
+```
 
-- Clean conditional blocks:if x &gt; 5:
+Clean f-string spacing:
 
-print("done")
+```python
+print(f"val: {i}")   # prefer space after colon for clarity
+```
+
+Clean conditional blocks
+
+```python
+if x > 5:
+    print("done")
+```
 
 **Common Fixes You Practiced**
 
@@ -65,11 +84,9 @@ print("done")
 - Docstring present and concise.
 - Run the code after each single-line fix to catch errors early.
 
-**Final Example (Clean and Passes All 6)**"""
+**Final Example (Clean and Passes All 6)**
 
 Demo: print labeled values and simple size checks.
-
-"""
 
 # Print 0–10 labeled values
 
@@ -81,7 +98,6 @@ for i in range(0, x + 1):
 print(f"val: {i}")
 
 print()
-
 ```
 
 # Range demo 1–(y + 1)

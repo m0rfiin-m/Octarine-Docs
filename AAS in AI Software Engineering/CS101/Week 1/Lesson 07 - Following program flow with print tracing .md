@@ -38,35 +38,42 @@ Use these at the start and just before return in functions.
   #Loop trace to catch logic bugs:total = 0
   ```
 
-for i in range(1, 10):
+  ```python
+  for i in range(1, 10):
+  
+  if i % 2 == 1:
+  
+  total += i
+  
+  print("i =", i, "total =", total)
+  
+  print(total)  # final check
+  ```
 
-if i % 2 == 1:
 
-total += i
+- Chained functions with traces:
 
-print("i =", i, "total =", total)
-
-print(total)  # final check
-
-- Chained functions with traces:def bonus(points):
-
-print("&gt;&gt;&gt; enter bonus")
-
-result = points + 5
-
-print("&lt;&lt;&lt; exit bonus:", result)
-
-return result
-
-def calc_points(x, y):
-
-print("&gt;&gt;&gt; enter calc_points")
-
-total = x * y
-
-print("&lt;&lt;&lt; exit calc_points:", total)
-
-return bonus(total)
+  ```python
+  def bonus(points):
+  
+  print(">>> enter bonus")
+  
+  result = points + 5
+  
+  print("<<< exit bonus:", result)
+  
+  return result
+  
+  def calc_points(x, y):
+  
+  print(">>> enter calc_points")
+  
+  total = x * y
+  
+  print("<<< exit calc_points:", total)
+  
+  return bonus(total)
+  ```
 
 **Fixing Real Bugs**
 

@@ -1,5 +1,13 @@
 
-**Writing comments with real purpose**
+# Writing comments with real purpose
+
+**Date**: October 28, 2025
+
+**Course**: CS101 - Computer Science Fundamentals
+
+**Week**: 1, Lesson 03
+
+## What You’ll Learn 
 
 This lesson teaches how to write comments that explain the why behind code, not restate the obvious. Comments are for humans, not the interpreter, and should reveal intent, constraints, and reasoning.
 
@@ -46,7 +54,6 @@ def add_one(n):
 result = n + 1
 
 return result
-
 ```
 
 Why this works:

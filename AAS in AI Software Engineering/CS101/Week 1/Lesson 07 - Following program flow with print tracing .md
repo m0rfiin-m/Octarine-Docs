@@ -1,4 +1,13 @@
 
+# Following program flow with print tracing 
+
+**Date**: October 28, 2025
+
+**Course**: CS101 - Computer Science Fundamentals
+
+**Week**: 1, Lesson 07
+
+## What You’ll Learn
 
 **Why Print Tracing Matters**
 
@@ -14,17 +23,20 @@ Use these at the start and just before return in functions.
 
 **Patterns You Practiced**
 
-- Simple function trace:def add_three(a, b, c):
+- Simple function trace:
 
-print("&gt;&gt;&gt; enter add_three")
-
-total = a + b + c
-
-print("&lt;&lt;&lt; exit add_three:", total)
-
-return total
-
-- Loop trace to catch logic bugs:total = 0
+  ```python
+  def add_three(a, b, c):
+  
+  print(">>> enter add_three")
+  
+  total = a + b + c
+  
+  print("<<< exit add_three:", total)
+  
+  return total
+  #Loop trace to catch logic bugs:total = 0
+  ```
 
 for i in range(1, 10):
 

@@ -1,5 +1,13 @@
 
-**Crafting docstrings that explain the why**
+# **Crafting docstrings that explain the why**
+
+**Date:** October 28, 2025
+
+**Course:** CS101 - Computer Science Fundamentals
+
+**Week:** 1, Lesson 02
+
+## What You’ll Learn
 
 Docstrings describe what a function does, why it exists, how to use it, and what it returns. They live directly under the def line in triple quotes and are visible via help(func) or func.**doc**.
 
@@ -39,7 +47,6 @@ Starting function (confusing without context):
 def runit(x):
 
 return x * 2 - 1
-
 ```
 
 Problem: No clue what x should be, what the intent is, or why this exists. A docstring would clarify input expectations and purpose.
@@ -118,7 +125,6 @@ converted temps
 """
 
 return (temp_f -32) * 5/9
-
 ```
 
 Final polished docstring (corrected grammar and format):
@@ -181,7 +187,6 @@ Returns: A string made by repeating the symbol
 """
 
 return fancy_line
-
 ```
 
 Final corrected version:

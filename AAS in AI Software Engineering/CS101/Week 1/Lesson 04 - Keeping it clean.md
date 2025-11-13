@@ -1,5 +1,13 @@
 
-**Keeping it clean**
+# Keeping it clean
+
+**Date:** October 28, 2025
+
+**Course**: CS101 - Computer Science Fundamentals
+
+**Week**: 1, Lesson 04
+
+## What You’ll Learn
 
 This lesson tightens up code formatting so it reads smoothly and avoids silly errors. The focus is consistent indentation (4 spaces), clean spacing around operators and commas, sensible blank lines between sections, and predictable print behavior. You practiced fixing messy code line by line and saw how strict formatting makes your logic clearer.
 
@@ -96,7 +104,6 @@ temps=[32,68,100]
 for t in temps:
 
 print(f"F:{t},C:{round(f_to_c(t),1)}" )
-
 ```
 
 Step-by-step cleaned version:
@@ -118,7 +125,6 @@ F:32, C:0.0
 F:68, C:20.0
 
 F:100, C:37.8
-
 ```
 
 What improved:

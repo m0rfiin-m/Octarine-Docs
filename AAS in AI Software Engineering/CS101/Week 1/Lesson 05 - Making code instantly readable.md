@@ -1,5 +1,13 @@
 
-Making code instantly readable,” with examples and a checklist.
+# Making code instantly readable 
+
+**Date**: October 28, 2025
+
+**Course**: CS101 - Computer Science Fundamentals
+
+**Week**: 1, Lesson 05
+
+## What You’ll Learn
 
 **What “Readable Code” Means**
 
@@ -24,7 +32,6 @@ Top-level docstring:
 Prints numbers 0 to 4, separated by commas.
 
 """
-
 ```
 
 Purposeful comment (explains intent):
@@ -37,7 +44,6 @@ Clean loop and print:for count in range(5):
 
 ```python
 print(count, end=",")
-
 ```
 
 Clean f-string spacing:

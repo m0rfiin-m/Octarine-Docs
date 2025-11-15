@@ -1,5 +1,5 @@
 
-**Study Guide: Pushing the limits**
+# Pushing the limits
 
 **Core idea:** Define strict input/output boundaries and test the extremes. Clamp when necessary. Prove behavior with asserts. Verify copy vs alias to avoid hidden mutations.
 

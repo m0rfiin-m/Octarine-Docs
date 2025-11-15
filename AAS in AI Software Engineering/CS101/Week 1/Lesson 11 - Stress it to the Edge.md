@@ -1,5 +1,5 @@
 
-**Study Guide: Stress it to the edge**
+# Stress it to the edge
 
 **Core idea:** Test beyond “normal.” Cover typical inputs, edge boundaries, and clearly invalid inputs to expose hidden bugs fast.
 

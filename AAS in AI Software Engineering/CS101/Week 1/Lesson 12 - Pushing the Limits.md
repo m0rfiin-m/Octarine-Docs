@@ -13,31 +13,28 @@
 **Canonical examples**
 
 ```python
-```
-
 # Clamp to [0, 100]
 
 def bounded_percent(x):
+    if x < 0: return 0
 
-    if x &lt; 0: return 0
+    if x > 100: return 100
 
-    if x &gt; 100: return 100
-
-    return x
+    return x
 
 tests = [0, 50, 100, -5, 105]
 
 for x in tests:
 
-    y = bounded_percent(x)
+    y = bounded_percent(x)
 
-    if x in (0, 50, 100):
+    if x in (0, 50, 100):
 
-        assert y == x
+      assert y == x
 
-    else:
+  else:
 
-        assert y == (0 if x &lt; 0 else 100)
+     assert y == (0 if x < 0 else 100)
 
 # Copy vs alias
 
@@ -49,11 +46,12 @@ c = a         # alias
 
 b.append(99)
 
-assert a  ==[1, 2, 3] and b==  [1, 2, 3, 99]
+assert a [1, 2, 3] and b [1, 2, 3, 99]
 
 c.append(42)
 
 assert a == [1, 2, 3, 42] and c is a
+```
 
 **Edge inputs to include**
 

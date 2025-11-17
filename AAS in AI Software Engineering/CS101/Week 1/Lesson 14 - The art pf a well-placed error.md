@@ -1,12 +1,11 @@
 
-
 # The art of a well‑placed error
 
-**Date”:** Sunday, November 16, 2025
+**Date:** Sunday, November 16, 2025
 
-**Course :** CS101 
+**Course :** CS101
 
-**Week:** 
+**Week:** 1, Lesson 14
 
 ## What You’ll Learn
 
@@ -28,8 +27,6 @@ Clear variable names make rules readable and debugging faster. When code says �
 **Reference Patterns**
 
 ```python
-```
-
 # Percent in [0, 100], string input
 
 def safe_percent(txt):
@@ -40,12 +37,14 @@ def safe_percent(txt):
 
         num = int(txt)
 
-        if 0 &lt;= num and num &lt;= 100:
+        if 0 <= num and num <= 100:
 
             return num
 
     return None
+```
 
+```python
 # Divide with an assert guard
 
 def divide(a, b):
@@ -53,7 +52,9 @@ def divide(a, b):
     assert b != 0
 
     return a / b
+```
 
+```python
 # Age with two asserts (numeric shape, then range)
 
 def read_age(text):
@@ -64,10 +65,12 @@ def read_age(text):
 
     num = int(text)
 
-    assert 0 &lt;= num &lt;= 120
+    assert 0 <= num <= 120
 
     return num
+```
 
+```python
 # Temperature as float with asserts
 
 def parse_temperature(txt):
@@ -80,9 +83,10 @@ def parse_temperature(txt):
 
     value = float(txt)
 
-    assert -90.0 &lt;= value &lt;= 60.0
+    assert -90.0 <= value <= 60.0
 
     return value
+```
 
 **Assert vs. Sentinel**
 

@@ -1,7 +1,8 @@
+
 # Naming That Tells a Story
 
-**Date:** October 28, 2025  
-**Course:** CS101 - Computer Science Fundamentals  
+**Date:** October 28, 2025
+**Course:** CS101 - Computer Science Fundamentals
 **Week:** 1, Lesson 01
 
 ## What You'll Learn
@@ -17,6 +18,7 @@ Code is read far more often than it's written. When you return to your code week
 **Good naming = clear code, no guessing needed.**
 
 Names should communicate:
+
 - **What** the data represents
 - **Why** it exists in your program
 - **How** it should be used
@@ -68,6 +70,7 @@ def send_email():
 ```
 
 **Why snake_case?**
+
 - Reads naturally like written language
 - Standard across Python code
 - Improves searchability in codebases
@@ -130,6 +133,7 @@ def validate_email(email):
 ```
 
 **Pattern Recognition:**
+
 - If it stores something: use a noun
 - If it does something: use a verb
 
@@ -236,7 +240,8 @@ def sort_playlist(music, sort_key):
     return sorted(music, key=sort_key)
 ```
 
-**Why `sort_key` is better than `title`:**
+**Why** `sort_key` **is better than** `title`**:**
+
 - Works for sorting by title, artist, duration, or any attribute
 - Signals that the parameter accepts a function
 - Remains accurate if sorting logic changes
@@ -311,11 +316,13 @@ print(daily_temps_copy)
 ### When to Use Each
 
 **Use Alias when:**
+
 - You want changes to reflect everywhere
 - You're passing data to a function that should modify the original
 - Memory efficiency matters (large lists)
 
 **Use Copy when:**
+
 - You need to preserve the original data
 - You're experimenting with transformations
 - You want to compare before/after states
@@ -407,8 +414,7 @@ for c in a:
 print(b)
 ```
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Descriptive names for temperature conversion
@@ -423,8 +429,6 @@ print(fahrenheit_temps)
 
 **Explanation:** Clear names indicate this converts Celsius to Fahrenheit. The loop variable `temp_celsius` describes each item being processed.
 
-</details>
-
 **Exercise 2: Improve Function Names**
 
 Rename this function and its parameters to be more descriptive.
@@ -437,8 +441,7 @@ result = calc(5, 10)
 print(result)
 ```
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Descriptive function and parameter names
@@ -453,14 +456,11 @@ print(f"Area: {rectangle_area} square units")
 
 **Explanation:** The function name uses a verb (`calculate`). Parameters describe what values are expected. The return variable name indicates what the result represents.
 
-</details>
-
 **Exercise 3: Copy vs Alias**
 
 Create a list of scores. Make an alias and a copy. Modify the first score in each. Print all three to see the difference.
 
-<details>
-<summary>Solution</summary>
+<span class="hidden-blocks" style="display: none;">Solution</span>
 
 ```python
 # Original scores
@@ -491,18 +491,16 @@ print(f"Copy: {score_copy}")
 
 **Explanation:** The alias modification changed both `original_scores` and `score_alias` because they reference the same list. The copy modification only affected `score_copy` because it's an independent list.
 
-</details>
-
 ---
 
 ## Key Takeaways
 
-✅ **Use snake_case for Python** - Lowercase with underscores between words  
-✅ **Nouns for data, verbs for actions** - Variables are things, functions do things  
-✅ **Rename consistently** - Update all references when changing a variable name  
-✅ **Descriptive loop variables** - `for user in users` not `for x in users`  
-✅ **Flexible parameter names** - `sort_key` works better than `title` for general functions  
-✅ **Slicing creates copies** - `new_list = old_list[:]` makes an independent copy  
+✅ **Use snake_case for Python** - Lowercase with underscores between words
+✅ **Nouns for data, verbs for actions** - Variables are things, functions do things
+✅ **Rename consistently** - Update all references when changing a variable name
+✅ **Descriptive loop variables** - `for user in users` not `for x in users`
+✅ **Flexible parameter names** - `sort_key` works better than `title` for general functions
+✅ **Slicing creates copies** - `new_list = old_list[:]` makes an independent copy
 ✅ **Names eliminate comments** - Good names explain code without additional documentation
 
 **Remember:** Code is written once but read many times. Invest 10 seconds choosing a clear name and save 10 minutes of confusion later.

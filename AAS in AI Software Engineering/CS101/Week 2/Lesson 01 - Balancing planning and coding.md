@@ -1,5 +1,5 @@
 
- **Balancing Planning and Coding – Lesson 1 Study Guide** in the format you like, tailored to **Week 2: Nov 17 – Nov 23** for CS101, AAS in AI Software Engineering.
+#  **Balancing Planning and Coding** 
 
 ---
 
@@ -40,19 +40,30 @@ Lesson: Balancing planning and coding
 
 Here’s how a micro-plan looks as code comments before coding:
 
-```plaintext
-python
-```
+```python
+# Plan: 
+# 1. Define greet function 
+# 2. Repeat print 3 times 
+# 3. Use for loop for repetition 
+# 4. Test function by calling greet() 
+# 5. Confirm output prints "Hello Marco!" three times  
 
-`# Plan: # 1. Define greet function # 2. Repeat print 3 times # 3. Use for loop for repetition # 4. Test function by calling greet() # 5. Confirm output prints "Hello Marco!" three times  def greet():     for i in range(3):         print("Hello Marco!")  greet() `
+
+def greet():     
+    for i in range(3):         
+        print("Hello Marco!")  
+greet() 
+```
 
 If you skip the loop, manual repetition works too:
 
-```plaintext
-python
+```python
+def greet():     
+    print("Hello Marco!")     
+    print("Hello Marco!")     
+    print("Hello Marco!")  
+greet() 
 ```
-
-`def greet():     print("Hello Marco!")     print("Hello Marco!")     print("Hello Marco!")  greet() `
 
 ---
 
@@ -86,7 +97,3 @@ python
 - As projects get larger, planning helps you avoid missing features and future headaches.
 
 ---
-
-Let me know if you’d like me to customize further (e.g., with more practice problems or a summary in another style)! If you share your exact course or assignment needs, I can tailor it even more.
-
-1. <https://maestro.org/learn/688b5ab40508accc71b2ef49-4/688b5ab40508accc71b2e8bd-58>

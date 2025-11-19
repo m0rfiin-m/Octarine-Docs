@@ -1,11 +1,13 @@
 
-# Study Guide: **Hierarchy in Pseudocode**
+# **Hierarchy in Pseudocode**
 
-Let’s break down how to use hierarchy—**numbering, indentation, and sub-numbering**—in pseudocode, so you can write organized, readable plans for any programming problem.
+Date: Wednesday, November 19, 2025
 
----
+Course: CS101 – AAS in AI Software Engineering
 
-## **What Is Hierarchy in Pseudocode?**
+Week: 2, Lesson 2Lesson: Hierarchy in Pseudocode
+
+**What Is Hierarchy in Pseudocode?**
 
 Hierarchy is the way we show which steps "contain" or depend on other steps, using indentation and sub-numbering.
 
@@ -141,9 +143,3 @@ Start with:
 ```python
 # 1. ...
 ```
-
----
-
-If you let me know your preferred template or grade level, I can tailor this guide or practice rounds even more! Would you like another practical example, a quiz, or walk through your answer together?
-
-[1](https://maestro.org/learn/688b5ab40508accc71b2ef49-4/688b5ab40508accc71b2e8bd-58/690c7c6cda10b5a4bdfc66ff)

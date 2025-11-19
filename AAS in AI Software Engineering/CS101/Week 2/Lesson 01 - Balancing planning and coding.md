@@ -1,9 +1,9 @@
 
-#  **Balancing Planning and Coding** 
+# **Balancing Planning and Coding**
 
 ---
 
-Date: Sunday, November 17, 2025
+Date: Sunday, November 19, 2025
 Course: CS101 – AAS in AI Software Engineering
 Week: 2, Lesson 1
 Lesson: Balancing planning and coding
@@ -82,7 +82,7 @@ greet()
 ## Quick Practice
 
 - Write a function that prints “Balancing planning and coding is key!” three times, *without* using a loop.
-   *Extra:* Edit one print line to a different phrase, run, and see your output change.
+  *Extra:* Edit one print line to a different phrase, run, and see your output change.
 
 - Reflect: When did planning help you avoid a coding mistake in this week’s lesson?
 

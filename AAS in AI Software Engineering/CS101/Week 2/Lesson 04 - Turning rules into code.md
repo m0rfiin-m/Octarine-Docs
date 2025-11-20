@@ -72,11 +72,18 @@ if result > 100:
 
 **Skeleton Python Code:**
 
-```plaintext
-python
+```python
+is_raining = True   # True or False 
+temperature = 10   # degrees Celsius  
+if is_raining:    
+     print("Wear a raincoat") 
+elif temperature < 15:    
+     print("Wear a sweater") 
+else:     
+    print("Wear a t-shirt")
 ```
 
-`is_raining = True   # or False temperature = 10    # degrees Celsius  if is_raining:     print("Wear a raincoat") elif temperature < 15:     print("Wear a sweater") else:     print("Wear a t-shirt") `
+` `
 
 *Change* `is_raining` *and* `temperature` *values to test all possible outcomes.*
 
@@ -99,12 +106,3 @@ python
 - Always test your logic with sample inputs.
 
 - Each decision branch (`if`, `elif`, `else`) does one distinct action.
-
-**Mnemonic:**
- **A.G.M.** – Action, Granularity, Map
-
----
-
-If you want more examples or a practice challenge in your preferred Maestro format, let me know and I’ll tailor it further! Ready for the next lesson or quiz?
-
-1. <https://maestro.org/learn/688b5ab40508accc71b2ef49-4/688b5ab40508accc71b2e8bd-58/690c7c6cda10b5a4bdfc6700>

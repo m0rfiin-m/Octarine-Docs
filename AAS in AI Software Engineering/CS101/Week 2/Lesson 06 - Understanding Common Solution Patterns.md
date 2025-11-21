@@ -114,11 +114,15 @@ Try it and check!
 **When to Use:**
 When decisions depend on more than one input.
 
-```plaintext
-python
+```python
+`warnings = { (0, "fast"): "brake NOW", 
+(1, "fast"): "prepare to stop", 
+(0, "slow"): "coast", 
+(1, "slow"): "steady" 
+} 
+distance = 1 speed = "slow" 
+print(warnings.get((distance, speed), "all clear")) # Outputs: steady`
 ```
-
-`warnings = { (0, "fast"): "brake NOW", (1, "fast"): "prepare to stop", (0, "slow"): "coast", (1, "slow"): "steady" } distance = 1 speed = "slow" print(warnings.get((distance, speed), "all clear")) # Outputs: steady`
 
 *Practice:*
 Change `speed` to `"med"` and see what prints.
@@ -151,14 +155,3 @@ Change `speed` to `"med"` and see what prints.
 
 **DIP:**
 **D**ictionaries for **I**nstant **P**atterns—get answers fast!
-
----
-
-## Ready to Move On?
-
-If you want more practice, just ask for custom examples!
-Or, explain one of these patterns back to me to reinforce your own understanding.
-
-If you share your course level, I can tailor examples even closer to your current track.
-
-1. <https://maestro.org/learn/688b5ab40508accc71b2ef49-4/688b5ab40508accc71b2e8bd-58/690c7c6cda10b5a4bdfc6702>

@@ -1,8 +1,4 @@
 
-Certainly! Here’s your **Maestro-style study guide** for "Sketching Flow," following your requested header format and focusing on concise, actionable study notes for independent review.
-
----
-
 # Sketching Flow
 
 Date: Thursday, November 20, 2025, 3 PM PST
@@ -83,8 +79,6 @@ else:
     print("low") 
 ```
 
-` `
-
 ---
 
 ## Testing Multiple Scenarios
@@ -100,7 +94,6 @@ if distance == "close" and speed == "fast":
     print("high")     
 else:         
     print("low") 
-
 ```
 
 ---

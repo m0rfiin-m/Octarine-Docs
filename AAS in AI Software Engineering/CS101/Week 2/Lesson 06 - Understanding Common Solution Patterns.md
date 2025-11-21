@@ -3,7 +3,9 @@
 
 Date: Thursday, November 20, 2025, 3 PM PST
 
-Course: CS101 – AAS in AI Software EngineeringWeek: 2, Lesson 5
+Course: CS101 – AAS in AI Software Engineering
+
+Week: 2, Lesson 6
 
 ## Lesson Overview
 
@@ -40,11 +42,14 @@ Use a dictionary to directly map inputs (keys) to outputs (values).
 
 **In code:**
 
-```plaintext
-python
+```python
+actions = 
+{ "green": "go", 
+"yellow": "wait", 
+"red": "stop" 
+} 
+color = "green" print(actions[color]) # Outputs: go
 ```
-
-`actions = { "green": "go", "yellow": "wait", "red": "stop" } color = "green" print(actions[color]) # Outputs: go`
 
 *Question:*
 What would `print(actions["yellow"])` output?
@@ -57,11 +62,10 @@ What would `print(actions["yellow"])` output?
 **Definition:**
 Use `.get(key, default)` to safely return a value or a fallback if the key is missing.
 
-```plaintext
-python
+```python
+color = "blue" 
+print(actions.get(color, "unknown")) # Outputs: unknown
 ```
-
-`color = "blue" print(actions.get(color, "unknown")) # Outputs: unknown`
 
 *Checkpoint:*
 What happens if you use `actions["blue"]` instead?
@@ -79,11 +83,18 @@ What happens if you use `actions["blue"]` instead?
 **When to Use:**
 When values fall into groups (like grading by score).
 
-```plaintext
-python
+```python
+grade_map = 
+{ 10: "A", 
+9: "A", 
+8: "B", 
+7: "C", 
+6: "D" 
+} 
+score = 82 
+bucket = score // 10 
+print(grade_map.get(bucket, "F")) # Outputs: B
 ```
-
-`grade_map = { 10: "A", 9: "A", 8: "B", 7: "C", 6: "D" } score = 82 bucket = score // 10 print(grade_map.get(bucket, "F")) # Outputs: B`
 
 *Think:*
 What would print for `score = 63`?

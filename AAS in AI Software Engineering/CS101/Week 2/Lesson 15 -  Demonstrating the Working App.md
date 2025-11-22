@@ -55,7 +55,10 @@ assert got == want, f"{raw} → {got} (expected {want})"
 print("read_years: all tests passed")
 ```
 
-**End-to-End Demo Loop**cases = ["7", "15", "20", "40", "-3"]
+**End-to-End Demo Loop**
+
+```python
+cases = ["7", "15", "20", "40", "-3"]
 
 for raw in cases:
 
@@ -68,6 +71,7 @@ print(f"{raw} → invalid")
 else:
 
 print(format_message(yrs, bucket_years(yrs)))
+```
 
 **Categories to Cover**
 
@@ -88,7 +92,10 @@ print(format_message(yrs, bucket_years(yrs)))
 - Mapping ages beyond defined buckets → expect “invalid”.
 - Mismatched test and expected list lengths in harness.
 
-**Minimal Driver**raw = input("age in years: ")
+**Minimal Driver**
+
+```python
+raw = input("age in years: ")
 
 yrs = read_years(raw)
 
@@ -99,3 +106,4 @@ print("invalid age")
 else:
 
 print(format_message(yrs, bucket_years(yrs)))
+```

@@ -1,6 +1,12 @@
 
 # **Creating Test Tables for Pseudocode Plans**
 
+Date: Saturday, November 22, 2025
+
+Course: CS101 – AAS in AI Software Engineering
+
+Week: 2, Lesson 12
+
 **What You’re Building**
 
 A test table lists inputs and expected outputs before any code runs. It validates logic quickly and catches mistakes early.
@@ -49,7 +55,10 @@ Spec:
 - Return lower if value &lt; lower.
 - Return upper if value &gt; upper.
 
-Table:value | lower | upper | expected result
+```python
+Table:
+
+value | lower | upper | expected result
 
 5     | 2     | 8     | 5      # inside
 
@@ -58,6 +67,7 @@ Table:value | lower | upper | expected result
 2     | 2     | 8     | 2      # lower edge
 
 -1    | invalid | invalid | invalid
+```
 
 Notes:
 
@@ -88,11 +98,16 @@ Notes:
 
 **Quick Templates**
 
-Headers:Input | Expected output
+```python
+Headers:
+Input | Expected output
 
-Bucket years:Input (years) | Expected bucket | Expected label
+Bucket years:
+Input (years) | Expected bucket | Expected label
 
-Clip:value | lower | upper | expected result
+Clip:
+value | lower | upper | expected result
+```
 
 **Practice Checklist**
 

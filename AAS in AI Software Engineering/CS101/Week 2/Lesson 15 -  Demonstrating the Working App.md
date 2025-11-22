@@ -33,6 +33,7 @@ lookup = {0:"infant", 1:"child", 2:"teen", 3:"adult", 4:"legend"}
 
 return lookup.get(years // 5, "invalid")
 
+
 def format_message(years, label):
 
 return f"{years}-year-old → {label}"
